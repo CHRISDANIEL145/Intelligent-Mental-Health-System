@@ -24,10 +24,10 @@ The application processes user data through a secure, multi-stage pipeline.
 
 ```mermaid
 graph LR
-    Input[User Input] --> |Encrypted| Core[App Engine]
-    Core --> |Features| ML[Risk Prediction<br/>(Random Forest)]
-    Core --> |Context| AI[Empathy Engine<br/>(Llama 3.2)]
-    ML & AI --> |Synthesis| Result[Personalized<br/>Health Plan]
+    Input["User Input"] --> |Encrypted| Core["App Engine"]
+    Core --> |Features| ML["Risk Prediction<br/>(Random Forest)"]
+    Core --> |Context| AI["Empathy Engine<br/>(Llama 3.2)"]
+    ML & AI --> |Synthesis| Result["Personalized<br/>Health Plan"]
 ```
 
 ### 🧩 Core Modules
