@@ -100,3 +100,7 @@ start_dc_wellbeing.bat
 We prioritize user privacy. All data processing happens **locally** on your machine or private database instance. No data is sent to external cloud APIs.
 
 For a deep dive into the **Random Forest Training**, **RAG Implementation**, and **System Flow**, please read the **[PROJECT_REPORT.md](./PROJECT_REPORT.md)**.
+
+##About PROJECT_REPORT.md
+
+##
