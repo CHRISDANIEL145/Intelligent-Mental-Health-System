@@ -1,0 +1,188 @@
+{% extends "base.html" %}
+
+{% block title %}Step 3: Mental Health - DC Well Being{% endblock %}
+{% block page_title %}Health Assessment{% endblock %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto">
+    <!-- Progress Bar -->
+    <div class="mb-8">
+        <div class="flex items-center justify-between mb-2">
+            <span class="text-sm text-slate-400">Step 3 of 4</span>
+            <span class="text-sm text-kiro-teal">75%</span>
+        </div>
+        <div class="h-2 bg-slate-700 rounded-full overflow-hidden">
+            <div class="h-full bg-gradient-to-r from-kiro-teal to-kiro-cyan rounded-full" style="width: 75%"></div>
+        </div>
+    </div>
+    
+    <!-- Form Card -->
+    <div class="glass-card rounded-2xl p-8">
+        <div class="flex items-center gap-4 mb-6">
+            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-500 to-rose-600 flex items-center justify-center">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                </svg>
+            </div>
+            <div>
+                <h2 class="text-xl font-semibold">Mental Wellness Check</h2>
+                <p class="text-slate-400 text-sm">Standard screening questions used by healthcare providers</p>
+            </div>
+        </div>
+        
+        <form method="POST" class="space-y-6">
+            <!-- Stress Score -->
+            <div class="p-4 bg-amber-500/10 rounded-xl border border-amber-500/20">
+                <h3 class="font-medium text-amber-300 mb-4 flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                    </svg>
+                    Stress Level
+                </h3>
+                
+                <div>
+                    <label class="block text-sm font-medium text-slate-300 mb-3">
+                        How would you rate your current stress level? (0-30)
+                    </label>
+                    <input type="range" name="stress_score" min="0" max="30" value="15" 
+                           class="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-amber-500"
+                           oninput="updateStressLabel(this.value)">
+                    <div class="flex justify-between mt-2">
+                        <span class="text-xs text-slate-500">Low stress (0)</span>
+                        <span id="stress-value" class="text-amber-400 font-semibold">15</span>
+                        <span class="text-xs text-slate-500">High stress (30)</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- PHQ-9 Section -->
+            <div class="p-4 bg-rose-500/10 rounded-xl border border-rose-500/20">
+                <h3 class="font-medium text-rose-300 mb-2 flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                    </svg>
+                    PHQ-9 Depression Screening
+                </h3>
+                <p class="text-xs text-slate-400 mb-4">Over the last 2 weeks, how often have you been bothered by feeling down, depressed, or hopeless?</p>
+                
+                <div>
+                    <label class="block text-sm font-medium text-slate-300 mb-2">
+                        PHQ-9 Score (0-27)
+                        <span class="text-slate-500 font-normal">— If you've taken the PHQ-9 questionnaire</span>
+                    </label>
+                    <input type="number" name="phq9_score" min="0" max="27" required value="5"
+                           class="w-full px-4 py-3 rounded-xl bg-slate-800/50 border border-white/10 text-white focus:border-kiro-teal transition-all"
+                           oninput="updatePHQ9Label(this.value)">
+                    <div id="phq9-interpretation" class="mt-2 text-sm">
+                        <span class="px-2 py-1 rounded bg-emerald-500/20 text-emerald-300">Minimal (0-4)</span>
+                    </div>
+                </div>
+                
+                <div class="mt-3 p-3 bg-slate-800/30 rounded-lg">
+                    <p class="text-xs text-slate-500">
+                        <strong>PHQ-9 Scale:</strong> 0-4 Minimal | 5-9 Mild | 10-14 Moderate | 15-19 Mod-Severe | 20-27 Severe
+                    </p>
+                </div>
+            </div>
+            
+            <!-- GAD-7 Section -->
+            <div class="p-4 bg-orange-500/10 rounded-xl border border-orange-500/20">
+                <h3 class="font-medium text-orange-300 mb-2 flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                    </svg>
+                    GAD-7 Anxiety Screening
+                </h3>
+                <p class="text-xs text-slate-400 mb-4">Over the last 2 weeks, how often have you been bothered by feeling nervous, anxious, or on edge?</p>
+                
+                <div>
+                    <label class="block text-sm font-medium text-slate-300 mb-2">
+                        GAD-7 Score (0-21)
+                    </label>
+                    <input type="number" name="gad7_score" min="0" max="21" required value="5"
+                           class="w-full px-4 py-3 rounded-xl bg-slate-800/50 border border-white/10 text-white focus:border-kiro-teal transition-all"
+                           oninput="updateGAD7Label(this.value)">
+                    <div id="gad7-interpretation" class="mt-2 text-sm">
+                        <span class="px-2 py-1 rounded bg-emerald-500/20 text-emerald-300">Minimal (0-4)</span>
+                    </div>
+                </div>
+                
+                <div class="mt-3 p-3 bg-slate-800/30 rounded-lg">
+                    <p class="text-xs text-slate-500">
+                        <strong>GAD-7 Scale:</strong> 0-4 Minimal | 5-9 Mild | 10-14 Moderate | 15-21 Severe
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Social Media Platform -->
+            <div>
+                <label class="block text-sm font-medium text-slate-300 mb-2">
+                    Which social media platform do you use most?
+                </label>
+                <select name="social_platform" required
+                        class="w-full px-4 py-3 rounded-xl bg-slate-800/50 border border-white/10 text-white focus:border-kiro-teal transition-all">
+                    <option value="instagram">Instagram</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="tiktok">TikTok</option>
+                    <option value="youtube">YouTube</option>
+                    <option value="x">X (Twitter)</option>
+                </select>
+            </div>
+            
+            <div class="flex gap-4 pt-4">
+                <a href="{{ url_for('assessment_step2') }}" class="flex-1 py-4 rounded-xl font-semibold text-slate-300 border border-white/20 hover:bg-white/5 transition-all text-center">
+                    ← Back
+                </a>
+                <button type="submit" class="flex-1 btn-gradient py-4 rounded-xl font-semibold text-white flex items-center justify-center gap-2">
+                    {% if user_data.role in ['healthcare_worker', 'medical_professional'] %}
+                    Continue
+                    {% else %}
+                    Get Results
+                    {% endif %}
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                    </svg>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+function updateStressLabel(value) {
+    document.getElementById('stress-value').textContent = value;
+}
+
+function updatePHQ9Label(value) {
+    const el = document.getElementById('phq9-interpretation');
+    let html = '';
+    if (value < 5) {
+        html = '<span class="px-2 py-1 rounded bg-emerald-500/20 text-emerald-300">Minimal (0-4)</span>';
+    } else if (value < 10) {
+        html = '<span class="px-2 py-1 rounded bg-yellow-500/20 text-yellow-300">Mild (5-9)</span>';
+    } else if (value < 15) {
+        html = '<span class="px-2 py-1 rounded bg-orange-500/20 text-orange-300">Moderate (10-14)</span>';
+    } else if (value < 20) {
+        html = '<span class="px-2 py-1 rounded bg-rose-500/20 text-rose-300">Moderately Severe (15-19)</span>';
+    } else {
+        html = '<span class="px-2 py-1 rounded bg-red-500/20 text-red-300">Severe (20-27)</span>';
+    }
+    el.innerHTML = html;
+}
+
+function updateGAD7Label(value) {
+    const el = document.getElementById('gad7-interpretation');
+    let html = '';
+    if (value < 5) {
+        html = '<span class="px-2 py-1 rounded bg-emerald-500/20 text-emerald-300">Minimal (0-4)</span>';
+    } else if (value < 10) {
+        html = '<span class="px-2 py-1 rounded bg-yellow-500/20 text-yellow-300">Mild (5-9)</span>';
+    } else if (value < 15) {
+        html = '<span class="px-2 py-1 rounded bg-orange-500/20 text-orange-300">Moderate (10-14)</span>';
+    } else {
+        html = '<span class="px-2 py-1 rounded bg-red-500/20 text-red-300">Severe (15-21)</span>';
+    }
+    el.innerHTML = html;
+}
+</script>
+{% endblock %}

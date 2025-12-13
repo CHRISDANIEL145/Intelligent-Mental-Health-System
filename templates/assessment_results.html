@@ -1,0 +1,331 @@
+{% extends "base.html" %}
+
+{% block title %}Your Results - DC Well Being{% endblock %}
+{% block page_title %}Your Wellness Report{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto">
+    <!-- Header -->
+    <div class="glass-card rounded-2xl p-6 mb-8">
+        <div class="flex items-center justify-between flex-wrap gap-4">
+            <div class="flex items-center gap-4">
+                <div
+                    class="w-14 h-14 rounded-2xl bg-gradient-to-br from-kiro-teal to-kiro-violet flex items-center justify-center">
+                    <span class="text-2xl font-bold text-white">{{ user_data.name[0].upper() }}</span>
+                </div>
+                <div>
+                    <h1 class="text-2xl font-bold">{{ user_data.name }}'s Wellness Report</h1>
+                    <p class="text-slate-400">{{ user_data.role.replace('_', ' ').title() }} • Age {{ user_data.age }}
+                    </p>
+                    {% if is_historical %}
+                    <p class="text-xs text-kiro-teal">📅 Assessment from {{ assessment_date[:10] }}</p>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                {% if not is_historical %}
+                <a href="{{ url_for('export_report') }}"
+                    class="px-4 py-2 rounded-lg bg-kiro-teal/20 text-kiro-teal text-sm hover:bg-kiro-teal/30 transition-all flex items-center gap-2">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                    Export PDF
+                </a>
+                <button onclick="saveToHistory()"
+                    class="px-4 py-2 rounded-lg bg-kiro-violet/20 text-kiro-violet text-sm hover:bg-kiro-violet/30 transition-all flex items-center gap-2">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4" />
+                    </svg>
+                    Save to History
+                </button>
+                {% endif %}
+                <a href="/start-assessment"
+                    class="px-4 py-2 rounded-lg border border-white/20 text-sm hover:bg-white/5 transition-all">
+                    New Assessment
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Overall Risk Summary -->
+    <div
+        class="glass-card rounded-2xl p-6 mb-8 {% if results.profile.overall_risk == 'high' %}glow-warning border border-orange-500/30{% elif results.profile.overall_risk == 'moderate' %}border border-yellow-500/30{% else %}glow-teal border border-emerald-500/30{% endif %}">
+        <div class="flex items-center gap-6">
+            <div
+                class="w-24 h-24 rounded-2xl {% if results.profile.overall_risk == 'high' %}bg-gradient-to-br from-orange-500/30 to-red-500/30{% elif results.profile.overall_risk == 'moderate' %}bg-gradient-to-br from-yellow-500/30 to-orange-500/30{% else %}bg-gradient-to-br from-emerald-500/30 to-teal-500/30{% endif %} flex items-center justify-center">
+                {% if results.profile.overall_risk == 'high' %}
+                <svg class="w-12 h-12 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                </svg>
+                {% elif results.profile.overall_risk == 'moderate' %}
+                <svg class="w-12 h-12 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                {% else %}
+                <svg class="w-12 h-12 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                {% endif %}
+            </div>
+            <div>
+                <p class="text-sm text-slate-400 mb-1">Overall Wellness Status</p>
+                <h2
+                    class="text-3xl font-bold {% if results.profile.overall_risk == 'high' %}text-orange-400{% elif results.profile.overall_risk == 'moderate' %}text-yellow-400{% else %}text-emerald-400{% endif %}">
+                    {{ results.profile.overall_risk.title() }} Risk
+                </h2>
+                <p class="text-slate-400 mt-1">Based on your comprehensive assessment</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Screening Results Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        <!-- Sleep Quality -->
+        {% if results.sleep and not results.sleep.error %}
+        <div
+            class="glass-card rounded-2xl p-6 {% if results.sleep.prediction == 0 %}border border-orange-500/30{% else %}border border-emerald-500/30{% endif %}">
+            <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-indigo-500/20 flex items-center justify-center">
+                        <svg class="w-5 h-5 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                        </svg>
+                    </div>
+                    <h3 class="font-semibold">Sleep Quality</h3>
+                </div>
+                <span
+                    class="px-3 py-1 rounded-full text-sm font-medium {% if results.sleep.prediction == 1 %}bg-emerald-500/20 text-emerald-300{% else %}bg-orange-500/20 text-orange-300{% endif %}">
+                    {{ results.sleep.label }}
+                </span>
+            </div>
+            <div class="h-2 bg-slate-700 rounded-full overflow-hidden mb-2">
+                <div class="h-full rounded-full {% if results.sleep.prediction == 1 %}bg-emerald-500{% else %}bg-orange-500{% endif %}"
+                    style="width: {{ results.sleep.confidence }}%"></div>
+            </div>
+            <p class="text-xs text-slate-500">Confidence: {{ results.sleep.confidence }}%</p>
+        </div>
+        {% endif %}
+
+        <!-- Depression Screening -->
+        {% if results.depression and not results.depression.error %}
+        <div
+            class="glass-card rounded-2xl p-6 {% if results.depression.prediction == 1 %}border border-orange-500/30{% else %}border border-emerald-500/30{% endif %}">
+            <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-rose-500/20 flex items-center justify-center">
+                        <svg class="w-5 h-5 text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="font-semibold">Depression Screen</h3>
+                </div>
+                <span
+                    class="px-3 py-1 rounded-full text-sm font-medium {% if results.depression.prediction == 0 %}bg-emerald-500/20 text-emerald-300{% else %}bg-orange-500/20 text-orange-300{% endif %}">
+                    {{ results.depression.label }}
+                </span>
+            </div>
+            <div class="flex items-center justify-between text-sm mb-2">
+                <span class="text-slate-400">PHQ-9: {{ results.depression.interpretation.severity }}</span>
+                <span class="text-{{ results.depression.interpretation.color }}-400">{{ user_data.phq9_score
+                    }}/27</span>
+            </div>
+            <div class="h-2 bg-slate-700 rounded-full overflow-hidden">
+                <div class="h-full rounded-full bg-{{ results.depression.interpretation.color }}-500"
+                    style="width: {{ (user_data.phq9_score / 27 * 100)|round }}%"></div>
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Anxiety Screening -->
+        {% if results.anxiety and not results.anxiety.error %}
+        <div
+            class="glass-card rounded-2xl p-6 {% if results.anxiety.prediction == 1 %}border border-orange-500/30{% else %}border border-emerald-500/30{% endif %}">
+            <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-amber-500/20 flex items-center justify-center">
+                        <svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="font-semibold">Anxiety Screen</h3>
+                </div>
+                <span
+                    class="px-3 py-1 rounded-full text-sm font-medium {% if results.anxiety.prediction == 0 %}bg-emerald-500/20 text-emerald-300{% else %}bg-orange-500/20 text-orange-300{% endif %}">
+                    {{ results.anxiety.label }}
+                </span>
+            </div>
+            <div class="flex items-center justify-between text-sm mb-2">
+                <span class="text-slate-400">GAD-7: {{ results.anxiety.interpretation.severity }}</span>
+                <span class="text-{{ results.anxiety.interpretation.color }}-400">{{ user_data.gad7_score }}/21</span>
+            </div>
+            <div class="h-2 bg-slate-700 rounded-full overflow-hidden">
+                <div class="h-full rounded-full bg-{{ results.anxiety.interpretation.color }}-500"
+                    style="width: {{ (user_data.gad7_score / 21 * 100)|round }}%"></div>
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Burnout Risk (Healthcare Workers) -->
+        {% if results.burnout and not results.burnout.error %}
+        <div
+            class="glass-card rounded-2xl p-6 {% if results.burnout.prediction == 1 %}glow-warning border border-orange-500/30{% else %}border border-emerald-500/30{% endif %}">
+            <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-red-500/20 flex items-center justify-center">
+                        <svg class="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                        </svg>
+                    </div>
+                    <h3 class="font-semibold">Burnout Risk</h3>
+                </div>
+                <span
+                    class="px-3 py-1 rounded-full text-sm font-medium {% if results.burnout.prediction == 0 %}bg-emerald-500/20 text-emerald-300{% else %}bg-orange-500/20 text-orange-300{% endif %}">
+                    {{ results.burnout.label }}
+                </span>
+            </div>
+            <div class="h-2 bg-slate-700 rounded-full overflow-hidden mb-2">
+                <div class="h-full rounded-full {% if results.burnout.prediction == 0 %}bg-emerald-500{% else %}bg-orange-500{% endif %}"
+                    style="width: {{ results.burnout.confidence }}%"></div>
+            </div>
+            <p class="text-xs text-slate-500">Confidence: {{ results.burnout.confidence }}%</p>
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Concerns & Strengths -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        {% if results.profile.concerns %}
+        <div class="glass-card rounded-2xl p-6">
+            <h3 class="font-semibold mb-4 flex items-center gap-2 text-orange-400">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                </svg>
+                Areas of Concern
+            </h3>
+            <ul class="space-y-2">
+                {% for concern in results.profile.concerns %}
+                <li class="flex items-center gap-2 text-sm text-orange-200 bg-orange-500/10 rounded-lg px-3 py-2">
+                    <span class="w-1.5 h-1.5 bg-orange-400 rounded-full"></span>
+                    {{ concern }}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        {% if results.profile.strengths %}
+        <div class="glass-card rounded-2xl p-6">
+            <h3 class="font-semibold mb-4 flex items-center gap-2 text-emerald-400">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                Your Strengths
+            </h3>
+            <ul class="space-y-2">
+                {% for strength in results.profile.strengths %}
+                <li class="flex items-center gap-2 text-sm text-emerald-200 bg-emerald-500/10 rounded-lg px-3 py-2">
+                    <span class="w-1.5 h-1.5 bg-emerald-400 rounded-full"></span>
+                    {{ strength }}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Recommendations -->
+    <div class="glass-card rounded-2xl p-6 mb-8 border border-kiro-teal/30">
+        <h3 class="font-semibold mb-4 flex items-center gap-2 text-kiro-teal">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+            </svg>
+            Personalized Recommendations
+        </h3>
+        <ul class="space-y-3">
+            {% for rec in results.profile.recommendations %}
+            <li class="flex items-start gap-3 text-slate-300">
+                <span
+                    class="w-6 h-6 rounded-full bg-kiro-teal/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span class="text-kiro-teal text-sm">{{ loop.index }}</span>
+                </span>
+                {{ rec }}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- Disclaimer -->
+    <div class="glass-card rounded-2xl p-6 border border-orange-500/20">
+        <div class="flex items-start gap-4">
+            <div class="w-10 h-10 rounded-xl bg-orange-500/20 flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                </svg>
+            </div>
+            <div>
+                <h4 class="font-semibold text-orange-400 mb-2">Important Disclaimer</h4>
+                <p class="text-sm text-slate-400">
+                    This assessment is for educational and screening purposes only. It does not constitute medical
+                    advice,
+                    diagnosis, or treatment. If you're experiencing mental health concerns, please consult with a
+                    qualified
+                    healthcare professional.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="flex justify-center gap-4 mt-8">
+        <a href="/history" class="px-4 py-2 rounded-lg border border-white/20 text-sm hover:bg-white/5 transition-all">
+            📋 View History
+        </a>
+        <a href="/analytics"
+            class="px-4 py-2 rounded-lg border border-white/20 text-sm hover:bg-white/5 transition-all">
+            📊 Analytics
+        </a>
+        <a href="/wellness-tips"
+            class="px-4 py-2 rounded-lg border border-white/20 text-sm hover:bg-white/5 transition-all">
+            💡 Wellness Tips
+        </a>
+    </div>
+</div>
+
+<!-- Toast Notification -->
+<div id="toast"
+    class="fixed bottom-4 right-4 px-6 py-3 rounded-xl bg-emerald-500 text-white font-medium transform translate-y-20 opacity-0 transition-all duration-300 z-50">
+    Assessment saved to history!
+</div>
+
+<script>
+    function saveToHistory() {
+        fetch('/save-to-history', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' }
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    const toast = document.getElementById('toast');
+                    toast.classList.remove('translate-y-20', 'opacity-0');
+                    setTimeout(() => {
+                        toast.classList.add('translate-y-20', 'opacity-0');
+                    }, 3000);
+                }
+            });
+    }
+</script>
+{% endblock %}

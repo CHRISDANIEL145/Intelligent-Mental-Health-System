@@ -1,0 +1,126 @@
+{% extends "auth_base.html" %}
+
+{% block title %}Sign Up - DC Well Being{% endblock %}
+
+{% block content %}
+<div class="w-full max-w-md">
+    <div class="glass-card rounded-3xl p-8 shadow-2xl">
+        <div class="text-center mb-8">
+            <div class="w-16 h-16 mx-auto rounded-2xl bg-gradient-to-br from-kiro-teal/20 to-kiro-violet/20 flex items-center justify-center mb-4 border border-white/10">
+                <svg class="w-8 h-8 text-kiro-violet" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"/>
+                </svg>
+            </div>
+            <h2 class="text-2xl font-bold text-white">Create Account</h2>
+            <p class="text-slate-400 text-sm mt-2">Join DC Well Being to track your wellness journey</p>
+        </div>
+        
+        {% if errors %}
+        <div class="mb-6 p-4 bg-red-500/10 border border-red-500/30 rounded-xl">
+            <div class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+                <ul class="text-sm text-red-400 space-y-1">
+                    {% for error in errors %}
+                    <li>{{ error }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        {% endif %}
+        
+        <form method="POST" class="space-y-5">
+            <div>
+                <label class="block text-sm font-medium text-slate-300 mb-2">Full Name</label>
+                <div class="relative">
+                    <span class="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+                        </svg>
+                    </span>
+                    <input type="text" name="name" required value="{{ name if name else '' }}" minlength="2"
+                           class="w-full pl-12 pr-4 py-3 rounded-xl bg-slate-800/50 border border-white/10 text-white placeholder-slate-500 focus:border-kiro-teal transition-all"
+                           placeholder="Enter your name">
+                </div>
+            </div>
+            
+            <div>
+                <label class="block text-sm font-medium text-slate-300 mb-2">Email Address</label>
+                <div class="relative">
+                    <span class="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"/>
+                        </svg>
+                    </span>
+                    <input type="email" name="email" required value="{{ email if email else '' }}"
+                           class="w-full pl-12 pr-4 py-3 rounded-xl bg-slate-800/50 border border-white/10 text-white placeholder-slate-500 focus:border-kiro-teal transition-all"
+                           placeholder="you@example.com">
+                </div>
+            </div>
+            
+            <div>
+                <label class="block text-sm font-medium text-slate-300 mb-2">Password</label>
+                <div class="relative">
+                    <span class="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                        </svg>
+                    </span>
+                    <input type="password" name="password" required minlength="6"
+                           class="w-full pl-12 pr-4 py-3 rounded-xl bg-slate-800/50 border border-white/10 text-white placeholder-slate-500 focus:border-kiro-teal transition-all"
+                           placeholder="At least 6 characters">
+                </div>
+            </div>
+            
+            <div>
+                <label class="block text-sm font-medium text-slate-300 mb-2">Confirm Password</label>
+                <div class="relative">
+                    <span class="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                    </span>
+                    <input type="password" name="confirm_password" required minlength="6"
+                           class="w-full pl-12 pr-4 py-3 rounded-xl bg-slate-800/50 border border-white/10 text-white placeholder-slate-500 focus:border-kiro-teal transition-all"
+                           placeholder="Confirm your password">
+                </div>
+            </div>
+            
+            <div class="flex items-start gap-3">
+                <input type="checkbox" id="terms" required class="mt-1 w-4 h-4 rounded border-white/20 bg-slate-800 text-kiro-teal focus:ring-kiro-teal focus:ring-offset-0">
+                <label for="terms" class="text-sm text-slate-400">
+                    I agree to the <a href="/about" class="text-kiro-teal hover:underline">Terms of Service</a> and understand this is for educational purposes only
+                </label>
+            </div>
+            
+            <button type="submit" class="w-full btn-gradient py-4 rounded-xl font-semibold text-white text-lg">
+                Create Account
+            </button>
+        </form>
+        
+        <div class="mt-6 text-center">
+            <p class="text-slate-400 text-sm">
+                Already have an account? 
+                <a href="/login" class="text-kiro-teal hover:underline font-medium">Log in</a>
+            </p>
+        </div>
+    </div>
+    
+    <!-- Features -->
+    <div class="mt-8 grid grid-cols-3 gap-4">
+        <div class="glass-card rounded-xl p-4 text-center">
+            <div class="text-2xl mb-2">🔒</div>
+            <p class="text-xs text-slate-400">Secure & Private</p>
+        </div>
+        <div class="glass-card rounded-xl p-4 text-center">
+            <div class="text-2xl mb-2">📊</div>
+            <p class="text-xs text-slate-400">Track Progress</p>
+        </div>
+        <div class="glass-card rounded-xl p-4 text-center">
+            <div class="text-2xl mb-2">📄</div>
+            <p class="text-xs text-slate-400">Export Reports</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

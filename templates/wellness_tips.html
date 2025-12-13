@@ -1,0 +1,161 @@
+{% extends "base.html" %}
+
+{% block title %}Wellness Tips - DC Well Being{% endblock %}
+{% block page_title %}Wellness Tips & Resources{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto">
+    <div class="mb-8">
+        <h1 class="text-2xl font-bold gradient-text">Wellness Tips & Resources</h1>
+        <p class="text-slate-400">Evidence-based strategies for better mental health</p>
+    </div>
+    
+    {% if personalized %}
+    <!-- Personalized Recommendations -->
+    <div class="glass-card rounded-2xl p-6 mb-8 border border-kiro-teal/30 glow-teal">
+        <h2 class="text-lg font-semibold mb-4 flex items-center gap-2 text-kiro-teal">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+            </svg>
+            Personalized For You
+        </h2>
+        <p class="text-sm text-slate-400 mb-4">Based on your recent assessment:</p>
+        <ul class="space-y-3">
+            {% for tip in personalized %}
+            <li class="flex items-start gap-3 bg-kiro-teal/10 rounded-lg p-3">
+                <span class="w-6 h-6 rounded-full bg-kiro-teal/20 flex items-center justify-center flex-shrink-0">
+                    <span class="text-kiro-teal text-sm">✓</span>
+                </span>
+                <span class="text-slate-300">{{ tip }}</span>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+    
+    <!-- All Tips Categories -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Sleep Tips -->
+        <div class="glass-card rounded-2xl p-6">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-10 h-10 rounded-xl bg-indigo-500/20 flex items-center justify-center">
+                    <svg class="w-5 h-5 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
+                    </svg>
+                </div>
+                <h3 class="font-semibold">Better Sleep</h3>
+            </div>
+            <ul class="space-y-2">
+                {% for tip in tips.sleep %}
+                <li class="flex items-start gap-2 text-sm text-slate-400">
+                    <span class="text-indigo-400">•</span>
+                    {{ tip }}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        
+        <!-- Stress Management -->
+        <div class="glass-card rounded-2xl p-6">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-10 h-10 rounded-xl bg-amber-500/20 flex items-center justify-center">
+                    <svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                    </svg>
+                </div>
+                <h3 class="font-semibold">Stress Management</h3>
+            </div>
+            <ul class="space-y-2">
+                {% for tip in tips.stress %}
+                <li class="flex items-start gap-2 text-sm text-slate-400">
+                    <span class="text-amber-400">•</span>
+                    {{ tip }}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        
+        <!-- Social Media -->
+        <div class="glass-card rounded-2xl p-6">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-10 h-10 rounded-xl bg-pink-500/20 flex items-center justify-center">
+                    <svg class="w-5 h-5 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"/>
+                    </svg>
+                </div>
+                <h3 class="font-semibold">Healthy Social Media</h3>
+            </div>
+            <ul class="space-y-2">
+                {% for tip in tips.social_media %}
+                <li class="flex items-start gap-2 text-sm text-slate-400">
+                    <span class="text-pink-400">•</span>
+                    {{ tip }}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        
+        <!-- Burnout Prevention -->
+        <div class="glass-card rounded-2xl p-6">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-10 h-10 rounded-xl bg-orange-500/20 flex items-center justify-center">
+                    <svg class="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"/>
+                    </svg>
+                </div>
+                <h3 class="font-semibold">Burnout Prevention</h3>
+            </div>
+            <ul class="space-y-2">
+                {% for tip in tips.burnout %}
+                <li class="flex items-start gap-2 text-sm text-slate-400">
+                    <span class="text-orange-400">•</span>
+                    {{ tip }}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        
+        <!-- Mindfulness -->
+        <div class="glass-card rounded-2xl p-6 md:col-span-2">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-10 h-10 rounded-xl bg-emerald-500/20 flex items-center justify-center">
+                    <svg class="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                    </svg>
+                </div>
+                <h3 class="font-semibold">Mindfulness & Meditation</h3>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {% for tip in tips.mindfulness %}
+                <div class="flex items-start gap-2 text-sm text-slate-400 bg-emerald-500/5 rounded-lg p-3">
+                    <span class="text-emerald-400">🧘</span>
+                    {{ tip }}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    
+    <!-- Resources Section -->
+    <div class="glass-card rounded-2xl p-6 mt-8">
+        <h2 class="text-lg font-semibold mb-4">📚 Additional Resources</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="bg-slate-800/30 rounded-xl p-4">
+                <h4 class="font-medium text-kiro-teal mb-2">Crisis Support</h4>
+                <p class="text-sm text-slate-400">988 Suicide & Crisis Lifeline (US)</p>
+                <p class="text-xs text-slate-500 mt-1">Available 24/7</p>
+            </div>
+            <div class="bg-slate-800/30 rounded-xl p-4">
+                <h4 class="font-medium text-kiro-violet mb-2">Meditation Apps</h4>
+                <p class="text-sm text-slate-400">Headspace, Calm, Insight Timer</p>
+                <p class="text-xs text-slate-500 mt-1">Guided meditation</p>
+            </div>
+            <div class="bg-slate-800/30 rounded-xl p-4">
+                <h4 class="font-medium text-emerald-400 mb-2">Professional Help</h4>
+                <p class="text-sm text-slate-400">Consult a licensed therapist</p>
+                <p class="text-xs text-slate-500 mt-1">For persistent concerns</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

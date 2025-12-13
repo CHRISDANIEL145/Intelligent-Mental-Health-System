@@ -1,0 +1,171 @@
+{% extends "base.html" %}
+
+{% block title %}DC Well Being - Your Personal Wellness Assessment{% endblock %}
+{% block page_title %}Welcome{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<div class="glass-card rounded-3xl p-8 md:p-12 mb-8 relative overflow-hidden">
+    <!-- Background decoration -->
+    <div class="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-kiro-teal/20 to-kiro-violet/20 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 w-64 h-64 bg-gradient-to-tr from-kiro-violet/20 to-kiro-cyan/20 rounded-full blur-3xl"></div>
+    
+    <div class="relative z-10 max-w-3xl">
+        <div class="inline-flex items-center gap-2 px-4 py-2 bg-kiro-teal/20 rounded-full text-kiro-teal text-sm mb-6">
+            <span class="w-2 h-2 bg-kiro-teal rounded-full animate-pulse"></span>
+            AI-Powered Wellness Screening
+        </div>
+        
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">
+            <span class="gradient-text">Understand Your</span><br>
+            <span class="text-white">Mental Well-being</span>
+        </h1>
+        
+        <p class="text-slate-400 text-lg mb-8 leading-relaxed">
+            Take a comprehensive health assessment powered by advanced AI. Get personalized insights 
+            about your sleep patterns, stress levels, and overall mental wellness — all based on 
+            <strong class="text-slate-300">your own data</strong>.
+        </p>
+        
+        <div class="flex flex-wrap gap-4">
+            <a href="/start-assessment" class="btn-gradient px-8 py-4 rounded-xl font-semibold text-white inline-flex items-center gap-3 text-lg">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/>
+                </svg>
+                Start Health Assessment
+            </a>
+            <a href="/about" class="px-8 py-4 rounded-xl font-semibold text-slate-300 border border-white/20 hover:bg-white/5 transition-all inline-flex items-center gap-2">
+                Learn More
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- How It Works -->
+<h2 class="text-2xl font-bold mb-6 gradient-text">How It Works</h2>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
+    <div class="glass-card rounded-2xl p-6 text-center relative">
+        <div class="absolute -top-3 -left-3 w-8 h-8 rounded-full bg-kiro-teal flex items-center justify-center text-white font-bold">1</div>
+        <div class="w-14 h-14 mx-auto rounded-xl bg-kiro-teal/20 flex items-center justify-center mb-4">
+            <svg class="w-7 h-7 text-kiro-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+            </svg>
+        </div>
+        <h3 class="font-semibold mb-2">Your Profile</h3>
+        <p class="text-sm text-slate-400">Enter basic information about yourself</p>
+    </div>
+    
+    <div class="glass-card rounded-2xl p-6 text-center relative">
+        <div class="absolute -top-3 -left-3 w-8 h-8 rounded-full bg-kiro-violet flex items-center justify-center text-white font-bold">2</div>
+        <div class="w-14 h-14 mx-auto rounded-xl bg-kiro-violet/20 flex items-center justify-center mb-4">
+            <svg class="w-7 h-7 text-kiro-violet" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
+            </svg>
+        </div>
+        <h3 class="font-semibold mb-2">Lifestyle Data</h3>
+        <p class="text-sm text-slate-400">Share your sleep & screen habits</p>
+    </div>
+    
+    <div class="glass-card rounded-2xl p-6 text-center relative">
+        <div class="absolute -top-3 -left-3 w-8 h-8 rounded-full bg-pink-500 flex items-center justify-center text-white font-bold">3</div>
+        <div class="w-14 h-14 mx-auto rounded-xl bg-pink-500/20 flex items-center justify-center mb-4">
+            <svg class="w-7 h-7 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+            </svg>
+        </div>
+        <h3 class="font-semibold mb-2">Wellness Check</h3>
+        <p class="text-sm text-slate-400">Complete mental health screening</p>
+    </div>
+    
+    <div class="glass-card rounded-2xl p-6 text-center relative">
+        <div class="absolute -top-3 -left-3 w-8 h-8 rounded-full bg-emerald-500 flex items-center justify-center text-white font-bold">4</div>
+        <div class="w-14 h-14 mx-auto rounded-xl bg-emerald-500/20 flex items-center justify-center mb-4">
+            <svg class="w-7 h-7 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+            </svg>
+        </div>
+        <h3 class="font-semibold mb-2">AI Analysis</h3>
+        <p class="text-sm text-slate-400">Get personalized insights & recommendations</p>
+    </div>
+</div>
+
+<!-- Quick Screenings -->
+<h2 class="text-2xl font-bold mb-6">Quick Screenings</h2>
+<p class="text-slate-400 mb-6">Need a quick check? Choose a specific screening below:</p>
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+    <a href="/quick-screen/sleep" class="glass-card rounded-2xl p-6 hover:scale-[1.02] transition-all duration-300 group border border-transparent hover:border-indigo-500/30">
+        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
+            </svg>
+        </div>
+        <h3 class="font-semibold mb-2 group-hover:text-kiro-teal transition-colors">Sleep Quality</h3>
+        <p class="text-sm text-slate-400">Analyze your sleep patterns</p>
+    </a>
+    
+    <a href="/quick-screen/depression" class="glass-card rounded-2xl p-6 hover:scale-[1.02] transition-all duration-300 group border border-transparent hover:border-pink-500/30">
+        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-500 to-rose-600 flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+        </div>
+        <h3 class="font-semibold mb-2 group-hover:text-kiro-teal transition-colors">Depression Screen</h3>
+        <p class="text-sm text-slate-400">PHQ-9 based assessment</p>
+    </a>
+    
+    <a href="/quick-screen/anxiety" class="glass-card rounded-2xl p-6 hover:scale-[1.02] transition-all duration-300 group border border-transparent hover:border-amber-500/30">
+        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+        </div>
+        <h3 class="font-semibold mb-2 group-hover:text-kiro-teal transition-colors">Anxiety Screen</h3>
+        <p class="text-sm text-slate-400">GAD-7 based assessment</p>
+    </a>
+    
+    <a href="/quick-screen/burnout" class="glass-card rounded-2xl p-6 hover:scale-[1.02] transition-all duration-300 group border border-transparent hover:border-red-500/30">
+        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-red-500 to-rose-600 flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"/>
+            </svg>
+        </div>
+        <h3 class="font-semibold mb-2 group-hover:text-kiro-teal transition-colors">Burnout Risk</h3>
+        <p class="text-sm text-slate-400">For healthcare workers</p>
+    </a>
+</div>
+
+<!-- Features -->
+<div class="glass-card rounded-2xl p-8">
+    <h2 class="text-xl font-bold mb-6 text-center gradient-text">Why Use This Assessment?</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="text-center">
+            <div class="w-12 h-12 mx-auto rounded-full bg-kiro-teal/20 flex items-center justify-center mb-3">
+                <svg class="w-6 h-6 text-kiro-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                </svg>
+            </div>
+            <h4 class="font-semibold mb-2">100% Private</h4>
+            <p class="text-sm text-slate-400">Your data stays on your device. No data is stored or shared.</p>
+        </div>
+        <div class="text-center">
+            <div class="w-12 h-12 mx-auto rounded-full bg-kiro-violet/20 flex items-center justify-center mb-3">
+                <svg class="w-6 h-6 text-kiro-violet" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                </svg>
+            </div>
+            <h4 class="font-semibold mb-2">AI-Powered</h4>
+            <p class="text-sm text-slate-400">Advanced machine learning models with 95%+ accuracy.</p>
+        </div>
+        <div class="text-center">
+            <div class="w-12 h-12 mx-auto rounded-full bg-emerald-500/20 flex items-center justify-center mb-3">
+                <svg class="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+            </div>
+            <h4 class="font-semibold mb-2">Quick & Easy</h4>
+            <p class="text-sm text-slate-400">Complete assessment in under 5 minutes.</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

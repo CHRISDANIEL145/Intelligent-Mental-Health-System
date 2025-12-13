@@ -1,0 +1,131 @@
+{% extends "base.html" %}
+
+{% block title %}Step 2: Lifestyle - DC Well Being{% endblock %}
+{% block page_title %}Health Assessment{% endblock %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto">
+    <!-- Progress Bar -->
+    <div class="mb-8">
+        <div class="flex items-center justify-between mb-2">
+            <span class="text-sm text-slate-400">Step 2 of 4</span>
+            <span class="text-sm text-kiro-teal">50%</span>
+        </div>
+        <div class="h-2 bg-slate-700 rounded-full overflow-hidden">
+            <div class="h-full bg-gradient-to-r from-kiro-teal to-kiro-cyan rounded-full" style="width: 50%"></div>
+        </div>
+    </div>
+    
+    <!-- Form Card -->
+    <div class="glass-card rounded-2xl p-8">
+        <div class="flex items-center gap-4 mb-6">
+            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
+                </svg>
+            </div>
+            <div>
+                <h2 class="text-xl font-semibold">Sleep & Screen Habits</h2>
+                <p class="text-slate-400 text-sm">Tell us about your daily routines, {{ user_data.name }}</p>
+            </div>
+        </div>
+        
+        <form method="POST" class="space-y-6">
+            <!-- Sleep Section -->
+            <div class="p-4 bg-indigo-500/10 rounded-xl border border-indigo-500/20">
+                <h3 class="font-medium text-indigo-300 mb-4 flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
+                    </svg>
+                    Sleep Patterns
+                </h3>
+                
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-medium text-slate-300 mb-2">
+                            Average sleep duration (hours)
+                        </label>
+                        <input type="number" name="sleep_duration" step="0.5" min="2" max="14" required value="7"
+                               class="w-full px-4 py-3 rounded-xl bg-slate-800/50 border border-white/10 text-white focus:border-kiro-teal transition-all">
+                        <p class="text-xs text-slate-500 mt-1">Recommended: 7-9 hours</p>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-slate-300 mb-2">
+                            Sleep quality (1-10)
+                        </label>
+                        <input type="range" name="sleep_quality" min="1" max="10" value="7" 
+                               class="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-kiro-teal"
+                               oninput="this.nextElementSibling.textContent = this.value">
+                        <span class="text-kiro-teal font-semibold">7</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Screen Time Section -->
+            <div class="p-4 bg-cyan-500/10 rounded-xl border border-cyan-500/20">
+                <h3 class="font-medium text-cyan-300 mb-4 flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                    </svg>
+                    Screen Time
+                </h3>
+                
+                <div class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-slate-300 mb-2">
+                            Total daily screen time (hours)
+                            <span class="text-slate-500 font-normal">— Phone, computer, TV combined</span>
+                        </label>
+                        <input type="number" name="screen_time" step="0.5" min="0" max="18" required value="6"
+                               class="w-full px-4 py-3 rounded-xl bg-slate-800/50 border border-white/10 text-white focus:border-kiro-teal transition-all">
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-slate-300 mb-2">
+                            Screen time after 9 PM (hours)
+                            <span class="text-slate-500 font-normal">— Before bed</span>
+                        </label>
+                        <input type="number" name="night_screen" step="0.5" min="0" max="6" required value="2"
+                               class="w-full px-4 py-3 rounded-xl bg-slate-800/50 border border-white/10 text-white focus:border-kiro-teal transition-all">
+                        <p class="text-xs text-orange-400 mt-1">⚠️ High nighttime screen use affects sleep quality</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Social Media Section -->
+            <div class="p-4 bg-pink-500/10 rounded-xl border border-pink-500/20">
+                <h3 class="font-medium text-pink-300 mb-4 flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"/>
+                    </svg>
+                    Social Media Usage
+                </h3>
+                
+                <div>
+                    <label class="block text-sm font-medium text-slate-300 mb-2">
+                        Daily social media usage (hours)
+                    </label>
+                    <input type="number" name="social_media_hours" step="0.5" min="0" max="12" required value="3"
+                           class="w-full px-4 py-3 rounded-xl bg-slate-800/50 border border-white/10 text-white focus:border-kiro-teal transition-all">
+                    <div class="flex justify-between text-xs text-slate-500 mt-1">
+                        <span>Low usage</span>
+                        <span>High usage (>4h may impact mood)</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex gap-4 pt-4">
+                <a href="{{ url_for('assessment_step1') }}" class="flex-1 py-4 rounded-xl font-semibold text-slate-300 border border-white/20 hover:bg-white/5 transition-all text-center">
+                    ← Back
+                </a>
+                <button type="submit" class="flex-1 btn-gradient py-4 rounded-xl font-semibold text-white flex items-center justify-center gap-2">
+                    Continue
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                    </svg>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

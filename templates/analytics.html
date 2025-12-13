@@ -1,0 +1,240 @@
+{% extends "base.html" %}
+
+{% block title %}Analytics Dashboard - DC Well Being{% endblock %}
+{% block page_title %}Analytics Dashboard{% endblock %}
+
+{% block content %}
+<div class="max-w-6xl mx-auto">
+    <div class="flex items-center justify-between mb-8">
+        <div>
+            <h1 class="text-2xl font-bold gradient-text">Analytics Dashboard</h1>
+            <p class="text-slate-400">Insights from {{ chart_data.total_assessments }} assessments</p>
+        </div>
+        <a href="/history" class="px-4 py-2 rounded-lg border border-white/20 text-sm hover:bg-white/5 transition-all">
+            ← Back to History
+        </a>
+    </div>
+    
+    {% if chart_data.total_assessments > 0 %}
+    
+    <!-- Summary Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+        <div class="glass-card rounded-2xl p-6 text-center">
+            <p class="text-4xl font-bold text-kiro-teal">{{ chart_data.total_assessments }}</p>
+            <p class="text-sm text-slate-400">Total Assessments</p>
+        </div>
+        <div class="glass-card rounded-2xl p-6 text-center">
+            <p class="text-4xl font-bold text-emerald-400">{{ chart_data.risk_distribution.low }}</p>
+            <p class="text-sm text-slate-400">Low Risk</p>
+        </div>
+        <div class="glass-card rounded-2xl p-6 text-center">
+            <p class="text-4xl font-bold text-yellow-400">{{ chart_data.risk_distribution.moderate }}</p>
+            <p class="text-sm text-slate-400">Moderate Risk</p>
+        </div>
+        <div class="glass-card rounded-2xl p-6 text-center">
+            <p class="text-4xl font-bold text-orange-400">{{ chart_data.risk_distribution.high }}</p>
+            <p class="text-sm text-slate-400">High Risk</p>
+        </div>
+    </div>
+    
+    <!-- Charts Row 1 -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        <!-- Risk Distribution Chart -->
+        <div class="glass-card rounded-2xl p-6">
+            <h3 class="font-semibold mb-4">Risk Distribution</h3>
+            <canvas id="riskChart" height="200"></canvas>
+        </div>
+        
+        <!-- Screening Results Chart -->
+        <div class="glass-card rounded-2xl p-6">
+            <h3 class="font-semibold mb-4">Screening Results Overview</h3>
+            <canvas id="screeningChart" height="200"></canvas>
+        </div>
+    </div>
+    
+    <!-- Charts Row 2 -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        <!-- Age Distribution -->
+        <div class="glass-card rounded-2xl p-6">
+            <h3 class="font-semibold mb-4">Age Distribution</h3>
+            <canvas id="ageChart" height="200"></canvas>
+        </div>
+        
+        <!-- Role Distribution -->
+        <div class="glass-card rounded-2xl p-6">
+            <h3 class="font-semibold mb-4">Role Distribution</h3>
+            <canvas id="roleChart" height="200"></canvas>
+        </div>
+    </div>
+    
+    <!-- Detailed Stats -->
+    <div class="glass-card rounded-2xl p-6">
+        <h3 class="font-semibold mb-6">Detailed Statistics</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="bg-slate-800/30 rounded-xl p-4">
+                <div class="flex items-center justify-between mb-2">
+                    <span class="text-sm text-slate-400">Good Sleep</span>
+                    <span class="text-emerald-400 font-semibold">{{ chart_data.sleep_quality.good }}</span>
+                </div>
+                <div class="h-2 bg-slate-700 rounded-full overflow-hidden">
+                    {% set sleep_total = chart_data.sleep_quality.good + chart_data.sleep_quality.poor %}
+                    <div class="h-full bg-emerald-500 rounded-full" style="width: {{ (chart_data.sleep_quality.good / sleep_total * 100) if sleep_total > 0 else 0 }}%"></div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800/30 rounded-xl p-4">
+                <div class="flex items-center justify-between mb-2">
+                    <span class="text-sm text-slate-400">Low Depression</span>
+                    <span class="text-emerald-400 font-semibold">{{ chart_data.depression_indicators.low }}</span>
+                </div>
+                <div class="h-2 bg-slate-700 rounded-full overflow-hidden">
+                    {% set dep_total = chart_data.depression_indicators.low + chart_data.depression_indicators.elevated %}
+                    <div class="h-full bg-emerald-500 rounded-full" style="width: {{ (chart_data.depression_indicators.low / dep_total * 100) if dep_total > 0 else 0 }}%"></div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800/30 rounded-xl p-4">
+                <div class="flex items-center justify-between mb-2">
+                    <span class="text-sm text-slate-400">Low Anxiety</span>
+                    <span class="text-emerald-400 font-semibold">{{ chart_data.anxiety_indicators.low }}</span>
+                </div>
+                <div class="h-2 bg-slate-700 rounded-full overflow-hidden">
+                    {% set anx_total = chart_data.anxiety_indicators.low + chart_data.anxiety_indicators.elevated %}
+                    <div class="h-full bg-emerald-500 rounded-full" style="width: {{ (chart_data.anxiety_indicators.low / anx_total * 100) if anx_total > 0 else 0 }}%"></div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800/30 rounded-xl p-4">
+                <div class="flex items-center justify-between mb-2">
+                    <span class="text-sm text-slate-400">Low Burnout</span>
+                    <span class="text-emerald-400 font-semibold">{{ chart_data.burnout_risk.low }}</span>
+                </div>
+                <div class="h-2 bg-slate-700 rounded-full overflow-hidden">
+                    {% set burn_total = chart_data.burnout_risk.low + chart_data.burnout_risk.high %}
+                    <div class="h-full bg-emerald-500 rounded-full" style="width: {{ (chart_data.burnout_risk.low / burn_total * 100) if burn_total > 0 else 0 }}%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    {% else %}
+    <div class="glass-card rounded-2xl p-12 text-center">
+        <p class="text-slate-400">No data available yet. Complete some assessments to see analytics.</p>
+        <a href="/start-assessment" class="btn-gradient px-6 py-3 rounded-xl font-semibold text-white inline-block mt-4">
+            Start Assessment
+        </a>
+    </div>
+    {% endif %}
+</div>
+
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+{% if chart_data.total_assessments > 0 %}
+// Risk Distribution Doughnut Chart
+new Chart(document.getElementById('riskChart'), {
+    type: 'doughnut',
+    data: {
+        labels: ['Low Risk', 'Moderate Risk', 'High Risk'],
+        datasets: [{
+            data: [{{ chart_data.risk_distribution.low }}, {{ chart_data.risk_distribution.moderate }}, {{ chart_data.risk_distribution.high }}],
+            backgroundColor: ['#10B981', '#F59E0B', '#F97316'],
+            borderWidth: 0
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            legend: {
+                position: 'bottom',
+                labels: { color: '#94A3B8' }
+            }
+        }
+    }
+});
+
+// Screening Results Bar Chart
+new Chart(document.getElementById('screeningChart'), {
+    type: 'bar',
+    data: {
+        labels: ['Sleep', 'Depression', 'Anxiety', 'Burnout'],
+        datasets: [
+            {
+                label: 'Good/Low',
+                data: [{{ chart_data.sleep_quality.good }}, {{ chart_data.depression_indicators.low }}, {{ chart_data.anxiety_indicators.low }}, {{ chart_data.burnout_risk.low }}],
+                backgroundColor: '#10B981'
+            },
+            {
+                label: 'Poor/Elevated',
+                data: [{{ chart_data.sleep_quality.poor }}, {{ chart_data.depression_indicators.elevated }}, {{ chart_data.anxiety_indicators.elevated }}, {{ chart_data.burnout_risk.high }}],
+                backgroundColor: '#F97316'
+            }
+        ]
+    },
+    options: {
+        responsive: true,
+        scales: {
+            x: { ticks: { color: '#94A3B8' }, grid: { color: 'rgba(255,255,255,0.1)' } },
+            y: { ticks: { color: '#94A3B8' }, grid: { color: 'rgba(255,255,255,0.1)' } }
+        },
+        plugins: {
+            legend: {
+                position: 'bottom',
+                labels: { color: '#94A3B8' }
+            }
+        }
+    }
+});
+
+// Age Distribution
+new Chart(document.getElementById('ageChart'), {
+    type: 'pie',
+    data: {
+        labels: ['18-25', '26-35', '36-45', '46+'],
+        datasets: [{
+            data: [{{ chart_data.age_groups['18-25'] }}, {{ chart_data.age_groups['26-35'] }}, {{ chart_data.age_groups['36-45'] }}, {{ chart_data.age_groups['46+'] }}],
+            backgroundColor: ['#00C9A7', '#2EC5CE', '#A06AD8', '#C4B5FD'],
+            borderWidth: 0
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            legend: {
+                position: 'bottom',
+                labels: { color: '#94A3B8' }
+            }
+        }
+    }
+});
+
+// Role Distribution
+new Chart(document.getElementById('roleChart'), {
+    type: 'polarArea',
+    data: {
+        labels: [{% for role in chart_data.roles.keys() %}'{{ role }}'{% if not loop.last %}, {% endif %}{% endfor %}],
+        datasets: [{
+            data: [{% for count in chart_data.roles.values() %}{{ count }}{% if not loop.last %}, {% endif %}{% endfor %}],
+            backgroundColor: ['rgba(0, 201, 167, 0.7)', 'rgba(160, 106, 216, 0.7)', 'rgba(46, 197, 206, 0.7)', 'rgba(249, 115, 22, 0.7)'],
+            borderWidth: 0
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            legend: {
+                position: 'bottom',
+                labels: { color: '#94A3B8' }
+            }
+        },
+        scales: {
+            r: {
+                ticks: { color: '#94A3B8' },
+                grid: { color: 'rgba(255,255,255,0.1)' }
+            }
+        }
+    }
+});
+{% endif %}
+</script>
+{% endblock %}

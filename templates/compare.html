@@ -1,0 +1,207 @@
+{% extends "base.html" %}
+
+{% block title %}Compare Assessments - DC Well Being{% endblock %}
+{% block page_title %}Compare Assessments{% endblock %}
+
+{% block content %}
+<div class="max-w-6xl mx-auto">
+    <div class="flex items-center justify-between mb-8">
+        <div>
+            <h1 class="text-2xl font-bold gradient-text">Compare Assessments</h1>
+            <p class="text-slate-400">Track your progress over time</p>
+        </div>
+        <a href="/history" class="px-4 py-2 rounded-lg border border-white/20 text-sm hover:bg-white/5 transition-all">
+            ← Back to History
+        </a>
+    </div>
+    
+    {% if message %}
+    <div class="glass-card rounded-2xl p-12 text-center">
+        <p class="text-slate-400">{{ message }}</p>
+        <a href="/start-assessment" class="btn-gradient px-6 py-3 rounded-xl font-semibold text-white inline-block mt-4">
+            Start Assessment
+        </a>
+    </div>
+    {% else %}
+    
+    <!-- Comparison Table -->
+    <div class="glass-card rounded-2xl p-6 overflow-x-auto">
+        <table class="w-full">
+            <thead>
+                <tr class="border-b border-white/10">
+                    <th class="text-left py-4 px-4 text-slate-400 font-medium">Metric</th>
+                    {% for assessment in assessments %}
+                    <th class="text-center py-4 px-4">
+                        <div class="text-sm text-slate-400">{{ assessment.timestamp[:10] }}</div>
+                        <div class="text-xs text-slate-500">#{{ assessment.id }}</div>
+                    </th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Overall Risk -->
+                <tr class="border-b border-white/5">
+                    <td class="py-4 px-4 font-medium">Overall Risk</td>
+                    {% for assessment in assessments %}
+                    <td class="text-center py-4 px-4">
+                        {% set risk = assessment.results.profile.overall_risk %}
+                        <span class="px-3 py-1 rounded-full text-sm {% if risk == 'high' %}bg-orange-500/20 text-orange-300{% elif risk == 'moderate' %}bg-yellow-500/20 text-yellow-300{% else %}bg-emerald-500/20 text-emerald-300{% endif %}">
+                            {{ risk.title() }}
+                        </span>
+                    </td>
+                    {% endfor %}
+                </tr>
+                
+                <!-- Sleep Quality -->
+                <tr class="border-b border-white/5">
+                    <td class="py-4 px-4 font-medium">Sleep Quality</td>
+                    {% for assessment in assessments %}
+                    <td class="text-center py-4 px-4">
+                        {% if assessment.results.sleep and not assessment.results.sleep.error %}
+                        <span class="{% if assessment.results.sleep.prediction == 1 %}text-emerald-400{% else %}text-orange-400{% endif %}">
+                            {{ 'Good' if assessment.results.sleep.prediction == 1 else 'Poor' }}
+                        </span>
+                        <div class="text-xs text-slate-500">{{ assessment.results.sleep.confidence }}%</div>
+                        {% else %}
+                        <span class="text-slate-500">N/A</span>
+                        {% endif %}
+                    </td>
+                    {% endfor %}
+                </tr>
+                
+                <!-- Depression -->
+                <tr class="border-b border-white/5">
+                    <td class="py-4 px-4 font-medium">Depression Screen</td>
+                    {% for assessment in assessments %}
+                    <td class="text-center py-4 px-4">
+                        {% if assessment.results.depression and not assessment.results.depression.error %}
+                        <span class="{% if assessment.results.depression.prediction == 0 %}text-emerald-400{% else %}text-orange-400{% endif %}">
+                            {{ 'Low' if assessment.results.depression.prediction == 0 else 'Elevated' }}
+                        </span>
+                        <div class="text-xs text-slate-500">{{ assessment.results.depression.confidence }}%</div>
+                        {% else %}
+                        <span class="text-slate-500">N/A</span>
+                        {% endif %}
+                    </td>
+                    {% endfor %}
+                </tr>
+                
+                <!-- Anxiety -->
+                <tr class="border-b border-white/5">
+                    <td class="py-4 px-4 font-medium">Anxiety Screen</td>
+                    {% for assessment in assessments %}
+                    <td class="text-center py-4 px-4">
+                        {% if assessment.results.anxiety and not assessment.results.anxiety.error %}
+                        <span class="{% if assessment.results.anxiety.prediction == 0 %}text-emerald-400{% else %}text-orange-400{% endif %}">
+                            {{ 'Low' if assessment.results.anxiety.prediction == 0 else 'Elevated' }}
+                        </span>
+                        <div class="text-xs text-slate-500">{{ assessment.results.anxiety.confidence }}%</div>
+                        {% else %}
+                        <span class="text-slate-500">N/A</span>
+                        {% endif %}
+                    </td>
+                    {% endfor %}
+                </tr>
+                
+                <!-- Burnout -->
+                <tr class="border-b border-white/5">
+                    <td class="py-4 px-4 font-medium">Burnout Risk</td>
+                    {% for assessment in assessments %}
+                    <td class="text-center py-4 px-4">
+                        {% if assessment.results.burnout and not assessment.results.burnout.error %}
+                        <span class="{% if assessment.results.burnout.prediction == 0 %}text-emerald-400{% else %}text-orange-400{% endif %}">
+                            {{ 'Low' if assessment.results.burnout.prediction == 0 else 'High' }}
+                        </span>
+                        <div class="text-xs text-slate-500">{{ assessment.results.burnout.confidence }}%</div>
+                        {% else %}
+                        <span class="text-slate-500">N/A</span>
+                        {% endif %}
+                    </td>
+                    {% endfor %}
+                </tr>
+                
+                <!-- PHQ-9 Score -->
+                <tr class="border-b border-white/5">
+                    <td class="py-4 px-4 font-medium">PHQ-9 Score</td>
+                    {% for assessment in assessments %}
+                    <td class="text-center py-4 px-4">
+                        <span class="text-slate-300">{{ assessment.user_data.phq9_score }}/27</span>
+                    </td>
+                    {% endfor %}
+                </tr>
+                
+                <!-- GAD-7 Score -->
+                <tr class="border-b border-white/5">
+                    <td class="py-4 px-4 font-medium">GAD-7 Score</td>
+                    {% for assessment in assessments %}
+                    <td class="text-center py-4 px-4">
+                        <span class="text-slate-300">{{ assessment.user_data.gad7_score }}/21</span>
+                    </td>
+                    {% endfor %}
+                </tr>
+                
+                <!-- Stress Score -->
+                <tr>
+                    <td class="py-4 px-4 font-medium">Stress Score</td>
+                    {% for assessment in assessments %}
+                    <td class="text-center py-4 px-4">
+                        <span class="text-slate-300">{{ assessment.user_data.stress_score }}/30</span>
+                    </td>
+                    {% endfor %}
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <!-- Trend Chart -->
+    <div class="glass-card rounded-2xl p-6 mt-8">
+        <h3 class="font-semibold mb-4">Risk Trend Over Time</h3>
+        <canvas id="trendChart" height="100"></canvas>
+    </div>
+    
+    {% endif %}
+</div>
+
+{% if assessments %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+new Chart(document.getElementById('trendChart'), {
+    type: 'line',
+    data: {
+        labels: [{% for a in assessments %}'{{ a.timestamp[:10] }}'{% if not loop.last %}, {% endif %}{% endfor %}],
+        datasets: [{
+            label: 'Risk Level',
+            data: [{% for a in assessments %}{{ 3 if a.results.profile.overall_risk == 'high' else (2 if a.results.profile.overall_risk == 'moderate' else 1) }}{% if not loop.last %}, {% endif %}{% endfor %}],
+            borderColor: '#00C9A7',
+            backgroundColor: 'rgba(0, 201, 167, 0.1)',
+            fill: true,
+            tension: 0.4
+        }]
+    },
+    options: {
+        responsive: true,
+        scales: {
+            y: {
+                min: 0,
+                max: 4,
+                ticks: {
+                    callback: function(value) {
+                        return ['', 'Low', 'Moderate', 'High', ''][value];
+                    },
+                    color: '#94A3B8'
+                },
+                grid: { color: 'rgba(255,255,255,0.1)' }
+            },
+            x: {
+                ticks: { color: '#94A3B8' },
+                grid: { color: 'rgba(255,255,255,0.1)' }
+            }
+        },
+        plugins: {
+            legend: { display: false }
+        }
+    }
+});
+</script>
+{% endif %}
+{% endblock %}

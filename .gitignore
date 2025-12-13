@@ -1,0 +1,8 @@
+
+mental_health_env/
+__pycache__/
+*.pyc
+chroma_db/
+data/local_db.json
+*.pdf
+.vscode/

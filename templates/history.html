@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+
+{% block title %}Assessment History - DC Well Being{% endblock %}
+{% block page_title %}Assessment History{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto">
+    <div class="flex items-center justify-between mb-8">
+        <div>
+            <h1 class="text-2xl font-bold gradient-text">Your Assessment History</h1>
+            <p class="text-slate-400">Track your wellness journey over time</p>
+        </div>
+        <a href="/start-assessment" class="btn-gradient px-6 py-3 rounded-xl font-semibold text-white">
+            New Assessment
+        </a>
+    </div>
+    
+    {% if history %}
+    <div class="space-y-4">
+        {% for assessment in history|reverse %}
+        <div class="glass-card rounded-2xl p-6 hover:scale-[1.01] transition-all">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-xl {% if assessment.results.profile.overall_risk == 'high' %}bg-orange-500/20{% elif assessment.results.profile.overall_risk == 'moderate' %}bg-yellow-500/20{% else %}bg-emerald-500/20{% endif %} flex items-center justify-center">
+                        <span class="text-lg font-bold {% if assessment.results.profile.overall_risk == 'high' %}text-orange-400{% elif assessment.results.profile.overall_risk == 'moderate' %}text-yellow-400{% else %}text-emerald-400{% endif %}">
+                            #{{ assessment.id }}
+                        </span>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold">{{ assessment.user_data.name }}</h3>
+                        <p class="text-sm text-slate-400">
+                            {{ assessment.timestamp[:10] }} • {{ assessment.user_data.role.replace('_', ' ').title() }}
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center gap-4">
+                    <span class="px-3 py-1 rounded-full text-sm font-medium {% if assessment.results.profile.overall_risk == 'high' %}bg-orange-500/20 text-orange-300{% elif assessment.results.profile.overall_risk == 'moderate' %}bg-yellow-500/20 text-yellow-300{% else %}bg-emerald-500/20 text-emerald-300{% endif %}">
+                        {{ assessment.results.profile.overall_risk.title() }} Risk
+                    </span>
+                    <a href="/history/{{ assessment.id }}" class="px-4 py-2 rounded-lg border border-white/20 text-sm hover:bg-white/5 transition-all">
+                        View Details
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Quick Stats -->
+            <div class="grid grid-cols-4 gap-4 mt-4 pt-4 border-t border-white/10">
+                {% if assessment.results.sleep and not assessment.results.sleep.error %}
+                <div class="text-center">
+                    <p class="text-xs text-slate-500">Sleep</p>
+                    <p class="text-sm font-medium {% if assessment.results.sleep.prediction == 1 %}text-emerald-400{% else %}text-orange-400{% endif %}">
+                        {{ 'Good' if assessment.results.sleep.prediction == 1 else 'Poor' }}
+                    </p>
+                </div>
+                {% endif %}
+                
+                {% if assessment.results.depression and not assessment.results.depression.error %}
+                <div class="text-center">
+                    <p class="text-xs text-slate-500">Depression</p>
+                    <p class="text-sm font-medium {% if assessment.results.depression.prediction == 0 %}text-emerald-400{% else %}text-orange-400{% endif %}">
+                        {{ 'Low' if assessment.results.depression.prediction == 0 else 'Elevated' }}
+                    </p>
+                </div>
+                {% endif %}
+                
+                {% if assessment.results.anxiety and not assessment.results.anxiety.error %}
+                <div class="text-center">
+                    <p class="text-xs text-slate-500">Anxiety</p>
+                    <p class="text-sm font-medium {% if assessment.results.anxiety.prediction == 0 %}text-emerald-400{% else %}text-orange-400{% endif %}">
+                        {{ 'Low' if assessment.results.anxiety.prediction == 0 else 'Elevated' }}
+                    </p>
+                </div>
+                {% endif %}
+                
+                {% if assessment.results.burnout and not assessment.results.burnout.error %}
+                <div class="text-center">
+                    <p class="text-xs text-slate-500">Burnout</p>
+                    <p class="text-sm font-medium {% if assessment.results.burnout.prediction == 0 %}text-emerald-400{% else %}text-orange-400{% endif %}">
+                        {{ 'Low' if assessment.results.burnout.prediction == 0 else 'High' }}
+                    </p>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    
+    <div class="mt-8 flex justify-center gap-4">
+        <a href="/analytics" class="px-6 py-3 rounded-xl border border-kiro-teal/30 text-kiro-teal hover:bg-kiro-teal/10 transition-all">
+            📊 View Analytics
+        </a>
+        <a href="/compare" class="px-6 py-3 rounded-xl border border-kiro-violet/30 text-kiro-violet hover:bg-kiro-violet/10 transition-all">
+            🔄 Compare Assessments
+        </a>
+    </div>
+    
+    {% else %}
+    <div class="glass-card rounded-2xl p-12 text-center">
+        <div class="w-20 h-20 mx-auto rounded-full bg-slate-800 flex items-center justify-center mb-6">
+            <svg class="w-10 h-10 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+            </svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-2">No Assessments Yet</h3>
+        <p class="text-slate-400 mb-6">Complete your first assessment to start tracking your wellness journey.</p>
+        <a href="/start-assessment" class="btn-gradient px-8 py-4 rounded-xl font-semibold text-white inline-block">
+            Start Your First Assessment
+        </a>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,239 @@
+{% extends "base.html" %}
+
+{% block title %}MBSR & Wellness - DC Well Being{% endblock %}
+{% block page_title %}Mindfulness & Resilience Insights{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<div class="glass-card rounded-3xl p-8 mb-8 relative overflow-hidden">
+    <div class="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-emerald-500/20 to-teal-500/20 rounded-full blur-3xl"></div>
+    
+    <div class="relative z-10 flex flex-col md:flex-row items-center gap-6">
+        <div class="w-20 h-20 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center flex-shrink-0">
+            <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+            </svg>
+        </div>
+        <div>
+            <h1 class="text-2xl md:text-3xl font-bold mb-2">
+                <span class="gradient-text">MBSR Effectiveness Study</span>
+            </h1>
+            <p class="text-slate-400">
+                Analyzing the impact of Mindfulness-Based Stress Reduction programs on healthcare workers' stress and burnout levels.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Key Findings -->
+<h2 class="text-xl font-semibold mb-4 flex items-center gap-2">
+    <svg class="w-5 h-5 text-kiro-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+    </svg>
+    Key Research Findings
+</h2>
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+    <!-- MBSR vs Non-MBSR Burnout -->
+    <div class="glass-card rounded-2xl p-6">
+        <div class="flex items-center justify-between mb-4">
+            <span class="text-sm text-slate-400">Burnout Score</span>
+            <span class="px-2 py-1 bg-emerald-500/20 text-emerald-400 text-xs rounded-full">Significant</span>
+        </div>
+        <div class="flex items-end gap-4">
+            <div class="text-center">
+                <p class="text-3xl font-bold text-emerald-400">61.6</p>
+                <p class="text-xs text-slate-500">MBSR Group</p>
+            </div>
+            <div class="text-slate-600 text-2xl">vs</div>
+            <div class="text-center">
+                <p class="text-3xl font-bold text-orange-400">66.7</p>
+                <p class="text-xs text-slate-500">Non-MBSR</p>
+            </div>
+        </div>
+        <div class="mt-4 pt-4 border-t border-white/10">
+            <p class="text-xs text-slate-500">t = -4.79, <span class="text-emerald-400">p < 0.001</span></p>
+        </div>
+    </div>
+    
+    <!-- Sample Size -->
+    <div class="glass-card rounded-2xl p-6">
+        <div class="flex items-center justify-between mb-4">
+            <span class="text-sm text-slate-400">Total Participants</span>
+        </div>
+        <p class="text-4xl font-bold text-white mb-2">474</p>
+        <p class="text-sm text-slate-500">Healthcare workers analyzed</p>
+        <div class="mt-4 grid grid-cols-2 gap-2 text-xs">
+            <div class="bg-slate-800/50 rounded-lg p-2 text-center">
+                <p class="text-kiro-teal font-semibold">208</p>
+                <p class="text-slate-500">MBSR</p>
+            </div>
+            <div class="bg-slate-800/50 rounded-lg p-2 text-center">
+                <p class="text-slate-300 font-semibold">266</p>
+                <p class="text-slate-500">Non-MBSR</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Post-COVID Impact -->
+    <div class="glass-card rounded-2xl p-6">
+        <div class="flex items-center justify-between mb-4">
+            <span class="text-sm text-slate-400">Post-COVID Period</span>
+            <span class="px-2 py-1 bg-orange-500/20 text-orange-400 text-xs rounded-full">67%</span>
+        </div>
+        <p class="text-4xl font-bold text-orange-400 mb-2">319</p>
+        <p class="text-sm text-slate-500">Post-COVID participants</p>
+        <div class="mt-4 pt-4 border-t border-white/10">
+            <p class="text-xs text-slate-500">Higher burnout observed post-pandemic</p>
+        </div>
+    </div>
+    
+    <!-- MBSR Duration Effect -->
+    <div class="glass-card rounded-2xl p-6">
+        <div class="flex items-center justify-between mb-4">
+            <span class="text-sm text-slate-400">Optimal Duration</span>
+        </div>
+        <p class="text-4xl font-bold text-kiro-violet mb-2">6+</p>
+        <p class="text-sm text-slate-500">Weeks for best results</p>
+        <div class="mt-4 pt-4 border-t border-white/10">
+            <p class="text-xs text-slate-500">Participants with ≥6 weeks show lowest burnout</p>
+        </div>
+    </div>
+</div>
+
+<!-- Comparison Charts Section -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+    <!-- MBSR Impact Visualization -->
+    <div class="glass-card rounded-2xl p-6">
+        <h3 class="text-lg font-semibold mb-6">MBSR Impact on Burnout</h3>
+        
+        <div class="space-y-6">
+            <!-- MBSR Group Bar -->
+            <div>
+                <div class="flex justify-between text-sm mb-2">
+                    <span class="text-slate-300">MBSR Participants</span>
+                    <span class="text-emerald-400 font-semibold">61.6</span>
+                </div>
+                <div class="h-8 bg-slate-700 rounded-lg overflow-hidden">
+                    <div class="h-full bg-gradient-to-r from-emerald-500 to-teal-400 rounded-lg flex items-center justify-end pr-3"
+                         style="width: 65%">
+                        <span class="text-xs text-white font-medium">Lower Risk</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Non-MBSR Group Bar -->
+            <div>
+                <div class="flex justify-between text-sm mb-2">
+                    <span class="text-slate-300">Non-MBSR Group</span>
+                    <span class="text-orange-400 font-semibold">66.7</span>
+                </div>
+                <div class="h-8 bg-slate-700 rounded-lg overflow-hidden">
+                    <div class="h-full bg-gradient-to-r from-orange-500 to-amber-400 rounded-lg flex items-center justify-end pr-3"
+                         style="width: 70%">
+                        <span class="text-xs text-white font-medium">Higher Risk</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mt-6 p-4 bg-emerald-500/10 rounded-xl border border-emerald-500/20">
+            <p class="text-sm text-emerald-300">
+                <strong>Conclusion:</strong> MBSR participants show 7.6% lower burnout scores on average, with statistical significance (p < 0.001).
+            </p>
+        </div>
+    </div>
+    
+    <!-- Pre vs Post COVID -->
+    <div class="glass-card rounded-2xl p-6">
+        <h3 class="text-lg font-semibold mb-6">Pre vs Post COVID Comparison</h3>
+        
+        <div class="grid grid-cols-2 gap-6">
+            <!-- Pre-COVID -->
+            <div class="text-center">
+                <div class="w-24 h-24 mx-auto rounded-full bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center mb-3 relative">
+                    <span class="text-2xl font-bold text-slate-300">155</span>
+                    <svg class="absolute inset-0 w-full h-full" viewBox="0 0 100 100">
+                        <circle cx="50" cy="50" r="45" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="8"/>
+                        <circle cx="50" cy="50" r="45" fill="none" stroke="url(#preGrad)" stroke-width="8" 
+                                stroke-dasharray="283" stroke-dashoffset="190" transform="rotate(-90 50 50)"/>
+                    </svg>
+                </div>
+                <p class="text-sm text-slate-400">Pre-COVID</p>
+                <p class="text-xs text-slate-500">33% of sample</p>
+            </div>
+            
+            <!-- Post-COVID -->
+            <div class="text-center">
+                <div class="w-24 h-24 mx-auto rounded-full bg-gradient-to-br from-orange-900/30 to-rose-900/30 flex items-center justify-center mb-3 relative">
+                    <span class="text-2xl font-bold text-orange-400">319</span>
+                    <svg class="absolute inset-0 w-full h-full" viewBox="0 0 100 100">
+                        <circle cx="50" cy="50" r="45" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="8"/>
+                        <circle cx="50" cy="50" r="45" fill="none" stroke="url(#postGrad)" stroke-width="8" 
+                                stroke-dasharray="283" stroke-dashoffset="95" transform="rotate(-90 50 50)"/>
+                    </svg>
+                </div>
+                <p class="text-sm text-slate-400">Post-COVID</p>
+                <p class="text-xs text-slate-500">67% of sample</p>
+            </div>
+        </div>
+        
+        <div class="mt-6 p-4 bg-orange-500/10 rounded-xl border border-orange-500/20">
+            <p class="text-sm text-orange-300">
+                <strong>Finding:</strong> Post-COVID healthcare workers show elevated stress and burnout levels, highlighting the pandemic's lasting impact.
+            </p>
+        </div>
+        
+        <!-- SVG Gradients -->
+        <svg width="0" height="0">
+            <defs>
+                <linearGradient id="preGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#64748b"/>
+                    <stop offset="100%" style="stop-color:#94a3b8"/>
+                </linearGradient>
+                <linearGradient id="postGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#f97316"/>
+                    <stop offset="100%" style="stop-color:#fb923c"/>
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+</div>
+
+<!-- MBSR Program Info -->
+<div class="glass-card rounded-2xl p-8">
+    <h3 class="text-xl font-semibold mb-6 gradient-text">What is MBSR?</h3>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-slate-800/30 rounded-xl p-5">
+            <div class="w-12 h-12 rounded-xl bg-kiro-teal/20 flex items-center justify-center mb-4">
+                <svg class="w-6 h-6 text-kiro-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+            </div>
+            <h4 class="font-semibold mb-2">8-Week Program</h4>
+            <p class="text-sm text-slate-400">Structured mindfulness training developed at UMass Medical School by Jon Kabat-Zinn.</p>
+        </div>
+        
+        <div class="bg-slate-800/30 rounded-xl p-5">
+            <div class="w-12 h-12 rounded-xl bg-kiro-violet/20 flex items-center justify-center mb-4">
+                <svg class="w-6 h-6 text-kiro-violet" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                </svg>
+            </div>
+            <h4 class="font-semibold mb-2">Core Practices</h4>
+            <p class="text-sm text-slate-400">Body scan meditation, sitting meditation, mindful movement, and daily mindfulness exercises.</p>
+        </div>
+        
+        <div class="bg-slate-800/30 rounded-xl p-5">
+            <div class="w-12 h-12 rounded-xl bg-emerald-500/20 flex items-center justify-center mb-4">
+                <svg class="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+            </div>
+            <h4 class="font-semibold mb-2">Proven Benefits</h4>
+            <p class="text-sm text-slate-400">Reduces stress, anxiety, depression symptoms, and improves emotional regulation and resilience.</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+
+{% block title %}Step 4: Work & Burnout - DC Well Being{% endblock %}
+{% block page_title %}Health Assessment{% endblock %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto">
+    <!-- Progress Bar -->
+    <div class="mb-8">
+        <div class="flex items-center justify-between mb-2">
+            <span class="text-sm text-slate-400">Step 4 of 4 (Healthcare Workers)</span>
+            <span class="text-sm text-kiro-teal">90%</span>
+        </div>
+        <div class="h-2 bg-slate-700 rounded-full overflow-hidden">
+            <div class="h-full bg-gradient-to-r from-kiro-teal to-kiro-cyan rounded-full" style="width: 90%"></div>
+        </div>
+    </div>
+    
+    <!-- Form Card -->
+    <div class="glass-card rounded-2xl p-8">
+        <div class="flex items-center gap-4 mb-6">
+            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"/>
+                </svg>
+            </div>
+            <div>
+                <h2 class="text-xl font-semibold">Burnout Risk Assessment</h2>
+                <p class="text-slate-400 text-sm">Additional questions for healthcare professionals</p>
+            </div>
+        </div>
+        
+        <div class="mb-6 p-4 bg-orange-500/10 rounded-xl border border-orange-500/20">
+            <p class="text-sm text-orange-300">
+                <strong>Note:</strong> Healthcare workers face unique stressors, especially post-COVID. 
+                This section helps assess burnout risk specific to your profession.
+            </p>
+        </div>
+        
+        <form method="POST" class="space-y-6">
+            <!-- Work Hours -->
+            <div>
+                <label class="block text-sm font-medium text-slate-300 mb-2">
+                    Average work hours per week
+                </label>
+                <input type="number" name="work_hours" min="20" max="100" required value="45"
+                       class="w-full px-4 py-3 rounded-xl bg-slate-800/50 border border-white/10 text-white focus:border-kiro-teal transition-all">
+                <div class="flex justify-between text-xs text-slate-500 mt-1">
+                    <span>Standard (40h)</span>
+                    <span class="text-orange-400">Extended (>50h increases burnout risk)</span>
+                </div>
+            </div>
+            
+            <!-- Patient Load -->
+            <div>
+                <label class="block text-sm font-medium text-slate-300 mb-2">
+                    Average patient load per week
+                </label>
+                <input type="number" name="patient_load" min="0" max="200" required value="50"
+                       class="w-full px-4 py-3 rounded-xl bg-slate-800/50 border border-white/10 text-white focus:border-kiro-teal transition-all">
+                <p class="text-xs text-slate-500 mt-1">Number of patients you typically see or care for weekly</p>
+            </div>
+            
+            <!-- Post-COVID -->
+            <div class="p-4 bg-slate-800/30 rounded-xl">
+                <label class="flex items-center justify-between cursor-pointer">
+                    <div>
+                        <p class="text-sm font-medium text-slate-300">Working in post-COVID environment?</p>
+                        <p class="text-xs text-slate-500">Increased workload, staff shortages, or pandemic-related stress</p>
+                    </div>
+                    <div class="relative">
+                        <input type="hidden" name="post_covid" value="0">
+                        <input type="checkbox" name="post_covid" value="1" checked
+                               class="sr-only peer">
+                        <div class="w-14 h-7 bg-slate-700 rounded-full peer peer-checked:bg-orange-500 transition-colors"></div>
+                        <div class="absolute left-1 top-1 w-5 h-5 bg-white rounded-full transition-transform peer-checked:translate-x-7"></div>
+                    </div>
+                </label>
+            </div>
+            
+            <!-- MBSR Participation -->
+            <div class="p-4 bg-emerald-500/10 rounded-xl border border-emerald-500/20">
+                <label class="flex items-center justify-between cursor-pointer">
+                    <div>
+                        <p class="text-sm font-medium text-emerald-300">MBSR / Mindfulness Practice</p>
+                        <p class="text-xs text-slate-400">Do you participate in any mindfulness-based stress reduction program?</p>
+                    </div>
+                    <div class="relative">
+                        <input type="hidden" name="mbsr_participation" value="0">
+                        <input type="checkbox" name="mbsr_participation" value="1"
+                               class="sr-only peer">
+                        <div class="w-14 h-7 bg-slate-700 rounded-full peer peer-checked:bg-emerald-500 transition-colors"></div>
+                        <div class="absolute left-1 top-1 w-5 h-5 bg-white rounded-full transition-transform peer-checked:translate-x-7"></div>
+                    </div>
+                </label>
+                <p class="text-xs text-emerald-400 mt-3">
+                    💡 Research shows MBSR participants have ~7% lower burnout scores
+                </p>
+            </div>
+            
+            <div class="flex gap-4 pt-4">
+                <a href="{{ url_for('assessment_step3') }}" class="flex-1 py-4 rounded-xl font-semibold text-slate-300 border border-white/20 hover:bg-white/5 transition-all text-center">
+                    ← Back
+                </a>
+                <button type="submit" class="flex-1 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 py-4 rounded-xl font-semibold text-white flex items-center justify-center gap-2 transition-all">
+                    Get My Results
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                    </svg>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

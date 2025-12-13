@@ -1,0 +1,230 @@
+{% extends "base.html" %}
+
+{% block title %}About & Disclaimer - DC Well Being{% endblock %}
+{% block page_title %}About This Project{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto space-y-8">
+    
+    <!-- Project Overview -->
+    <div class="glass-card rounded-2xl p-8">
+        <div class="flex items-center gap-4 mb-6">
+            <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-kiro-teal to-kiro-violet flex items-center justify-center">
+                <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                </svg>
+            </div>
+            <div>
+                <h1 class="text-2xl font-bold gradient-text">AI-Driven Mental Health Analytics</h1>
+                <p class="text-slate-400">Final Year Engineering Project</p>
+            </div>
+        </div>
+        
+        <p class="text-slate-300 leading-relaxed mb-6">
+            This system is an educational research project that demonstrates the application of machine learning 
+            techniques to mental health screening and behavioral analytics. It covers five interconnected problem 
+            statements related to mental well-being in different populations.
+        </p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="bg-slate-800/30 rounded-xl p-4">
+                <h4 class="font-semibold text-kiro-teal mb-2">🎯 Purpose</h4>
+                <p class="text-sm text-slate-400">Educational demonstration of AI/ML applications in healthcare screening</p>
+            </div>
+            <div class="bg-slate-800/30 rounded-xl p-4">
+                <h4 class="font-semibold text-kiro-teal mb-2">🔬 Methodology</h4>
+                <p class="text-sm text-slate-400">Ensemble ML models with quantum-inspired feature engineering</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Research Areas -->
+    <div class="glass-card rounded-2xl p-8">
+        <h2 class="text-xl font-semibold mb-6">Research Problem Statements</h2>
+        
+        <div class="space-y-4">
+            <div class="flex items-start gap-4 p-4 bg-slate-800/30 rounded-xl">
+                <div class="w-8 h-8 rounded-lg bg-indigo-500/20 flex items-center justify-center flex-shrink-0">
+                    <span class="text-indigo-400 font-bold">1</span>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-slate-200">Screen Time & Sleep Quality</h4>
+                    <p class="text-sm text-slate-400">Analyzing correlation between screen time habits and sleep quality among students</p>
+                </div>
+            </div>
+            
+            <div class="flex items-start gap-4 p-4 bg-slate-800/30 rounded-xl">
+                <div class="w-8 h-8 rounded-lg bg-emerald-500/20 flex items-center justify-center flex-shrink-0">
+                    <span class="text-emerald-400 font-bold">2</span>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-slate-200">MBSR Effectiveness</h4>
+                    <p class="text-sm text-slate-400">Evaluating Mindfulness-Based Stress Reduction programs in healthcare workers</p>
+                </div>
+            </div>
+            
+            <div class="flex items-start gap-4 p-4 bg-slate-800/30 rounded-xl">
+                <div class="w-8 h-8 rounded-lg bg-pink-500/20 flex items-center justify-center flex-shrink-0">
+                    <span class="text-pink-400 font-bold">3</span>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-slate-200">Social Media Impact</h4>
+                    <p class="text-sm text-slate-400">Impact of social media use on depression and anxiety in young adults</p>
+                </div>
+            </div>
+            
+            <div class="flex items-start gap-4 p-4 bg-slate-800/30 rounded-xl">
+                <div class="w-8 h-8 rounded-lg bg-cyan-500/20 flex items-center justify-center flex-shrink-0">
+                    <span class="text-cyan-400 font-bold">4</span>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-slate-200">AI-Assisted Detection</h4>
+                    <p class="text-sm text-slate-400">AI-powered screening for depression indicators via behavioral patterns</p>
+                </div>
+            </div>
+            
+            <div class="flex items-start gap-4 p-4 bg-slate-800/30 rounded-xl">
+                <div class="w-8 h-8 rounded-lg bg-orange-500/20 flex items-center justify-center flex-shrink-0">
+                    <span class="text-orange-400 font-bold">5</span>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-slate-200">Post-COVID Burnout</h4>
+                    <p class="text-sm text-slate-400">Burnout levels among medical professionals in the post-pandemic era</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Technical Details -->
+    <div class="glass-card rounded-2xl p-8">
+        <h2 class="text-xl font-semibold mb-6">Technical Implementation</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div>
+                <h4 class="font-semibold text-kiro-teal mb-3">ML Models</h4>
+                <ul class="space-y-2 text-sm text-slate-400">
+                    <li class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 bg-kiro-teal rounded-full"></span>
+                        Random Forest Ensemble
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 bg-kiro-teal rounded-full"></span>
+                        Extra Trees Classifier
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 bg-kiro-teal rounded-full"></span>
+                        Gradient Boosting
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 bg-kiro-teal rounded-full"></span>
+                        Super Ensemble (95%+)
+                    </li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 class="font-semibold text-kiro-violet mb-3">Advanced Features</h4>
+                <ul class="space-y-2 text-sm text-slate-400">
+                    <li class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 bg-kiro-violet rounded-full"></span>
+                        RLHF Integration
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 bg-kiro-violet rounded-full"></span>
+                        Variational Preference Learning
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 bg-kiro-violet rounded-full"></span>
+                        Quantum Feature Transform
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 bg-kiro-violet rounded-full"></span>
+                        Active Learning
+                    </li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 class="font-semibold text-emerald-400 mb-3">Tech Stack</h4>
+                <ul class="space-y-2 text-sm text-slate-400">
+                    <li class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 bg-emerald-400 rounded-full"></span>
+                        Python / Flask
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 bg-emerald-400 rounded-full"></span>
+                        Scikit-learn / NumPy
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 bg-emerald-400 rounded-full"></span>
+                        Tailwind CSS
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 bg-emerald-400 rounded-full"></span>
+                        Joblib Model Persistence
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Important Disclaimer -->
+    <div class="glass-card rounded-2xl p-8 border-2 border-orange-500/30 glow-warning">
+        <div class="flex items-start gap-4">
+            <div class="w-12 h-12 rounded-xl bg-orange-500/20 flex items-center justify-center flex-shrink-0">
+                <svg class="w-6 h-6 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                </svg>
+            </div>
+            <div>
+                <h2 class="text-xl font-bold text-orange-400 mb-4">⚠️ Important Disclaimer</h2>
+                <div class="space-y-4 text-slate-300">
+                    <p>
+                        <strong>This platform is a research and educational tool.</strong> It is developed as part of a 
+                        final-year engineering project to demonstrate the application of machine learning in mental health screening.
+                    </p>
+                    <p>
+                        <strong>This system does NOT provide medical diagnosis.</strong> The predictions and risk assessments 
+                        generated are for screening and educational purposes only. They should not be interpreted as clinical 
+                        diagnoses or medical advice.
+                    </p>
+                    <p>
+                        <strong>Always consult qualified professionals.</strong> If you or someone you know is experiencing 
+                        mental health concerns, please seek help from licensed mental health professionals, counselors, or 
+                        healthcare providers.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Crisis Resources -->
+    <div class="glass-card rounded-2xl p-8 border border-kiro-teal/30">
+        <h2 class="text-xl font-semibold mb-6 text-kiro-teal">🆘 Mental Health Resources</h2>
+        <p class="text-slate-400 mb-6">If you're in crisis or need immediate support, please reach out to these resources:</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="bg-slate-800/30 rounded-xl p-4">
+                <h4 class="font-semibold text-slate-200 mb-1">National Crisis Helpline</h4>
+                <p class="text-kiro-teal font-mono">988 (US) / Local Emergency Services</p>
+            </div>
+            <div class="bg-slate-800/30 rounded-xl p-4">
+                <h4 class="font-semibold text-slate-200 mb-1">Crisis Text Line</h4>
+                <p class="text-kiro-teal font-mono">Text HOME to 741741</p>
+            </div>
+        </div>
+        
+        <p class="text-sm text-slate-500 mt-6">
+            Remember: Seeking help is a sign of strength. You are not alone.
+        </p>
+    </div>
+    
+    <!-- Footer -->
+    <div class="text-center py-8">
+        <p class="text-slate-500 text-sm">
+            Built with 💜 for educational purposes<br>
+            <span class="text-kiro-teal">DC Well Being</span> © 2024
+        </p>
+    </div>
+</div>
+{% endblock %}

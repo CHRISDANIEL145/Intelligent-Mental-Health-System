@@ -1,0 +1,1201 @@
+id,age,gender,role,social_media_hours,social_media_type_dominant,social_media_text,phq9_score,gad7_score,depression_label,anxiety_label
+1,35,Female,healthcare_worker,2.48,Facebook,"Nothing feels enjoyable lately, everything makes me anxious.",15.37,11.61,1,1
+2,30,Male,medical_professional,2.3,YouTube,I feel overwhelmed and tired all the time.,17.97,15.99,1,1
+3,32,Female,young_adult_non_medical,1.7,Facebook,Had a good day catching up with friends.,6.84,3.79,0,0
+4,30,Male,young_adult_non_medical,1.91,Instagram,Sleeping badly and overthinking every night.,14.25,12.98,1,1
+5,18,Female,student,4.21,YouTube,Hard to get out of bed and stay motivated.,17.31,6.07,1,0
+6,23,Male,student,0.0,Facebook,"Today was a pretty normal, calm day.",5.31,4.84,0,0
+7,24,Male,student,2.72,Instagram,Sleeping badly and overthinking every night.,11.99,12.18,1,1
+8,38,Female,medical_professional,5.19,Facebook,Sleeping badly and overthinking every night.,19.81,19.02,1,1
+9,22,Female,young_adult_non_medical,4.52,X,I feel overwhelmed and tired all the time.,10.23,15.76,1,1
+10,30,Male,young_adult_non_medical,2.24,WhatsApp,Lost interest in things I used to love.,11.44,7.21,1,0
+11,19,Female,student,2.81,YouTube,I feel overwhelmed and tired all the time.,10.72,14.25,1,1
+12,46,Female,medical_professional,3.55,WhatsApp,Sleeping badly and overthinking every night.,10.66,15.06,1,1
+13,49,Male,medical_professional,0.46,WhatsApp,Lost interest in things I used to love.,12.84,6.98,1,0
+14,19,Female,student,3.42,WhatsApp,Overthinking every message I send.,0.0,11.93,0,1
+15,23,Male,student,4.03,X,My mind doesn't stop worrying about everything.,2.92,10.21,0,1
+16,19,Female,student,5.67,YouTube,Sleeping badly and overthinking every night.,17.46,14.54,1,1
+17,22,Female,student,6.58,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",16.65,15.58,1,1
+18,27,Female,healthcare_worker,0.0,Instagram,Sleeping badly and overthinking every night.,11.89,15.65,1,1
+19,40,Male,healthcare_worker,0.74,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",11.78,11.44,1,1
+20,20,Male,student,3.59,YouTube,Even small tasks make me nervous lately.,7.67,10.36,0,1
+21,32,Male,young_adult_non_medical,3.37,Facebook,I don't feel like doing anything these days.,11.8,7.57,1,0
+22,18,Male,student,3.23,Facebook,I keep pretending I'm okay but I'm really not.,12.25,12.13,1,1
+23,24,Male,student,2.45,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",11.3,10.5,1,1
+24,38,Female,healthcare_worker,3.75,Mixed,Sleeping badly and overthinking every night.,14.61,16.67,1,1
+25,52,Male,healthcare_worker,3.06,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",15.35,14.25,1,1
+26,32,Male,young_adult_non_medical,5.72,Mixed,Hard to get out of bed and stay motivated.,11.26,6.89,1,0
+27,20,Female,student,2.52,Facebook,Feeling okay and getting things done.,2.43,2.31,0,0
+28,55,Male,healthcare_worker,4.69,Facebook,"Nothing feels enjoyable lately, everything makes me anxious.",22.85,16.22,1,1
+29,21,Female,young_adult_non_medical,2.08,Instagram,Lost interest in things I used to love.,13.92,9.26,1,0
+30,24,Male,student,5.12,Instagram,I feel overwhelmed and tired all the time.,10.14,12.33,1,1
+31,33,Female,young_adult_non_medical,0.4,Instagram,Just enjoying some time offline and relaxing.,7.71,6.99,0,0
+32,21,Male,student,3.99,Facebook,Lost interest in things I used to love.,11.72,9.78,1,0
+33,23,Male,student,3.51,YouTube,I keep pretending I'm okay but I'm really not.,18.85,18.26,1,1
+34,34,Female,medical_professional,3.29,Facebook,Even small tasks make me nervous lately.,6.79,11.89,0,1
+35,50,Male,medical_professional,0.0,YouTube,Sleeping badly and overthinking every night.,10.64,10.31,1,1
+36,26,Female,medical_professional,3.03,TikTok,Overthinking every message I send.,7.72,14.09,0,1
+37,18,Male,student,4.13,Instagram,Sleeping badly and overthinking every night.,12.06,16.74,1,1
+38,23,Male,student,2.45,Instagram,I keep pretending I'm okay but I'm really not.,14.04,16.48,1,1
+39,31,Female,young_adult_non_medical,1.72,YouTube,Heart races whenever I have to talk to people.,9.86,10.63,0,1
+40,51,Male,healthcare_worker,0.0,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",11.44,11.45,1,1
+41,22,Female,student,2.92,YouTube,Heart races whenever I have to talk to people.,8.05,13.67,0,1
+42,44,Other,healthcare_worker,1.92,Facebook,Sleeping badly and overthinking every night.,17.11,21.0,1,1
+43,24,Female,student,3.31,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",16.27,11.54,1,1
+44,39,Female,medical_professional,0.0,YouTube,Hard to get out of bed and stay motivated.,13.07,8.19,1,0
+45,22,Male,student,5.31,TikTok,Sleeping badly and overthinking every night.,12.02,12.28,1,1
+46,30,Male,young_adult_non_medical,2.46,Instagram,My mind doesn't stop worrying about everything.,9.4,13.74,0,1
+47,21,Male,student,5.08,Mixed,I feel overwhelmed and tired all the time.,11.81,10.61,1,1
+48,29,Female,healthcare_worker,3.09,Mixed,Sleeping badly and overthinking every night.,16.48,11.25,1,1
+49,42,Other,healthcare_worker,0.25,Instagram,Heart races whenever I have to talk to people.,3.57,10.14,0,1
+50,18,Male,student,4.76,YouTube,Sleeping badly and overthinking every night.,15.99,15.53,1,1
+51,28,Female,medical_professional,2.14,YouTube,I keep pretending I'm okay but I'm really not.,14.28,12.47,1,1
+52,22,Male,young_adult_non_medical,0.36,Facebook,Had a good day catching up with friends.,6.31,7.72,0,0
+53,24,Female,medical_professional,1.57,WhatsApp,I feel overwhelmed and tired all the time.,16.18,20.9,1,1
+54,38,Male,medical_professional,1.41,X,My mind doesn't stop worrying about everything.,6.71,15.34,0,1
+55,21,Other,young_adult_non_medical,5.5,Facebook,I keep pretending I'm okay but I'm really not.,11.05,11.63,1,1
+56,58,Female,medical_professional,0.97,Instagram,Sleeping badly and overthinking every night.,18.53,16.95,1,1
+57,25,Male,student,6.27,TikTok,Feeling low and exhausted most of the time.,10.77,6.13,1,0
+58,18,Male,student,2.43,Facebook,"Nothing feels enjoyable lately, everything makes me anxious.",16.66,14.52,1,1
+59,18,Male,student,2.59,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",13.26,10.68,1,1
+60,25,Male,student,4.42,TikTok,"Today was a pretty normal, calm day.",9.93,5.16,0,0
+61,35,Male,healthcare_worker,1.82,Facebook,"Nothing feels enjoyable lately, everything makes me anxious.",18.24,14.16,1,1
+62,19,Female,student,2.82,Instagram,My mind doesn't stop worrying about everything.,9.21,14.43,0,1
+63,38,Female,medical_professional,1.32,YouTube,I keep pretending I'm okay but I'm really not.,16.98,21.0,1,1
+64,39,Female,healthcare_worker,0.46,WhatsApp,Sleeping badly and overthinking every night.,17.69,11.28,1,1
+65,20,Male,student,4.1,Instagram,Feeling low and exhausted most of the time.,12.76,7.77,1,0
+66,31,Female,healthcare_worker,1.59,Mixed,I feel overwhelmed and tired all the time.,19.67,12.83,1,1
+67,21,Female,student,4.02,Instagram,Sleeping badly and overthinking every night.,10.74,15.98,1,1
+68,48,Male,medical_professional,2.41,X,I keep pretending I'm okay but I'm really not.,20.83,21.0,1,1
+69,18,Female,student,3.04,WhatsApp,Lost interest in things I used to love.,11.7,7.69,1,0
+70,52,Female,medical_professional,3.42,Instagram,I keep pretending I'm okay but I'm really not.,12.31,12.76,1,1
+71,24,Male,young_adult_non_medical,0.66,Mixed,Feeling low and exhausted most of the time.,12.37,7.27,1,0
+72,25,Male,student,2.0,TikTok,Overthinking every message I send.,8.89,14.69,0,1
+73,24,Female,student,5.7,WhatsApp,Sleeping badly and overthinking every night.,18.4,19.7,1,1
+74,50,Male,medical_professional,3.84,Instagram,I feel overwhelmed and tired all the time.,17.34,11.92,1,1
+75,33,Female,young_adult_non_medical,5.57,Instagram,Even small tasks make me nervous lately.,10.0,10.63,0,1
+76,21,Female,young_adult_non_medical,3.97,YouTube,Lost interest in things I used to love.,14.52,7.47,1,0
+77,23,Female,young_adult_non_medical,1.69,YouTube,Feeling okay and getting things done.,4.61,9.22,0,0
+78,24,Male,student,3.8,WhatsApp,Sleeping badly and overthinking every night.,16.19,12.71,1,1
+79,26,Male,healthcare_worker,4.67,Mixed,"Nothing feels enjoyable lately, everything makes me anxious.",20.62,14.93,1,1
+80,22,Female,student,3.7,WhatsApp,Overthinking every message I send.,8.33,13.21,0,1
+81,47,Female,medical_professional,4.13,TikTok,I keep pretending I'm okay but I'm really not.,16.59,21.0,1,1
+82,31,Male,young_adult_non_medical,3.35,X,I keep pretending I'm okay but I'm really not.,11.8,10.23,1,1
+83,19,Female,student,1.23,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",13.53,14.31,1,1
+84,20,Female,student,2.71,TikTok,I feel overwhelmed and tired all the time.,12.42,16.56,1,1
+85,21,Male,student,2.49,WhatsApp,Sleeping badly and overthinking every night.,12.44,11.55,1,1
+86,23,Male,student,5.5,TikTok,Sleeping badly and overthinking every night.,20.01,11.72,1,1
+87,34,Female,young_adult_non_medical,1.75,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",11.48,13.38,1,1
+88,28,Male,young_adult_non_medical,1.75,Instagram,My mind doesn't stop worrying about everything.,7.22,18.34,0,1
+89,53,Male,medical_professional,3.31,TikTok,"Nothing feels enjoyable lately, everything makes me anxious.",13.62,16.32,1,1
+90,37,Male,healthcare_worker,1.88,WhatsApp,I keep pretending I'm okay but I'm really not.,15.51,15.09,1,1
+91,24,Male,student,4.47,TikTok,I keep pretending I'm okay but I'm really not.,11.38,14.62,1,1
+92,20,Female,young_adult_non_medical,0.0,Mixed,Feeling okay and getting things done.,5.72,9.34,0,0
+93,33,Female,young_adult_non_medical,4.49,Instagram,Feeling low and exhausted most of the time.,12.92,3.93,1,0
+94,31,Male,young_adult_non_medical,2.32,WhatsApp,Feeling low and exhausted most of the time.,10.16,8.76,1,0
+95,23,Female,young_adult_non_medical,2.39,YouTube,Feeling okay and getting things done.,7.69,4.84,0,0
+96,59,Female,healthcare_worker,2.96,X,Hard to get out of bed and stay motivated.,11.78,5.63,1,0
+97,32,Female,healthcare_worker,2.6,Facebook,Overthinking every message I send.,6.86,12.22,0,1
+98,45,Male,healthcare_worker,2.67,YouTube,"Today was a pretty normal, calm day.",8.83,7.3,0,0
+99,23,Male,student,1.89,WhatsApp,Heart races whenever I have to talk to people.,9.23,12.97,0,1
+100,22,Other,student,2.66,Facebook,Lost interest in things I used to love.,18.38,6.61,1,0
+101,22,Female,student,2.59,Instagram,I don't feel like doing anything these days.,11.19,5.47,1,0
+102,21,Male,young_adult_non_medical,2.88,TikTok,"Today was a pretty normal, calm day.",5.45,9.43,0,0
+103,25,Male,student,3.34,X,I keep pretending I'm okay but I'm really not.,14.53,11.06,1,1
+104,31,Male,healthcare_worker,2.61,Mixed,Sleeping badly and overthinking every night.,11.45,17.29,1,1
+105,34,Female,medical_professional,0.27,YouTube,My mind doesn't stop worrying about everything.,6.63,14.23,0,1
+106,25,Female,student,4.1,Instagram,Sleeping badly and overthinking every night.,14.43,15.53,1,1
+107,36,Female,healthcare_worker,0.99,WhatsApp,I keep pretending I'm okay but I'm really not.,13.08,12.53,1,1
+108,20,Male,young_adult_non_medical,4.24,Instagram,I don't feel like doing anything these days.,12.56,8.51,1,0
+109,25,Female,student,5.86,Mixed,I feel overwhelmed and tired all the time.,22.81,16.65,1,1
+110,22,Female,student,1.88,Instagram,Had a good day catching up with friends.,4.61,2.56,0,0
+111,19,Male,student,7.14,Facebook,I keep pretending I'm okay but I'm really not.,20.11,20.59,1,1
+112,23,Female,student,3.94,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",13.4,15.18,1,1
+113,41,Other,medical_professional,3.06,YouTube,Just enjoying some time offline and relaxing.,6.25,7.46,0,0
+114,54,Male,medical_professional,3.87,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",19.64,17.23,1,1
+115,25,Female,young_adult_non_medical,3.69,X,Hard to get out of bed and stay motivated.,11.02,9.53,1,0
+116,55,Male,medical_professional,4.24,WhatsApp,I keep pretending I'm okay but I'm really not.,16.3,18.32,1,1
+117,34,Female,medical_professional,4.07,YouTube,I feel overwhelmed and tired all the time.,18.27,11.95,1,1
+118,22,Female,student,3.56,Mixed,"Nothing feels enjoyable lately, everything makes me anxious.",12.86,14.6,1,1
+119,48,Female,medical_professional,3.11,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",10.85,11.25,1,1
+120,56,Female,healthcare_worker,3.21,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",13.39,15.0,1,1
+121,31,Male,medical_professional,1.03,WhatsApp,I feel overwhelmed and tired all the time.,16.65,16.63,1,1
+122,34,Female,medical_professional,1.61,Instagram,Sleeping badly and overthinking every night.,19.11,17.07,1,1
+123,23,Female,student,4.82,Mixed,Hard to get out of bed and stay motivated.,14.33,7.62,1,0
+124,20,Male,student,7.33,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",20.64,21.0,1,1
+125,25,Female,student,2.6,Instagram,Hard to get out of bed and stay motivated.,11.37,4.6,1,0
+126,40,Female,healthcare_worker,4.02,YouTube,I feel overwhelmed and tired all the time.,16.8,12.08,1,1
+127,35,Male,medical_professional,1.19,X,I keep pretending I'm okay but I'm really not.,11.5,11.14,1,1
+128,55,Female,medical_professional,0.64,WhatsApp,I feel overwhelmed and tired all the time.,14.43,14.79,1,1
+129,24,Female,student,7.85,X,Sleeping badly and overthinking every night.,11.42,15.15,1,1
+130,39,Male,healthcare_worker,2.94,Instagram,Had a good day catching up with friends.,8.96,0.0,0,0
+131,45,Other,healthcare_worker,3.27,YouTube,I feel overwhelmed and tired all the time.,19.04,17.93,1,1
+132,21,Male,student,5.61,TikTok,I keep pretending I'm okay but I'm really not.,16.02,13.52,1,1
+133,21,Male,student,5.99,Instagram,"Today was a pretty normal, calm day.",9.53,5.94,0,0
+134,18,Male,student,4.37,TikTok,I feel overwhelmed and tired all the time.,14.9,15.4,1,1
+135,33,Female,medical_professional,4.46,Instagram,Sleeping badly and overthinking every night.,13.85,19.16,1,1
+136,25,Female,student,3.33,TikTok,"Nothing feels enjoyable lately, everything makes me anxious.",11.22,11.21,1,1
+137,55,Male,healthcare_worker,3.2,YouTube,I feel overwhelmed and tired all the time.,17.68,18.67,1,1
+138,21,Male,young_adult_non_medical,1.62,X,I don't feel like doing anything these days.,12.35,6.65,1,0
+139,56,Female,healthcare_worker,2.02,Instagram,Hard to get out of bed and stay motivated.,17.85,9.34,1,0
+140,25,Male,medical_professional,0.58,Instagram,I feel overwhelmed and tired all the time.,20.34,14.3,1,1
+141,56,Female,medical_professional,1.99,Instagram,I feel overwhelmed and tired all the time.,19.62,21.0,1,1
+142,18,Female,student,0.0,Instagram,Had a good day catching up with friends.,8.34,7.72,0,0
+143,36,Female,healthcare_worker,1.09,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",10.6,20.16,1,1
+144,23,Other,student,0.93,WhatsApp,Just enjoying some time offline and relaxing.,8.33,9.64,0,0
+145,18,Male,student,5.13,WhatsApp,I feel overwhelmed and tired all the time.,23.42,17.6,1,1
+146,22,Other,student,3.54,Facebook,I don't feel like doing anything these days.,13.63,9.09,1,0
+147,23,Female,young_adult_non_medical,0.84,X,"Today was a pretty normal, calm day.",5.55,9.71,0,0
+148,49,Female,healthcare_worker,3.85,X,Sleeping badly and overthinking every night.,12.15,10.17,1,1
+149,23,Male,student,2.72,YouTube,Sleeping badly and overthinking every night.,19.99,15.41,1,1
+150,24,Female,student,0.0,WhatsApp,Hard to get out of bed and stay motivated.,11.48,7.63,1,0
+151,25,Male,medical_professional,3.46,YouTube,Heart races whenever I have to talk to people.,9.06,12.68,0,1
+152,23,Male,student,1.1,TikTok,Hard to get out of bed and stay motivated.,13.2,8.94,1,0
+153,24,Male,student,3.56,Instagram,I feel overwhelmed and tired all the time.,13.68,12.35,1,1
+154,49,Female,healthcare_worker,2.02,Instagram,Sleeping badly and overthinking every night.,19.05,15.75,1,1
+155,38,Female,medical_professional,0.93,X,"Nothing feels enjoyable lately, everything makes me anxious.",17.3,13.87,1,1
+156,19,Female,student,2.02,Instagram,Sleeping badly and overthinking every night.,16.01,14.17,1,1
+157,29,Female,young_adult_non_medical,1.4,TikTok,My mind doesn't stop worrying about everything.,5.89,13.95,0,1
+158,26,Male,young_adult_non_medical,3.15,TikTok,Had a good day catching up with friends.,5.55,3.9,0,0
+159,21,Female,student,0.85,Instagram,Hard to get out of bed and stay motivated.,12.22,7.84,1,0
+160,20,Male,young_adult_non_medical,4.03,Instagram,I don't feel like doing anything these days.,11.19,8.82,1,0
+161,34,Female,healthcare_worker,2.76,WhatsApp,Even small tasks make me nervous lately.,7.46,12.64,0,1
+162,32,Female,young_adult_non_medical,3.39,X,Feeling okay and getting things done.,8.17,3.97,0,0
+163,22,Female,young_adult_non_medical,1.99,YouTube,Just enjoying some time offline and relaxing.,5.23,6.57,0,0
+164,29,Female,healthcare_worker,1.54,Facebook,Sleeping badly and overthinking every night.,17.36,15.71,1,1
+165,18,Male,student,2.42,WhatsApp,Lost interest in things I used to love.,14.27,6.0,1,0
+166,29,Male,medical_professional,1.52,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",18.69,20.32,1,1
+167,18,Female,student,4.78,Instagram,I feel overwhelmed and tired all the time.,11.58,10.68,1,1
+168,24,Male,student,2.03,Facebook,Hard to get out of bed and stay motivated.,14.01,9.99,1,0
+169,24,Male,student,5.21,Instagram,Hard to get out of bed and stay motivated.,14.82,9.27,1,0
+170,28,Female,young_adult_non_medical,3.72,TikTok,Even small tasks make me nervous lately.,7.56,11.14,0,1
+171,21,Female,young_adult_non_medical,4.8,YouTube,I feel overwhelmed and tired all the time.,12.17,16.49,1,1
+172,21,Male,student,6.46,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",20.05,21.0,1,1
+173,31,Male,healthcare_worker,2.37,TikTok,Even small tasks make me nervous lately.,8.32,13.58,0,1
+174,25,Female,student,3.39,TikTok,Hard to get out of bed and stay motivated.,12.84,5.87,1,0
+175,21,Female,young_adult_non_medical,1.83,YouTube,Heart races whenever I have to talk to people.,7.85,10.64,0,1
+176,21,Male,student,5.17,Instagram,Sleeping badly and overthinking every night.,16.21,16.48,1,1
+177,33,Male,young_adult_non_medical,2.24,Facebook,Hard to get out of bed and stay motivated.,12.87,8.19,1,0
+178,43,Male,healthcare_worker,3.56,YouTube,I feel overwhelmed and tired all the time.,19.46,21.0,1,1
+179,30,Male,medical_professional,1.17,Instagram,Just enjoying some time offline and relaxing.,6.83,8.31,0,0
+180,20,Male,student,5.14,Mixed,I feel overwhelmed and tired all the time.,12.8,10.4,1,1
+181,21,Female,student,4.92,Instagram,I keep pretending I'm okay but I'm really not.,11.6,18.78,1,1
+182,25,Female,student,2.23,Instagram,I don't feel like doing anything these days.,11.23,8.82,1,0
+183,27,Female,medical_professional,0.15,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",13.55,11.96,1,1
+184,29,Male,medical_professional,1.11,X,"Nothing feels enjoyable lately, everything makes me anxious.",20.56,21.0,1,1
+185,19,Female,student,4.22,X,I feel overwhelmed and tired all the time.,10.36,14.19,1,1
+186,25,Male,young_adult_non_medical,1.98,YouTube,Hard to get out of bed and stay motivated.,13.87,6.99,1,0
+187,49,Other,medical_professional,1.86,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",14.22,12.91,1,1
+188,34,Female,young_adult_non_medical,2.91,YouTube,I keep pretending I'm okay but I'm really not.,14.58,12.0,1,1
+189,26,Male,healthcare_worker,2.13,X,Sleeping badly and overthinking every night.,16.65,15.33,1,1
+190,24,Female,student,3.43,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",15.39,10.34,1,1
+191,18,Male,student,2.95,Mixed,I keep pretending I'm okay but I'm really not.,18.57,14.57,1,1
+192,37,Female,medical_professional,0.0,Instagram,I keep pretending I'm okay but I'm really not.,16.06,14.64,1,1
+193,34,Male,medical_professional,1.73,Mixed,Sleeping badly and overthinking every night.,17.03,16.84,1,1
+194,21,Male,young_adult_non_medical,3.88,Instagram,I keep pretending I'm okay but I'm really not.,17.99,18.4,1,1
+195,23,Female,student,1.32,Facebook,I feel overwhelmed and tired all the time.,11.25,12.91,1,1
+196,21,Male,student,1.9,Instagram,Had a good day catching up with friends.,7.6,3.2,0,0
+197,26,Female,young_adult_non_medical,0.71,Instagram,"Today was a pretty normal, calm day.",5.93,0.0,0,0
+198,35,Male,medical_professional,2.85,TikTok,Sleeping badly and overthinking every night.,18.28,14.63,1,1
+199,36,Female,medical_professional,3.41,TikTok,I feel overwhelmed and tired all the time.,19.22,21.0,1,1
+200,28,Female,young_adult_non_medical,3.21,YouTube,Overthinking every message I send.,9.26,13.69,0,1
+201,32,Female,young_adult_non_medical,3.14,Facebook,Sleeping badly and overthinking every night.,12.19,10.81,1,1
+202,20,Male,student,3.74,WhatsApp,Heart races whenever I have to talk to people.,7.8,11.44,0,1
+203,19,Male,student,4.91,TikTok,I don't feel like doing anything these days.,15.56,9.09,1,0
+204,42,Male,medical_professional,3.1,YouTube,Sleeping badly and overthinking every night.,16.53,20.62,1,1
+205,26,Male,young_adult_non_medical,6.02,WhatsApp,I feel overwhelmed and tired all the time.,13.75,12.27,1,1
+206,23,Female,student,3.85,WhatsApp,I feel overwhelmed and tired all the time.,15.66,18.41,1,1
+207,21,Female,student,6.83,YouTube,I don't feel like doing anything these days.,12.5,8.49,1,0
+208,32,Female,young_adult_non_medical,2.49,TikTok,Heart races whenever I have to talk to people.,8.33,16.84,0,1
+209,25,Female,student,2.41,Instagram,Sleeping badly and overthinking every night.,16.18,15.34,1,1
+210,22,Female,student,4.17,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",10.7,10.42,1,1
+211,55,Female,healthcare_worker,2.08,WhatsApp,I don't feel like doing anything these days.,11.74,7.77,1,0
+212,22,Male,young_adult_non_medical,0.55,X,My mind doesn't stop worrying about everything.,7.65,11.37,0,1
+213,31,Female,young_adult_non_medical,3.66,Instagram,"Today was a pretty normal, calm day.",9.06,8.83,0,0
+214,19,Female,student,4.52,YouTube,"Today was a pretty normal, calm day.",2.14,2.4,0,0
+215,25,Female,young_adult_non_medical,1.24,Mixed,I don't feel like doing anything these days.,12.6,2.27,1,0
+216,19,Male,student,4.47,Instagram,I feel overwhelmed and tired all the time.,19.59,13.58,1,1
+217,20,Male,student,5.6,X,I feel overwhelmed and tired all the time.,13.84,11.68,1,1
+218,25,Male,young_adult_non_medical,1.68,Facebook,Had a good day catching up with friends.,9.57,4.85,0,0
+219,24,Female,young_adult_non_medical,3.65,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",14.12,10.58,1,1
+220,55,Female,medical_professional,0.5,Mixed,I keep pretending I'm okay but I'm really not.,15.63,14.5,1,1
+221,27,Male,young_adult_non_medical,2.79,Facebook,I don't feel like doing anything these days.,10.85,6.35,1,0
+222,28,Other,young_adult_non_medical,1.96,WhatsApp,"Today was a pretty normal, calm day.",8.99,9.57,0,0
+223,20,Male,student,5.26,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",11.11,16.76,1,1
+224,26,Male,healthcare_worker,1.87,X,"Nothing feels enjoyable lately, everything makes me anxious.",15.36,10.11,1,1
+225,21,Male,student,3.6,WhatsApp,My mind doesn't stop worrying about everything.,9.72,13.89,0,1
+226,19,Female,student,0.0,TikTok,"Today was a pretty normal, calm day.",4.34,2.35,0,0
+227,58,Female,medical_professional,2.47,YouTube,Lost interest in things I used to love.,12.47,9.23,1,0
+228,52,Male,healthcare_worker,0.84,YouTube,Even small tasks make me nervous lately.,2.73,13.05,0,1
+229,38,Female,medical_professional,2.91,Instagram,I keep pretending I'm okay but I'm really not.,17.21,17.36,1,1
+230,20,Male,young_adult_non_medical,2.18,Instagram,Hard to get out of bed and stay motivated.,15.78,7.73,1,0
+231,26,Female,young_adult_non_medical,2.3,Instagram,"Today was a pretty normal, calm day.",7.33,9.37,0,0
+232,35,Female,healthcare_worker,4.86,TikTok,"Nothing feels enjoyable lately, everything makes me anxious.",19.27,14.17,1,1
+233,20,Female,young_adult_non_medical,3.14,X,Hard to get out of bed and stay motivated.,14.93,9.4,1,0
+234,53,Male,healthcare_worker,1.96,X,I feel overwhelmed and tired all the time.,11.86,11.8,1,1
+235,22,Other,student,1.47,X,I keep pretending I'm okay but I'm really not.,11.25,13.53,1,1
+236,34,Female,young_adult_non_medical,3.24,TikTok,I keep pretending I'm okay but I'm really not.,18.91,14.75,1,1
+237,19,Male,student,1.4,WhatsApp,I keep pretending I'm okay but I'm really not.,16.69,15.74,1,1
+238,22,Female,student,6.18,TikTok,Sleeping badly and overthinking every night.,16.84,14.09,1,1
+239,27,Male,young_adult_non_medical,4.05,YouTube,I don't feel like doing anything these days.,12.28,5.57,1,0
+240,21,Female,student,2.56,Mixed,I keep pretending I'm okay but I'm really not.,15.11,16.43,1,1
+241,27,Male,medical_professional,1.31,X,I feel overwhelmed and tired all the time.,15.96,19.31,1,1
+242,51,Female,medical_professional,3.07,YouTube,I feel overwhelmed and tired all the time.,22.09,21.0,1,1
+243,43,Female,medical_professional,3.67,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",20.39,19.37,1,1
+244,47,Male,healthcare_worker,4.33,WhatsApp,My mind doesn't stop worrying about everything.,8.13,14.29,0,1
+245,19,Male,student,2.56,Instagram,I keep pretending I'm okay but I'm really not.,10.66,10.08,1,1
+246,55,Male,medical_professional,2.92,WhatsApp,I feel overwhelmed and tired all the time.,19.15,16.72,1,1
+247,59,Male,healthcare_worker,1.39,YouTube,Lost interest in things I used to love.,10.35,8.09,1,0
+248,57,Male,medical_professional,3.66,Instagram,Sleeping badly and overthinking every night.,19.56,13.6,1,1
+249,59,Female,medical_professional,0.0,Mixed,Sleeping badly and overthinking every night.,18.72,18.21,1,1
+250,25,Male,medical_professional,1.14,X,Had a good day catching up with friends.,9.38,5.58,0,0
+251,24,Male,student,4.47,TikTok,Hard to get out of bed and stay motivated.,10.0,4.86,1,0
+252,57,Female,healthcare_worker,2.97,X,I keep pretending I'm okay but I'm really not.,16.56,17.53,1,1
+253,59,Male,medical_professional,0.0,YouTube,I keep pretending I'm okay but I'm really not.,23.78,11.93,1,1
+254,23,Female,student,4.87,WhatsApp,I don't feel like doing anything these days.,18.15,6.89,1,0
+255,24,Female,student,4.05,X,Sleeping badly and overthinking every night.,17.48,19.29,1,1
+256,29,Female,young_adult_non_medical,2.75,Mixed,I keep pretending I'm okay but I'm really not.,11.1,12.24,1,1
+257,35,Female,medical_professional,2.42,YouTube,Sleeping badly and overthinking every night.,13.94,17.5,1,1
+258,22,Female,young_adult_non_medical,3.94,TikTok,Had a good day catching up with friends.,6.88,0.0,0,0
+259,32,Male,young_adult_non_medical,2.97,Mixed,Feeling okay and getting things done.,2.41,4.71,0,0
+260,19,Male,student,5.69,X,I keep pretending I'm okay but I'm really not.,12.81,12.55,1,1
+261,27,Male,young_adult_non_medical,5.82,Mixed,Sleeping badly and overthinking every night.,19.4,10.96,1,1
+262,44,Female,medical_professional,0.42,YouTube,Even small tasks make me nervous lately.,9.81,18.59,0,1
+263,24,Male,student,1.95,Mixed,Sleeping badly and overthinking every night.,11.96,10.63,1,1
+264,56,Female,healthcare_worker,2.74,Facebook,I don't feel like doing anything these days.,17.17,8.02,1,0
+265,58,Other,medical_professional,0.0,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",10.45,12.49,1,1
+266,29,Female,young_adult_non_medical,2.33,Mixed,I feel overwhelmed and tired all the time.,14.01,10.03,1,1
+267,27,Female,young_adult_non_medical,0.8,WhatsApp,"Today was a pretty normal, calm day.",7.81,7.4,0,0
+268,23,Male,young_adult_non_medical,2.61,WhatsApp,Hard to get out of bed and stay motivated.,12.56,5.45,1,0
+269,53,Female,healthcare_worker,3.13,WhatsApp,Just enjoying some time offline and relaxing.,9.49,9.73,0,0
+270,24,Female,student,2.87,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",10.8,17.3,1,1
+271,37,Male,medical_professional,3.3,WhatsApp,I keep pretending I'm okay but I'm really not.,12.71,13.82,1,1
+272,37,Male,medical_professional,2.94,TikTok,Sleeping badly and overthinking every night.,19.13,21.0,1,1
+273,25,Female,medical_professional,4.42,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",15.46,10.87,1,1
+274,28,Female,medical_professional,2.13,YouTube,I keep pretending I'm okay but I'm really not.,14.03,15.51,1,1
+275,37,Female,healthcare_worker,2.92,Instagram,I keep pretending I'm okay but I'm really not.,10.4,17.48,1,1
+276,48,Female,healthcare_worker,2.31,YouTube,Sleeping badly and overthinking every night.,13.14,12.58,1,1
+277,23,Female,young_adult_non_medical,2.66,Facebook,"Today was a pretty normal, calm day.",8.35,3.99,0,0
+278,21,Female,young_adult_non_medical,1.8,Facebook,Sleeping badly and overthinking every night.,12.71,14.6,1,1
+279,26,Male,young_adult_non_medical,0.0,Mixed,I feel overwhelmed and tired all the time.,15.03,15.64,1,1
+280,25,Male,young_adult_non_medical,3.56,X,Overthinking every message I send.,7.06,12.13,0,1
+281,40,Male,medical_professional,1.68,YouTube,My mind doesn't stop worrying about everything.,7.45,12.49,0,1
+282,20,Female,student,1.35,Mixed,"Today was a pretty normal, calm day.",3.31,4.1,0,0
+283,48,Female,healthcare_worker,1.54,Facebook,I keep pretending I'm okay but I'm really not.,16.41,21.0,1,1
+284,18,Female,student,5.74,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",15.86,18.29,1,1
+285,31,Male,young_adult_non_medical,1.66,X,Feeling okay and getting things done.,3.21,3.81,0,0
+286,19,Female,student,4.35,Mixed,I keep pretending I'm okay but I'm really not.,19.64,12.92,1,1
+287,58,Female,healthcare_worker,1.59,Facebook,Sleeping badly and overthinking every night.,17.56,10.67,1,1
+288,28,Female,healthcare_worker,0.95,YouTube,Sleeping badly and overthinking every night.,10.88,10.0,1,1
+289,24,Female,student,6.33,Facebook,I feel overwhelmed and tired all the time.,17.1,14.61,1,1
+290,20,Male,young_adult_non_medical,0.85,Instagram,Just enjoying some time offline and relaxing.,5.65,3.46,0,0
+291,25,Female,student,2.39,YouTube,Even small tasks make me nervous lately.,8.5,10.43,0,1
+292,21,Male,student,2.82,YouTube,Feeling low and exhausted most of the time.,15.75,9.18,1,0
+293,59,Male,medical_professional,1.22,Instagram,Feeling okay and getting things done.,5.73,9.91,0,0
+294,46,Female,healthcare_worker,1.94,Instagram,Even small tasks make me nervous lately.,6.82,15.48,0,1
+295,24,Female,student,1.26,Instagram,Sleeping badly and overthinking every night.,10.58,10.24,1,1
+296,54,Female,healthcare_worker,2.55,X,I keep pretending I'm okay but I'm really not.,18.08,20.41,1,1
+297,30,Female,young_adult_non_medical,2.14,TikTok,Lost interest in things I used to love.,13.06,8.49,1,0
+298,19,Female,student,2.51,Mixed,Hard to get out of bed and stay motivated.,10.98,8.14,1,0
+299,22,Female,young_adult_non_medical,3.27,YouTube,Even small tasks make me nervous lately.,4.12,12.43,0,1
+300,23,Female,student,4.41,WhatsApp,Sleeping badly and overthinking every night.,16.01,13.35,1,1
+301,23,Male,student,3.01,Mixed,"Nothing feels enjoyable lately, everything makes me anxious.",18.3,15.16,1,1
+302,39,Male,healthcare_worker,1.41,Instagram,Just enjoying some time offline and relaxing.,7.19,8.03,0,0
+303,33,Male,healthcare_worker,0.0,Facebook,"Nothing feels enjoyable lately, everything makes me anxious.",14.26,16.82,1,1
+304,32,Male,young_adult_non_medical,2.93,Facebook,Feeling okay and getting things done.,9.11,6.83,0,0
+305,29,Male,young_adult_non_medical,2.19,Instagram,I don't feel like doing anything these days.,16.25,7.63,1,0
+306,35,Male,medical_professional,0.0,TikTok,Heart races whenever I have to talk to people.,2.83,10.98,0,1
+307,53,Male,healthcare_worker,0.0,TikTok,Feeling low and exhausted most of the time.,14.56,8.37,1,0
+308,18,Other,student,2.36,Instagram,I feel overwhelmed and tired all the time.,15.61,16.4,1,1
+309,20,Male,young_adult_non_medical,1.62,Instagram,Even small tasks make me nervous lately.,3.33,11.85,0,1
+310,22,Female,student,1.45,Instagram,Feeling okay and getting things done.,9.21,7.76,0,0
+311,43,Male,healthcare_worker,1.85,YouTube,I feel overwhelmed and tired all the time.,15.4,21.0,1,1
+312,25,Female,student,5.68,WhatsApp,Hard to get out of bed and stay motivated.,15.33,7.89,1,0
+313,20,Male,student,4.77,WhatsApp,I don't feel like doing anything these days.,18.34,7.9,1,0
+314,35,Male,medical_professional,1.97,YouTube,Sleeping badly and overthinking every night.,20.45,16.39,1,1
+315,24,Female,medical_professional,2.2,Mixed,I keep pretending I'm okay but I'm really not.,11.94,21.0,1,1
+316,28,Male,young_adult_non_medical,4.4,YouTube,Feeling low and exhausted most of the time.,11.13,0.0,1,0
+317,43,Male,healthcare_worker,1.46,Instagram,I feel overwhelmed and tired all the time.,17.05,14.34,1,1
+318,21,Male,student,3.68,YouTube,I keep pretending I'm okay but I'm really not.,10.14,11.71,1,1
+319,18,Male,student,3.6,WhatsApp,Sleeping badly and overthinking every night.,10.11,10.22,1,1
+320,20,Male,student,4.42,YouTube,I feel overwhelmed and tired all the time.,11.01,14.5,1,1
+321,35,Male,healthcare_worker,4.08,YouTube,I keep pretending I'm okay but I'm really not.,18.79,16.87,1,1
+322,24,Female,young_adult_non_medical,2.65,Instagram,Feeling okay and getting things done.,8.06,7.47,0,0
+323,20,Female,young_adult_non_medical,0.81,TikTok,My mind doesn't stop worrying about everything.,7.88,11.38,0,1
+324,18,Female,student,3.25,Mixed,Feeling okay and getting things done.,9.46,3.64,0,0
+325,51,Male,medical_professional,1.56,YouTube,Sleeping badly and overthinking every night.,15.93,14.22,1,1
+326,34,Female,young_adult_non_medical,4.21,YouTube,Feeling okay and getting things done.,9.6,8.29,0,0
+327,34,Male,young_adult_non_medical,2.45,X,Lost interest in things I used to love.,15.9,9.18,1,0
+328,25,Male,young_adult_non_medical,2.34,Facebook,Feeling okay and getting things done.,8.64,9.76,0,0
+329,43,Female,healthcare_worker,1.42,YouTube,Just enjoying some time offline and relaxing.,8.53,3.15,0,0
+330,19,Male,student,1.02,Mixed,"Today was a pretty normal, calm day.",9.24,6.45,0,0
+331,37,Male,healthcare_worker,0.85,WhatsApp,My mind doesn't stop worrying about everything.,6.83,14.05,0,1
+332,21,Female,young_adult_non_medical,5.03,WhatsApp,Had a good day catching up with friends.,8.83,4.21,0,0
+333,18,Female,student,4.98,X,Even small tasks make me nervous lately.,7.19,18.1,0,1
+334,24,Female,student,0.44,Mixed,Had a good day catching up with friends.,9.13,8.83,0,0
+335,22,Female,student,1.98,Facebook,Feeling okay and getting things done.,7.53,9.75,0,0
+336,21,Other,student,5.58,Instagram,Sleeping badly and overthinking every night.,16.71,15.17,1,1
+337,49,Male,medical_professional,0.0,YouTube,Overthinking every message I send.,7.02,12.05,0,1
+338,32,Male,young_adult_non_medical,3.98,WhatsApp,My mind doesn't stop worrying about everything.,9.67,17.0,0,1
+339,24,Male,healthcare_worker,0.0,YouTube,My mind doesn't stop worrying about everything.,8.91,10.24,0,1
+340,24,Male,student,5.53,Facebook,Sleeping badly and overthinking every night.,20.25,21.0,1,1
+341,58,Male,healthcare_worker,1.24,TikTok,"Today was a pretty normal, calm day.",6.71,6.33,0,0
+342,29,Female,healthcare_worker,2.05,Facebook,Sleeping badly and overthinking every night.,11.66,11.84,1,1
+343,22,Female,student,2.42,Mixed,Had a good day catching up with friends.,7.53,8.15,0,0
+344,28,Female,healthcare_worker,1.86,YouTube,Sleeping badly and overthinking every night.,12.56,11.04,1,1
+345,56,Male,healthcare_worker,0.0,TikTok,I keep pretending I'm okay but I'm really not.,12.45,17.56,1,1
+346,20,Female,young_adult_non_medical,2.37,Facebook,Feeling okay and getting things done.,9.56,9.46,0,0
+347,22,Female,young_adult_non_medical,3.01,YouTube,Feeling low and exhausted most of the time.,12.64,4.46,1,0
+348,23,Female,student,2.07,Facebook,I don't feel like doing anything these days.,10.34,8.74,1,0
+349,35,Male,healthcare_worker,3.76,Instagram,Sleeping badly and overthinking every night.,17.69,14.34,1,1
+350,29,Female,young_adult_non_medical,3.63,Facebook,Just enjoying some time offline and relaxing.,7.19,6.46,0,0
+351,43,Male,healthcare_worker,5.09,WhatsApp,Sleeping badly and overthinking every night.,14.56,10.34,1,1
+352,47,Male,medical_professional,3.2,YouTube,Sleeping badly and overthinking every night.,18.6,18.22,1,1
+353,30,Male,young_adult_non_medical,1.91,X,"Nothing feels enjoyable lately, everything makes me anxious.",17.61,10.86,1,1
+354,20,Female,student,1.62,X,Feeling okay and getting things done.,9.45,2.57,0,0
+355,23,Female,student,2.53,Instagram,Sleeping badly and overthinking every night.,13.36,11.4,1,1
+356,21,Male,young_adult_non_medical,3.28,Instagram,Feeling low and exhausted most of the time.,14.56,5.16,1,0
+357,18,Male,student,3.84,YouTube,I keep pretending I'm okay but I'm really not.,19.96,14.47,1,1
+358,21,Male,young_adult_non_medical,0.39,WhatsApp,"Today was a pretty normal, calm day.",5.72,4.95,0,0
+359,52,Male,medical_professional,2.94,TikTok,Had a good day catching up with friends.,5.86,3.81,0,0
+360,28,Male,young_adult_non_medical,3.53,Mixed,"Nothing feels enjoyable lately, everything makes me anxious.",13.22,11.51,1,1
+361,54,Male,healthcare_worker,3.21,WhatsApp,Sleeping badly and overthinking every night.,21.61,14.24,1,1
+362,27,Female,young_adult_non_medical,0.75,Facebook,Feeling okay and getting things done.,5.24,9.67,0,0
+363,46,Male,healthcare_worker,1.78,YouTube,I feel overwhelmed and tired all the time.,15.3,16.93,1,1
+364,43,Male,healthcare_worker,3.05,Facebook,Heart races whenever I have to talk to people.,9.01,20.38,0,1
+365,46,Male,medical_professional,0.44,Instagram,I keep pretending I'm okay but I'm really not.,13.45,15.72,1,1
+366,39,Female,healthcare_worker,1.52,YouTube,My mind doesn't stop worrying about everything.,8.55,15.0,0,1
+367,31,Female,medical_professional,2.92,X,Sleeping badly and overthinking every night.,11.13,10.86,1,1
+368,44,Female,medical_professional,0.97,Instagram,My mind doesn't stop worrying about everything.,7.14,13.53,0,1
+369,18,Male,student,4.54,Facebook,"Nothing feels enjoyable lately, everything makes me anxious.",20.7,17.26,1,1
+370,24,Female,student,5.99,TikTok,Sleeping badly and overthinking every night.,16.76,14.64,1,1
+371,25,Male,student,2.42,YouTube,I feel overwhelmed and tired all the time.,10.09,10.12,1,1
+372,22,Female,student,4.39,YouTube,I feel overwhelmed and tired all the time.,16.03,16.88,1,1
+373,25,Female,student,2.55,TikTok,Feeling okay and getting things done.,7.64,6.92,0,0
+374,25,Female,young_adult_non_medical,1.42,Facebook,I feel overwhelmed and tired all the time.,12.44,10.92,1,1
+375,22,Female,student,5.07,YouTube,Sleeping badly and overthinking every night.,10.63,17.01,1,1
+376,24,Female,student,3.7,YouTube,Sleeping badly and overthinking every night.,16.62,11.19,1,1
+377,45,Male,medical_professional,1.23,X,I keep pretending I'm okay but I'm really not.,16.63,11.36,1,1
+378,24,Female,student,2.02,WhatsApp,I keep pretending I'm okay but I'm really not.,10.07,14.46,1,1
+379,57,Male,medical_professional,1.86,Instagram,I don't feel like doing anything these days.,10.34,9.28,1,0
+380,18,Female,student,1.92,YouTube,I don't feel like doing anything these days.,14.24,8.39,1,0
+381,24,Male,student,5.29,TikTok,I feel overwhelmed and tired all the time.,12.13,11.77,1,1
+382,26,Male,young_adult_non_medical,4.37,X,Even small tasks make me nervous lately.,4.71,10.95,0,1
+383,29,Male,young_adult_non_medical,0.84,Mixed,Sleeping badly and overthinking every night.,11.7,12.38,1,1
+384,33,Male,medical_professional,0.22,Facebook,Sleeping badly and overthinking every night.,14.68,12.63,1,1
+385,33,Female,young_adult_non_medical,3.7,Mixed,Even small tasks make me nervous lately.,9.48,11.68,0,1
+386,41,Female,medical_professional,0.0,Instagram,Had a good day catching up with friends.,8.6,6.0,0,0
+387,18,Male,student,2.19,Facebook,"Today was a pretty normal, calm day.",9.96,8.82,0,0
+388,19,Male,student,1.85,Instagram,Feeling okay and getting things done.,7.82,9.36,0,0
+389,27,Female,young_adult_non_medical,2.17,X,Hard to get out of bed and stay motivated.,13.59,8.02,1,0
+390,35,Male,medical_professional,2.18,WhatsApp,Just enjoying some time offline and relaxing.,9.22,7.76,0,0
+391,50,Female,medical_professional,2.14,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",12.57,11.76,1,1
+392,31,Female,healthcare_worker,2.65,TikTok,"Nothing feels enjoyable lately, everything makes me anxious.",12.59,18.19,1,1
+393,48,Female,healthcare_worker,2.38,TikTok,Heart races whenever I have to talk to people.,7.43,15.74,0,1
+394,33,Female,young_adult_non_medical,5.8,Instagram,Feeling low and exhausted most of the time.,15.11,9.1,1,0
+395,21,Male,student,3.7,X,Just enjoying some time offline and relaxing.,4.45,6.52,0,0
+396,56,Female,medical_professional,2.56,YouTube,Sleeping badly and overthinking every night.,12.67,13.3,1,1
+397,24,Male,medical_professional,2.69,YouTube,My mind doesn't stop worrying about everything.,6.96,15.73,0,1
+398,42,Male,healthcare_worker,0.53,TikTok,Had a good day catching up with friends.,7.63,9.13,0,0
+399,34,Female,young_adult_non_medical,3.39,YouTube,Hard to get out of bed and stay motivated.,12.07,2.97,1,0
+400,33,Male,young_adult_non_medical,4.14,Mixed,I keep pretending I'm okay but I'm really not.,22.14,14.08,1,1
+401,22,Female,student,0.0,Instagram,"Today was a pretty normal, calm day.",1.23,3.79,0,0
+402,28,Female,medical_professional,0.71,X,Feeling low and exhausted most of the time.,10.23,8.8,1,0
+403,49,Female,healthcare_worker,0.73,X,Sleeping badly and overthinking every night.,13.34,11.61,1,1
+404,51,Female,medical_professional,1.28,YouTube,Had a good day catching up with friends.,9.31,9.29,0,0
+405,19,Male,student,2.36,YouTube,I feel overwhelmed and tired all the time.,17.61,15.97,1,1
+406,29,Male,medical_professional,2.06,TikTok,I keep pretending I'm okay but I'm really not.,13.42,18.64,1,1
+407,32,Female,healthcare_worker,3.07,Facebook,I don't feel like doing anything these days.,11.66,9.22,1,0
+408,18,Male,student,1.31,YouTube,I keep pretending I'm okay but I'm really not.,11.53,14.45,1,1
+409,48,Female,medical_professional,1.29,WhatsApp,I feel overwhelmed and tired all the time.,20.47,17.52,1,1
+410,25,Female,student,3.04,Instagram,Heart races whenever I have to talk to people.,6.68,10.73,0,1
+411,22,Female,student,2.97,Instagram,Just enjoying some time offline and relaxing.,7.56,7.23,0,0
+412,32,Male,medical_professional,0.76,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",13.55,10.98,1,1
+413,36,Male,medical_professional,3.6,Instagram,My mind doesn't stop worrying about everything.,8.92,10.06,0,1
+414,34,Male,young_adult_non_medical,2.9,TikTok,Feeling okay and getting things done.,9.69,7.23,0,0
+415,28,Male,young_adult_non_medical,5.83,Facebook,Just enjoying some time offline and relaxing.,7.46,8.71,0,0
+416,34,Female,healthcare_worker,1.82,Mixed,Sleeping badly and overthinking every night.,10.73,11.79,1,1
+417,21,Male,student,2.25,X,I feel overwhelmed and tired all the time.,12.84,13.37,1,1
+418,19,Male,student,3.95,Mixed,Had a good day catching up with friends.,9.84,8.28,0,0
+419,32,Male,young_adult_non_medical,3.71,WhatsApp,Had a good day catching up with friends.,8.12,8.24,0,0
+420,25,Female,young_adult_non_medical,2.49,X,"Today was a pretty normal, calm day.",8.15,8.78,0,0
+421,33,Female,young_adult_non_medical,2.13,Mixed,I keep pretending I'm okay but I'm really not.,10.17,10.33,1,1
+422,23,Male,young_adult_non_medical,3.9,X,Sleeping badly and overthinking every night.,15.18,14.78,1,1
+423,23,Male,student,4.9,Instagram,Feeling low and exhausted most of the time.,13.39,9.28,1,0
+424,42,Male,healthcare_worker,3.25,Facebook,Hard to get out of bed and stay motivated.,12.26,7.35,1,0
+425,23,Male,student,6.15,Mixed,I feel overwhelmed and tired all the time.,22.41,13.47,1,1
+426,57,Female,healthcare_worker,1.87,Facebook,Sleeping badly and overthinking every night.,13.53,17.31,1,1
+427,41,Female,healthcare_worker,0.0,WhatsApp,Feeling low and exhausted most of the time.,16.73,9.14,1,0
+428,36,Male,medical_professional,3.9,X,I feel overwhelmed and tired all the time.,20.25,19.29,1,1
+429,46,Male,healthcare_worker,3.62,Mixed,Feeling okay and getting things done.,8.78,7.36,0,0
+430,20,Other,student,4.86,Instagram,I keep pretending I'm okay but I'm really not.,22.76,21.0,1,1
+431,22,Male,student,2.5,X,I keep pretending I'm okay but I'm really not.,10.26,16.26,1,1
+432,30,Female,young_adult_non_medical,2.77,YouTube,I don't feel like doing anything these days.,12.16,7.38,1,0
+433,20,Male,young_adult_non_medical,3.87,X,I feel overwhelmed and tired all the time.,16.51,11.94,1,1
+434,25,Female,student,3.36,X,I keep pretending I'm okay but I'm really not.,16.49,14.27,1,1
+435,23,Male,student,1.74,Instagram,"Today was a pretty normal, calm day.",8.73,8.25,0,0
+436,25,Female,young_adult_non_medical,2.69,Instagram,Just enjoying some time offline and relaxing.,9.03,4.64,0,0
+437,24,Other,student,2.42,X,Hard to get out of bed and stay motivated.,14.66,9.0,1,0
+438,48,Male,medical_professional,0.11,Instagram,I keep pretending I'm okay but I'm really not.,13.92,19.31,1,1
+439,24,Male,young_adult_non_medical,3.17,YouTube,Feeling okay and getting things done.,6.13,8.8,0,0
+440,24,Male,student,2.63,TikTok,I don't feel like doing anything these days.,10.95,7.7,1,0
+441,18,Male,student,3.87,YouTube,Sleeping badly and overthinking every night.,14.79,12.71,1,1
+442,35,Male,medical_professional,0.0,WhatsApp,I feel overwhelmed and tired all the time.,17.2,12.1,1,1
+443,30,Male,healthcare_worker,1.77,Mixed,"Nothing feels enjoyable lately, everything makes me anxious.",14.5,16.98,1,1
+444,38,Female,healthcare_worker,1.58,Instagram,Sleeping badly and overthinking every night.,12.36,10.47,1,1
+445,44,Male,medical_professional,0.53,YouTube,Sleeping badly and overthinking every night.,13.12,14.03,1,1
+446,42,Male,medical_professional,1.63,X,Sleeping badly and overthinking every night.,15.19,12.35,1,1
+447,52,Female,medical_professional,1.95,Facebook,Even small tasks make me nervous lately.,9.69,10.5,0,1
+448,28,Male,young_adult_non_medical,2.57,Mixed,I don't feel like doing anything these days.,14.34,2.56,1,0
+449,56,Female,healthcare_worker,6.61,Mixed,Even small tasks make me nervous lately.,9.51,16.81,0,1
+450,18,Male,student,0.79,Facebook,I feel overwhelmed and tired all the time.,15.24,14.18,1,1
+451,20,Female,young_adult_non_medical,1.89,Instagram,"Today was a pretty normal, calm day.",8.57,4.15,0,0
+452,22,Female,young_adult_non_medical,5.32,Instagram,I don't feel like doing anything these days.,13.88,5.51,1,0
+453,49,Female,healthcare_worker,4.77,YouTube,I feel overwhelmed and tired all the time.,21.1,21.0,1,1
+454,34,Other,medical_professional,0.91,Instagram,I feel overwhelmed and tired all the time.,16.61,11.18,1,1
+455,20,Male,student,4.19,Facebook,"Nothing feels enjoyable lately, everything makes me anxious.",12.99,13.24,1,1
+456,31,Other,healthcare_worker,3.58,X,Sleeping badly and overthinking every night.,19.3,14.04,1,1
+457,23,Male,student,3.9,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",13.53,10.64,1,1
+458,37,Male,healthcare_worker,1.27,TikTok,Sleeping badly and overthinking every night.,15.4,12.9,1,1
+459,19,Male,student,2.08,Instagram,Feeling okay and getting things done.,5.27,5.14,0,0
+460,19,Female,student,0.42,YouTube,Just enjoying some time offline and relaxing.,7.51,4.8,0,0
+461,23,Male,student,2.94,X,Sleeping badly and overthinking every night.,14.68,12.97,1,1
+462,28,Female,young_adult_non_medical,3.55,YouTube,Lost interest in things I used to love.,12.19,0.75,1,0
+463,22,Female,young_adult_non_medical,2.13,YouTube,I keep pretending I'm okay but I'm really not.,13.3,17.43,1,1
+464,24,Female,young_adult_non_medical,1.75,Instagram,I feel overwhelmed and tired all the time.,13.72,13.79,1,1
+465,49,Female,medical_professional,2.25,YouTube,I feel overwhelmed and tired all the time.,15.89,10.2,1,1
+466,31,Male,healthcare_worker,1.81,Facebook,Sleeping badly and overthinking every night.,13.83,13.17,1,1
+467,25,Male,student,1.58,Mixed,I feel overwhelmed and tired all the time.,15.12,12.09,1,1
+468,25,Male,medical_professional,2.46,YouTube,I feel overwhelmed and tired all the time.,12.06,14.09,1,1
+469,23,Male,student,3.39,YouTube,Overthinking every message I send.,9.88,18.92,0,1
+470,51,Male,medical_professional,3.0,Facebook,"Nothing feels enjoyable lately, everything makes me anxious.",15.71,17.68,1,1
+471,22,Male,student,4.31,Mixed,I feel overwhelmed and tired all the time.,18.61,19.24,1,1
+472,52,Male,medical_professional,2.56,YouTube,I feel overwhelmed and tired all the time.,15.89,16.61,1,1
+473,19,Other,student,5.12,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",21.35,17.51,1,1
+474,48,Female,medical_professional,1.33,Facebook,I keep pretending I'm okay but I'm really not.,10.45,17.76,1,1
+475,35,Male,healthcare_worker,0.0,X,I keep pretending I'm okay but I'm really not.,14.22,13.44,1,1
+476,28,Female,medical_professional,1.69,Instagram,I feel overwhelmed and tired all the time.,10.86,14.74,1,1
+477,19,Male,student,3.07,X,Sleeping badly and overthinking every night.,12.39,12.03,1,1
+478,24,Male,young_adult_non_medical,2.94,Instagram,Lost interest in things I used to love.,13.47,6.62,1,0
+479,38,Female,medical_professional,2.51,WhatsApp,I keep pretending I'm okay but I'm really not.,10.0,15.76,1,1
+480,59,Female,healthcare_worker,4.7,WhatsApp,I feel overwhelmed and tired all the time.,19.23,12.32,1,1
+481,34,Male,young_adult_non_medical,1.18,TikTok,I keep pretending I'm okay but I'm really not.,13.27,14.5,1,1
+482,30,Other,young_adult_non_medical,3.37,WhatsApp,I don't feel like doing anything these days.,14.45,9.77,1,0
+483,46,Female,healthcare_worker,5.38,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",17.52,14.76,1,1
+484,25,Female,young_adult_non_medical,2.05,Instagram,Heart races whenever I have to talk to people.,5.53,11.31,0,1
+485,33,Female,young_adult_non_medical,3.77,TikTok,"Nothing feels enjoyable lately, everything makes me anxious.",16.48,11.45,1,1
+486,44,Female,medical_professional,3.93,Instagram,I keep pretending I'm okay but I'm really not.,21.88,16.83,1,1
+487,24,Male,student,3.99,YouTube,Hard to get out of bed and stay motivated.,13.49,9.19,1,0
+488,20,Male,student,2.35,Instagram,Hard to get out of bed and stay motivated.,17.38,5.08,1,0
+489,39,Male,medical_professional,1.81,Facebook,Sleeping badly and overthinking every night.,12.54,16.01,1,1
+490,38,Male,medical_professional,2.73,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",14.94,12.4,1,1
+491,48,Female,healthcare_worker,3.02,YouTube,I don't feel like doing anything these days.,11.25,5.22,1,0
+492,23,Male,young_adult_non_medical,3.16,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",12.49,15.87,1,1
+493,20,Other,student,2.56,TikTok,Had a good day catching up with friends.,8.74,8.43,0,0
+494,20,Female,student,5.07,WhatsApp,Sleeping badly and overthinking every night.,10.1,14.51,1,1
+495,38,Female,healthcare_worker,3.47,Facebook,"Nothing feels enjoyable lately, everything makes me anxious.",17.83,12.37,1,1
+496,27,Female,healthcare_worker,2.88,TikTok,I keep pretending I'm okay but I'm really not.,15.72,15.84,1,1
+497,24,Female,young_adult_non_medical,1.84,Mixed,Feeling okay and getting things done.,7.32,5.22,0,0
+498,22,Male,student,4.48,YouTube,Just enjoying some time offline and relaxing.,7.95,8.69,0,0
+499,45,Female,medical_professional,0.98,Mixed,I keep pretending I'm okay but I'm really not.,17.33,12.0,1,1
+500,42,Male,medical_professional,2.62,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",13.46,17.2,1,1
+501,21,Female,young_adult_non_medical,3.94,YouTube,"Today was a pretty normal, calm day.",7.26,5.0,0,0
+502,37,Male,healthcare_worker,1.61,TikTok,"Nothing feels enjoyable lately, everything makes me anxious.",16.86,20.32,1,1
+503,22,Female,student,5.17,YouTube,"Today was a pretty normal, calm day.",8.69,9.98,0,0
+504,27,Female,medical_professional,0.0,YouTube,Feeling low and exhausted most of the time.,11.54,9.18,1,0
+505,24,Male,young_adult_non_medical,4.29,YouTube,Sleeping badly and overthinking every night.,19.46,15.25,1,1
+506,21,Male,student,3.46,X,Feeling okay and getting things done.,8.28,4.24,0,0
+507,50,Other,medical_professional,1.81,YouTube,Overthinking every message I send.,8.77,11.7,0,1
+508,52,Female,medical_professional,2.65,Facebook,I keep pretending I'm okay but I'm really not.,16.87,14.92,1,1
+509,51,Female,medical_professional,0.0,TikTok,Feeling okay and getting things done.,3.92,4.26,0,0
+510,22,Female,young_adult_non_medical,3.88,X,Lost interest in things I used to love.,12.18,8.76,1,0
+511,27,Male,young_adult_non_medical,1.1,Instagram,Overthinking every message I send.,9.82,13.79,0,1
+512,39,Male,healthcare_worker,3.32,Mixed,I keep pretending I'm okay but I'm really not.,13.99,17.68,1,1
+513,59,Male,medical_professional,0.53,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",17.88,21.0,1,1
+514,53,Female,medical_professional,1.27,Instagram,Hard to get out of bed and stay motivated.,13.26,7.66,1,0
+515,19,Male,student,5.54,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",16.59,15.09,1,1
+516,19,Female,student,3.18,WhatsApp,I feel overwhelmed and tired all the time.,13.35,17.68,1,1
+517,36,Female,healthcare_worker,1.86,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",14.24,18.68,1,1
+518,27,Female,medical_professional,2.38,Instagram,I feel overwhelmed and tired all the time.,14.43,16.48,1,1
+519,49,Female,medical_professional,1.08,YouTube,Overthinking every message I send.,3.82,14.4,0,1
+520,18,Other,student,1.83,YouTube,My mind doesn't stop worrying about everything.,7.43,10.34,0,1
+521,33,Male,young_adult_non_medical,2.04,X,"Nothing feels enjoyable lately, everything makes me anxious.",12.43,11.31,1,1
+522,34,Female,healthcare_worker,2.19,TikTok,I feel overwhelmed and tired all the time.,13.75,14.32,1,1
+523,30,Female,medical_professional,1.84,Facebook,Feeling okay and getting things done.,7.94,7.01,0,0
+524,54,Female,medical_professional,0.0,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",11.62,13.64,1,1
+525,33,Female,medical_professional,3.94,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",13.69,12.54,1,1
+526,36,Male,healthcare_worker,1.53,Mixed,My mind doesn't stop worrying about everything.,7.98,12.5,0,1
+527,54,Male,healthcare_worker,0.0,Instagram,Just enjoying some time offline and relaxing.,8.2,8.35,0,0
+528,24,Female,student,3.38,TikTok,I keep pretending I'm okay but I'm really not.,14.3,17.26,1,1
+529,24,Male,student,1.6,Instagram,Had a good day catching up with friends.,4.55,9.01,0,0
+530,59,Female,medical_professional,2.79,Mixed,"Nothing feels enjoyable lately, everything makes me anxious.",19.72,16.24,1,1
+531,43,Female,medical_professional,2.97,YouTube,I feel overwhelmed and tired all the time.,18.54,21.0,1,1
+532,27,Male,medical_professional,3.94,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",17.66,19.86,1,1
+533,30,Female,medical_professional,1.15,Facebook,"Nothing feels enjoyable lately, everything makes me anxious.",11.41,16.57,1,1
+534,25,Male,young_adult_non_medical,3.14,WhatsApp,Just enjoying some time offline and relaxing.,9.12,7.58,0,0
+535,20,Female,young_adult_non_medical,3.23,YouTube,Even small tasks make me nervous lately.,6.76,10.45,0,1
+536,36,Female,medical_professional,0.34,WhatsApp,I feel overwhelmed and tired all the time.,12.73,17.16,1,1
+537,45,Female,medical_professional,3.12,Facebook,"Nothing feels enjoyable lately, everything makes me anxious.",15.13,10.81,1,1
+538,23,Male,student,4.77,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",24.44,16.11,1,1
+539,44,Male,healthcare_worker,4.0,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",19.02,21.0,1,1
+540,23,Female,student,3.4,WhatsApp,Sleeping badly and overthinking every night.,11.95,21.0,1,1
+541,51,Female,medical_professional,2.8,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",11.55,15.78,1,1
+542,28,Female,young_adult_non_medical,2.97,X,I feel overwhelmed and tired all the time.,12.4,10.41,1,1
+543,19,Male,student,2.62,Instagram,I keep pretending I'm okay but I'm really not.,14.83,11.97,1,1
+544,28,Male,young_adult_non_medical,1.74,YouTube,Hard to get out of bed and stay motivated.,14.82,3.59,1,0
+545,34,Male,young_adult_non_medical,4.14,Instagram,Feeling okay and getting things done.,9.46,8.18,0,0
+546,33,Female,healthcare_worker,2.68,WhatsApp,I feel overwhelmed and tired all the time.,17.28,14.25,1,1
+547,25,Male,student,4.71,Instagram,I keep pretending I'm okay but I'm really not.,16.63,17.37,1,1
+548,29,Male,young_adult_non_medical,2.02,Instagram,I keep pretending I'm okay but I'm really not.,13.06,12.44,1,1
+549,31,Female,healthcare_worker,0.0,Instagram,Had a good day catching up with friends.,1.12,8.32,0,0
+550,27,Male,young_adult_non_medical,6.66,Mixed,Lost interest in things I used to love.,13.04,8.7,1,0
+551,39,Other,healthcare_worker,0.45,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",18.85,16.79,1,1
+552,49,Female,medical_professional,1.59,Facebook,Sleeping badly and overthinking every night.,19.48,10.43,1,1
+553,30,Female,young_adult_non_medical,1.93,Instagram,Lost interest in things I used to love.,11.16,2.67,1,0
+554,24,Male,young_adult_non_medical,5.43,Instagram,I feel overwhelmed and tired all the time.,12.45,12.16,1,1
+555,27,Male,medical_professional,2.16,WhatsApp,Feeling okay and getting things done.,8.89,9.5,0,0
+556,47,Female,healthcare_worker,4.61,WhatsApp,I keep pretending I'm okay but I'm really not.,23.9,14.91,1,1
+557,20,Female,student,2.5,Mixed,I keep pretending I'm okay but I'm really not.,18.21,15.13,1,1
+558,21,Female,student,0.94,Mixed,My mind doesn't stop worrying about everything.,9.98,11.37,0,1
+559,31,Male,young_adult_non_medical,3.78,Facebook,I don't feel like doing anything these days.,10.05,8.73,1,0
+560,26,Female,young_adult_non_medical,3.77,X,I keep pretending I'm okay but I'm really not.,17.95,16.55,1,1
+561,29,Female,young_adult_non_medical,2.77,WhatsApp,I don't feel like doing anything these days.,16.54,7.54,1,0
+562,18,Female,student,1.81,YouTube,My mind doesn't stop worrying about everything.,7.73,13.77,0,1
+563,19,Female,student,4.2,Mixed,"Today was a pretty normal, calm day.",9.07,6.83,0,0
+564,20,Female,student,3.73,X,"Nothing feels enjoyable lately, everything makes me anxious.",10.69,12.35,1,1
+565,59,Female,healthcare_worker,0.0,WhatsApp,I keep pretending I'm okay but I'm really not.,14.19,10.86,1,1
+566,29,Male,young_adult_non_medical,3.9,Instagram,"Today was a pretty normal, calm day.",8.32,7.75,0,0
+567,56,Female,healthcare_worker,1.26,Instagram,I feel overwhelmed and tired all the time.,13.15,16.32,1,1
+568,28,Male,healthcare_worker,1.6,Mixed,"Nothing feels enjoyable lately, everything makes me anxious.",16.22,12.41,1,1
+569,58,Male,medical_professional,1.92,YouTube,I keep pretending I'm okay but I'm really not.,11.7,13.19,1,1
+570,21,Male,student,0.07,YouTube,Sleeping badly and overthinking every night.,11.08,12.91,1,1
+571,57,Male,healthcare_worker,3.13,Instagram,I keep pretending I'm okay but I'm really not.,14.8,16.56,1,1
+572,20,Male,young_adult_non_medical,0.0,TikTok,I keep pretending I'm okay but I'm really not.,10.27,11.38,1,1
+573,44,Male,healthcare_worker,2.1,Instagram,I keep pretending I'm okay but I'm really not.,20.26,10.06,1,1
+574,20,Female,young_adult_non_medical,6.18,TikTok,Lost interest in things I used to love.,12.84,9.03,1,0
+575,45,Female,medical_professional,2.29,Instagram,I keep pretending I'm okay but I'm really not.,11.41,16.25,1,1
+576,38,Male,medical_professional,0.68,TikTok,Sleeping badly and overthinking every night.,18.57,21.0,1,1
+577,20,Female,student,6.92,Facebook,I feel overwhelmed and tired all the time.,19.55,10.84,1,1
+578,51,Female,medical_professional,1.16,Instagram,Overthinking every message I send.,4.6,10.26,0,1
+579,30,Male,healthcare_worker,4.48,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",20.48,13.76,1,1
+580,25,Male,student,4.56,YouTube,I keep pretending I'm okay but I'm really not.,15.24,20.3,1,1
+581,34,Female,healthcare_worker,2.41,Instagram,I keep pretending I'm okay but I'm really not.,15.36,10.58,1,1
+582,33,Female,medical_professional,0.31,TikTok,Sleeping badly and overthinking every night.,13.05,11.94,1,1
+583,32,Female,healthcare_worker,1.51,YouTube,Sleeping badly and overthinking every night.,14.92,13.89,1,1
+584,23,Male,student,7.99,YouTube,Lost interest in things I used to love.,14.0,9.28,1,0
+585,32,Male,young_adult_non_medical,2.2,Instagram,Had a good day catching up with friends.,9.29,9.82,0,0
+586,22,Male,student,8.23,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",16.72,21.0,1,1
+587,18,Male,student,6.31,TikTok,"Nothing feels enjoyable lately, everything makes me anxious.",13.74,12.43,1,1
+588,23,Male,student,4.03,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",15.91,16.46,1,1
+589,18,Male,student,4.55,Mixed,"Today was a pretty normal, calm day.",8.53,9.53,0,0
+590,19,Female,student,2.62,Mixed,I feel overwhelmed and tired all the time.,18.42,13.14,1,1
+591,25,Female,student,5.61,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",18.85,16.24,1,1
+592,22,Male,young_adult_non_medical,0.0,Instagram,Had a good day catching up with friends.,8.55,0.48,0,0
+593,24,Female,student,4.13,TikTok,I feel overwhelmed and tired all the time.,15.82,17.3,1,1
+594,22,Male,student,0.38,YouTube,Feeling okay and getting things done.,8.11,5.15,0,0
+595,41,Male,medical_professional,0.0,Instagram,My mind doesn't stop worrying about everything.,7.26,13.77,0,1
+596,26,Male,healthcare_worker,3.58,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",18.85,16.43,1,1
+597,29,Female,young_adult_non_medical,2.42,WhatsApp,Feeling low and exhausted most of the time.,11.64,8.8,1,0
+598,23,Other,student,4.04,Facebook,"Nothing feels enjoyable lately, everything makes me anxious.",16.17,10.95,1,1
+599,22,Female,student,2.5,Instagram,I keep pretending I'm okay but I'm really not.,16.31,12.98,1,1
+600,24,Male,student,3.29,Instagram,Sleeping badly and overthinking every night.,13.24,19.47,1,1
+601,18,Female,student,4.56,Mixed,Lost interest in things I used to love.,10.93,8.17,1,0
+602,18,Male,student,4.76,Facebook,I don't feel like doing anything these days.,12.45,7.65,1,0
+603,20,Female,student,3.27,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",11.1,15.22,1,1
+604,24,Female,student,0.89,Facebook,"Today was a pretty normal, calm day.",8.62,2.85,0,0
+605,25,Male,student,4.53,YouTube,Feeling low and exhausted most of the time.,13.01,5.53,1,0
+606,42,Female,healthcare_worker,3.27,Facebook,I feel overwhelmed and tired all the time.,12.95,11.07,1,1
+607,21,Female,student,3.84,YouTube,Sleeping badly and overthinking every night.,18.31,13.29,1,1
+608,49,Male,healthcare_worker,1.75,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",10.27,11.56,1,1
+609,55,Female,healthcare_worker,0.78,Facebook,I don't feel like doing anything these days.,16.56,6.69,1,0
+610,26,Male,young_adult_non_medical,0.56,YouTube,Feeling okay and getting things done.,8.77,2.82,0,0
+611,22,Female,student,0.38,Mixed,Heart races whenever I have to talk to people.,8.33,12.03,0,1
+612,33,Female,young_adult_non_medical,3.52,YouTube,Feeling okay and getting things done.,9.83,8.34,0,0
+613,23,Female,young_adult_non_medical,2.08,Mixed,Just enjoying some time offline and relaxing.,4.35,9.26,0,0
+614,25,Female,student,6.18,Mixed,Sleeping badly and overthinking every night.,15.89,21.0,1,1
+615,56,Female,medical_professional,4.65,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",15.83,12.77,1,1
+616,59,Male,medical_professional,2.2,Facebook,"Nothing feels enjoyable lately, everything makes me anxious.",11.49,13.03,1,1
+617,20,Female,student,3.38,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",19.04,12.22,1,1
+618,18,Male,student,3.76,Mixed,Heart races whenever I have to talk to people.,7.0,13.98,0,1
+619,31,Female,medical_professional,1.15,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",13.27,10.18,1,1
+620,20,Male,young_adult_non_medical,3.51,Facebook,Feeling okay and getting things done.,7.55,7.66,0,0
+621,20,Male,student,3.31,WhatsApp,Heart races whenever I have to talk to people.,6.13,11.02,0,1
+622,23,Female,student,0.63,Instagram,Feeling okay and getting things done.,8.88,8.45,0,0
+623,27,Male,healthcare_worker,1.12,Instagram,I keep pretending I'm okay but I'm really not.,11.87,14.6,1,1
+624,36,Female,healthcare_worker,1.72,YouTube,My mind doesn't stop worrying about everything.,8.86,12.33,0,1
+625,20,Male,young_adult_non_medical,2.18,Facebook,"Nothing feels enjoyable lately, everything makes me anxious.",11.39,10.92,1,1
+626,25,Male,healthcare_worker,0.96,X,I keep pretending I'm okay but I'm really not.,14.78,16.74,1,1
+627,28,Female,healthcare_worker,2.14,X,"Nothing feels enjoyable lately, everything makes me anxious.",16.45,13.64,1,1
+628,31,Male,young_adult_non_medical,3.85,YouTube,I keep pretending I'm okay but I'm really not.,21.65,16.83,1,1
+629,20,Male,student,3.79,WhatsApp,I don't feel like doing anything these days.,15.46,8.72,1,0
+630,25,Female,student,4.52,Instagram,I don't feel like doing anything these days.,14.45,9.92,1,0
+631,24,Male,young_adult_non_medical,3.3,TikTok,I don't feel like doing anything these days.,10.05,3.9,1,0
+632,31,Female,medical_professional,2.34,Mixed,I feel overwhelmed and tired all the time.,10.95,11.08,1,1
+633,31,Male,healthcare_worker,2.82,YouTube,Sleeping badly and overthinking every night.,13.84,13.66,1,1
+634,26,Male,healthcare_worker,0.0,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",13.28,14.21,1,1
+635,23,Female,student,3.45,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",16.96,13.88,1,1
+636,26,Male,healthcare_worker,1.43,X,Lost interest in things I used to love.,14.84,4.91,1,0
+637,45,Male,healthcare_worker,2.38,X,Sleeping badly and overthinking every night.,17.05,12.83,1,1
+638,23,Male,student,4.31,Facebook,Had a good day catching up with friends.,9.51,7.89,0,0
+639,19,Male,student,1.08,YouTube,"Today was a pretty normal, calm day.",8.14,9.15,0,0
+640,46,Female,healthcare_worker,3.65,Facebook,"Nothing feels enjoyable lately, everything makes me anxious.",18.27,15.93,1,1
+641,21,Male,student,4.47,X,"Nothing feels enjoyable lately, everything makes me anxious.",16.65,13.41,1,1
+642,19,Female,student,4.19,YouTube,I keep pretending I'm okay but I'm really not.,13.3,13.17,1,1
+643,23,Female,student,3.86,WhatsApp,Feeling low and exhausted most of the time.,10.46,3.61,1,0
+644,18,Male,student,0.67,Instagram,I don't feel like doing anything these days.,11.67,5.66,1,0
+645,20,Female,student,1.45,WhatsApp,"Today was a pretty normal, calm day.",5.23,6.79,0,0
+646,57,Male,medical_professional,0.14,TikTok,I feel overwhelmed and tired all the time.,23.29,18.9,1,1
+647,26,Other,young_adult_non_medical,2.65,YouTube,Lost interest in things I used to love.,10.45,9.49,1,0
+648,33,Male,young_adult_non_medical,5.43,TikTok,"Today was a pretty normal, calm day.",8.58,9.06,0,0
+649,23,Female,young_adult_non_medical,2.22,WhatsApp,I feel overwhelmed and tired all the time.,16.13,16.27,1,1
+650,31,Female,healthcare_worker,0.58,Instagram,Hard to get out of bed and stay motivated.,18.16,9.83,1,0
+651,23,Male,student,1.92,WhatsApp,Lost interest in things I used to love.,11.34,4.79,1,0
+652,59,Female,healthcare_worker,0.96,WhatsApp,I keep pretending I'm okay but I'm really not.,14.11,11.83,1,1
+653,24,Female,young_adult_non_medical,2.95,YouTube,Sleeping badly and overthinking every night.,14.04,12.64,1,1
+654,32,Male,young_adult_non_medical,1.8,Instagram,Had a good day catching up with friends.,6.67,3.93,0,0
+655,52,Male,healthcare_worker,3.67,YouTube,Just enjoying some time offline and relaxing.,6.43,8.4,0,0
+656,24,Female,student,4.35,Instagram,Heart races whenever I have to talk to people.,7.4,13.58,0,1
+657,24,Female,student,1.89,Instagram,Hard to get out of bed and stay motivated.,10.14,6.6,1,0
+658,39,Other,healthcare_worker,3.48,YouTube,Feeling low and exhausted most of the time.,12.27,7.42,1,0
+659,29,Female,young_adult_non_medical,4.22,YouTube,"Today was a pretty normal, calm day.",9.74,6.13,0,0
+660,33,Female,young_adult_non_medical,2.25,Mixed,I don't feel like doing anything these days.,11.08,8.99,1,0
+661,53,Female,healthcare_worker,1.29,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",17.61,15.38,1,1
+662,39,Male,medical_professional,0.0,Facebook,I keep pretending I'm okay but I'm really not.,13.73,15.4,1,1
+663,31,Male,young_adult_non_medical,2.75,WhatsApp,I keep pretending I'm okay but I'm really not.,17.03,20.13,1,1
+664,18,Female,student,4.14,Facebook,Sleeping badly and overthinking every night.,10.19,14.28,1,1
+665,25,Female,student,3.52,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",20.34,13.51,1,1
+666,21,Male,student,3.84,Mixed,"Today was a pretty normal, calm day.",8.85,5.48,0,0
+667,25,Male,student,5.24,WhatsApp,I keep pretending I'm okay but I'm really not.,10.22,11.65,1,1
+668,21,Female,student,3.25,TikTok,Feeling okay and getting things done.,9.83,9.78,0,0
+669,20,Female,student,4.51,YouTube,I don't feel like doing anything these days.,13.91,8.49,1,0
+670,25,Male,student,2.82,Instagram,My mind doesn't stop worrying about everything.,5.73,10.38,0,1
+671,23,Male,student,6.82,X,I feel overwhelmed and tired all the time.,22.14,13.56,1,1
+672,46,Male,medical_professional,1.96,Instagram,Heart races whenever I have to talk to people.,3.72,12.14,0,1
+673,21,Male,student,5.86,WhatsApp,Sleeping badly and overthinking every night.,18.33,11.16,1,1
+674,28,Male,healthcare_worker,0.5,Instagram,I feel overwhelmed and tired all the time.,13.98,13.93,1,1
+675,43,Male,healthcare_worker,1.72,X,Sleeping badly and overthinking every night.,17.71,17.19,1,1
+676,24,Female,medical_professional,0.67,Mixed,I feel overwhelmed and tired all the time.,11.78,10.32,1,1
+677,18,Male,student,2.84,WhatsApp,I feel overwhelmed and tired all the time.,21.89,14.53,1,1
+678,53,Female,healthcare_worker,1.37,TikTok,I don't feel like doing anything these days.,10.36,8.33,1,0
+679,44,Female,medical_professional,1.73,WhatsApp,Sleeping badly and overthinking every night.,11.14,13.91,1,1
+680,43,Male,medical_professional,0.89,WhatsApp,Even small tasks make me nervous lately.,7.35,10.9,0,1
+681,29,Female,medical_professional,4.09,Mixed,"Nothing feels enjoyable lately, everything makes me anxious.",15.17,14.94,1,1
+682,23,Male,student,0.46,TikTok,Sleeping badly and overthinking every night.,11.81,10.29,1,1
+683,19,Female,student,2.93,Facebook,Overthinking every message I send.,7.37,14.19,0,1
+684,27,Male,young_adult_non_medical,4.84,YouTube,Feeling okay and getting things done.,8.14,2.66,0,0
+685,55,Female,medical_professional,1.68,WhatsApp,Just enjoying some time offline and relaxing.,6.83,8.47,0,0
+686,20,Female,young_adult_non_medical,4.12,Instagram,I don't feel like doing anything these days.,13.72,8.9,1,0
+687,24,Male,young_adult_non_medical,4.95,YouTube,Hard to get out of bed and stay motivated.,11.15,5.67,1,0
+688,25,Male,student,1.76,WhatsApp,I don't feel like doing anything these days.,17.22,7.65,1,0
+689,31,Female,young_adult_non_medical,3.39,TikTok,"Nothing feels enjoyable lately, everything makes me anxious.",15.54,13.29,1,1
+690,23,Female,student,1.56,TikTok,My mind doesn't stop worrying about everything.,8.3,12.12,0,1
+691,21,Male,student,0.85,YouTube,I keep pretending I'm okay but I'm really not.,11.47,11.88,1,1
+692,57,Female,healthcare_worker,2.07,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",14.5,14.65,1,1
+693,37,Male,healthcare_worker,2.02,TikTok,Had a good day catching up with friends.,5.87,6.72,0,0
+694,21,Female,student,3.72,Instagram,Feeling low and exhausted most of the time.,15.33,9.86,1,0
+695,18,Male,student,3.45,X,I keep pretending I'm okay but I'm really not.,14.37,12.81,1,1
+696,26,Female,young_adult_non_medical,3.18,Instagram,I keep pretending I'm okay but I'm really not.,12.67,15.23,1,1
+697,19,Male,student,2.39,YouTube,Heart races whenever I have to talk to people.,8.67,13.29,0,1
+698,32,Male,young_adult_non_medical,1.62,Mixed,Feeling okay and getting things done.,9.96,7.93,0,0
+699,19,Male,student,2.97,Instagram,Even small tasks make me nervous lately.,9.89,17.28,0,1
+700,44,Male,healthcare_worker,3.34,YouTube,Feeling low and exhausted most of the time.,16.03,9.92,1,0
+701,25,Female,healthcare_worker,0.01,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",12.51,12.04,1,1
+702,20,Male,student,3.12,Mixed,I keep pretending I'm okay but I'm really not.,10.93,14.91,1,1
+703,18,Female,student,4.6,TikTok,Feeling low and exhausted most of the time.,12.56,9.25,1,0
+704,18,Male,student,5.38,Instagram,I keep pretending I'm okay but I'm really not.,10.65,13.06,1,1
+705,18,Male,student,4.82,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",12.75,12.96,1,1
+706,34,Male,medical_professional,3.6,X,My mind doesn't stop worrying about everything.,9.53,11.82,0,1
+707,20,Male,student,5.66,YouTube,"Today was a pretty normal, calm day.",6.22,5.47,0,0
+708,46,Male,medical_professional,0.48,X,Hard to get out of bed and stay motivated.,14.23,8.74,1,0
+709,19,Male,student,3.53,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",13.59,14.53,1,1
+710,23,Female,young_adult_non_medical,2.29,Instagram,Lost interest in things I used to love.,11.89,6.23,1,0
+711,21,Male,young_adult_non_medical,4.57,X,"Today was a pretty normal, calm day.",9.98,7.9,0,0
+712,26,Female,young_adult_non_medical,4.96,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",11.79,11.79,1,1
+713,29,Female,healthcare_worker,1.11,TikTok,"Nothing feels enjoyable lately, everything makes me anxious.",10.74,17.41,1,1
+714,58,Male,healthcare_worker,2.97,Instagram,Just enjoying some time offline and relaxing.,8.04,8.16,0,0
+715,23,Male,student,5.37,Instagram,My mind doesn't stop worrying about everything.,7.98,12.66,0,1
+716,38,Other,medical_professional,3.25,Mixed,"Nothing feels enjoyable lately, everything makes me anxious.",22.56,21.0,1,1
+717,45,Female,medical_professional,5.23,YouTube,I keep pretending I'm okay but I'm really not.,14.27,17.16,1,1
+718,35,Female,medical_professional,1.01,Facebook,Feeling okay and getting things done.,9.17,6.9,0,0
+719,24,Male,student,2.87,Instagram,I feel overwhelmed and tired all the time.,18.12,10.66,1,1
+720,20,Female,young_adult_non_medical,5.45,X,Overthinking every message I send.,7.98,11.65,0,1
+721,41,Female,medical_professional,4.01,Facebook,Heart races whenever I have to talk to people.,7.87,11.51,0,1
+722,22,Female,student,2.99,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",17.9,11.62,1,1
+723,20,Other,student,5.33,TikTok,"Nothing feels enjoyable lately, everything makes me anxious.",17.2,17.03,1,1
+724,33,Male,young_adult_non_medical,1.77,X,Feeling okay and getting things done.,7.36,8.36,0,0
+725,27,Male,young_adult_non_medical,2.6,YouTube,Just enjoying some time offline and relaxing.,8.76,4.4,0,0
+726,53,Female,medical_professional,0.0,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",13.68,12.34,1,1
+727,23,Female,student,1.14,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",10.57,10.72,1,1
+728,25,Male,young_adult_non_medical,3.11,Instagram,Hard to get out of bed and stay motivated.,10.4,6.74,1,0
+729,20,Male,student,4.94,YouTube,I keep pretending I'm okay but I'm really not.,10.24,16.83,1,1
+730,25,Male,student,3.64,YouTube,Sleeping badly and overthinking every night.,15.44,21.0,1,1
+731,24,Male,student,3.58,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",11.05,11.59,1,1
+732,37,Female,medical_professional,1.78,Facebook,Overthinking every message I send.,7.59,14.44,0,1
+733,28,Female,young_adult_non_medical,2.19,WhatsApp,I feel overwhelmed and tired all the time.,10.41,12.0,1,1
+734,38,Male,healthcare_worker,5.39,Mixed,Sleeping badly and overthinking every night.,18.28,17.75,1,1
+735,44,Male,healthcare_worker,2.72,YouTube,Sleeping badly and overthinking every night.,17.03,10.39,1,1
+736,58,Male,medical_professional,1.54,YouTube,Feeling low and exhausted most of the time.,10.58,5.59,1,0
+737,25,Male,healthcare_worker,1.67,Facebook,Feeling low and exhausted most of the time.,10.48,9.83,1,0
+738,50,Female,medical_professional,0.3,WhatsApp,I feel overwhelmed and tired all the time.,17.37,13.02,1,1
+739,25,Other,healthcare_worker,2.14,WhatsApp,Feeling low and exhausted most of the time.,15.09,9.51,1,0
+740,58,Female,healthcare_worker,0.0,Instagram,Feeling okay and getting things done.,8.35,9.09,0,0
+741,41,Male,healthcare_worker,4.91,YouTube,I keep pretending I'm okay but I'm really not.,16.77,19.85,1,1
+742,23,Female,student,0.0,YouTube,Had a good day catching up with friends.,7.97,8.31,0,0
+743,23,Female,young_adult_non_medical,2.56,Mixed,Feeling low and exhausted most of the time.,11.13,6.62,1,0
+744,41,Female,healthcare_worker,0.0,YouTube,Overthinking every message I send.,9.11,17.73,0,1
+745,25,Male,student,2.96,TikTok,I keep pretending I'm okay but I'm really not.,16.59,14.83,1,1
+746,33,Male,medical_professional,1.18,X,Even small tasks make me nervous lately.,1.96,10.7,0,1
+747,48,Male,healthcare_worker,5.87,YouTube,I keep pretending I'm okay but I'm really not.,13.38,16.93,1,1
+748,25,Male,healthcare_worker,2.53,WhatsApp,I keep pretending I'm okay but I'm really not.,15.82,20.93,1,1
+749,48,Male,medical_professional,2.2,TikTok,Sleeping badly and overthinking every night.,17.96,13.45,1,1
+750,32,Male,young_adult_non_medical,4.39,TikTok,Feeling low and exhausted most of the time.,12.53,9.16,1,0
+751,23,Female,student,0.97,Instagram,Overthinking every message I send.,9.42,11.16,0,1
+752,56,Female,medical_professional,0.34,YouTube,I feel overwhelmed and tired all the time.,17.61,17.61,1,1
+753,23,Male,young_adult_non_medical,5.35,YouTube,Lost interest in things I used to love.,12.87,9.04,1,0
+754,24,Male,student,1.81,Instagram,I keep pretending I'm okay but I'm really not.,10.12,11.4,1,1
+755,23,Female,student,4.08,WhatsApp,Overthinking every message I send.,8.03,17.91,0,1
+756,20,Female,young_adult_non_medical,2.73,TikTok,My mind doesn't stop worrying about everything.,8.65,15.63,0,1
+757,33,Female,young_adult_non_medical,2.03,YouTube,Had a good day catching up with friends.,9.51,8.1,0,0
+758,39,Other,healthcare_worker,3.12,Facebook,Hard to get out of bed and stay motivated.,10.45,6.69,1,0
+759,26,Female,medical_professional,3.92,X,I keep pretending I'm okay but I'm really not.,19.25,19.49,1,1
+760,22,Other,young_adult_non_medical,2.07,YouTube,Sleeping badly and overthinking every night.,13.06,13.28,1,1
+761,18,Male,student,3.39,Instagram,I keep pretending I'm okay but I'm really not.,11.07,11.14,1,1
+762,23,Male,student,4.18,Facebook,I feel overwhelmed and tired all the time.,14.46,13.47,1,1
+763,18,Male,student,4.88,TikTok,I keep pretending I'm okay but I'm really not.,17.54,13.04,1,1
+764,32,Male,young_adult_non_medical,4.46,X,"Nothing feels enjoyable lately, everything makes me anxious.",12.88,15.33,1,1
+765,22,Male,student,2.63,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",11.45,14.76,1,1
+766,21,Female,young_adult_non_medical,3.99,Instagram,"Today was a pretty normal, calm day.",8.31,3.83,0,0
+767,27,Female,young_adult_non_medical,3.74,Instagram,I keep pretending I'm okay but I'm really not.,12.67,12.52,1,1
+768,44,Female,medical_professional,0.0,WhatsApp,I keep pretending I'm okay but I'm really not.,20.76,17.88,1,1
+769,19,Male,student,4.05,Facebook,Overthinking every message I send.,8.57,14.23,0,1
+770,27,Female,medical_professional,2.29,Instagram,I keep pretending I'm okay but I'm really not.,18.01,15.49,1,1
+771,18,Female,student,3.56,TikTok,I keep pretending I'm okay but I'm really not.,11.53,13.45,1,1
+772,38,Male,medical_professional,0.11,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",12.36,18.62,1,1
+773,21,Female,student,2.56,X,Feeling okay and getting things done.,6.82,8.98,0,0
+774,35,Male,healthcare_worker,1.99,Mixed,Even small tasks make me nervous lately.,9.78,14.88,0,1
+775,31,Male,young_adult_non_medical,2.59,Instagram,Feeling okay and getting things done.,6.96,5.59,0,0
+776,22,Female,student,3.93,Mixed,"Nothing feels enjoyable lately, everything makes me anxious.",11.07,12.2,1,1
+777,24,Male,student,4.05,Instagram,I feel overwhelmed and tired all the time.,16.11,15.41,1,1
+778,33,Male,young_adult_non_medical,1.99,YouTube,Overthinking every message I send.,7.78,11.03,0,1
+779,23,Female,young_adult_non_medical,3.7,TikTok,Sleeping badly and overthinking every night.,15.64,10.78,1,1
+780,21,Female,young_adult_non_medical,3.43,Mixed,"Nothing feels enjoyable lately, everything makes me anxious.",12.62,12.23,1,1
+781,32,Male,young_adult_non_medical,2.49,WhatsApp,Feeling okay and getting things done.,4.11,7.97,0,0
+782,29,Male,healthcare_worker,2.94,WhatsApp,I keep pretending I'm okay but I'm really not.,16.36,16.69,1,1
+783,25,Male,student,4.14,Facebook,I feel overwhelmed and tired all the time.,14.13,16.75,1,1
+784,22,Female,student,1.02,TikTok,Just enjoying some time offline and relaxing.,7.04,2.16,0,0
+785,20,Male,student,4.47,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",17.1,19.81,1,1
+786,25,Male,medical_professional,3.55,TikTok,"Nothing feels enjoyable lately, everything makes me anxious.",15.78,13.52,1,1
+787,31,Female,young_adult_non_medical,5.26,WhatsApp,Heart races whenever I have to talk to people.,9.89,11.24,0,1
+788,46,Female,healthcare_worker,1.82,WhatsApp,I feel overwhelmed and tired all the time.,14.08,14.49,1,1
+789,42,Male,healthcare_worker,2.66,YouTube,I feel overwhelmed and tired all the time.,10.99,17.21,1,1
+790,54,Female,medical_professional,1.05,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",15.18,17.73,1,1
+791,20,Female,student,2.46,Mixed,Heart races whenever I have to talk to people.,9.68,11.76,0,1
+792,24,Male,young_adult_non_medical,0.4,WhatsApp,Just enjoying some time offline and relaxing.,5.61,6.91,0,0
+793,42,Male,healthcare_worker,2.88,Mixed,I keep pretending I'm okay but I'm really not.,10.45,15.45,1,1
+794,21,Female,young_adult_non_medical,1.96,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",15.06,17.58,1,1
+795,19,Male,student,5.28,Facebook,Had a good day catching up with friends.,8.38,6.39,0,0
+796,48,Female,medical_professional,1.9,TikTok,I keep pretending I'm okay but I'm really not.,13.65,12.3,1,1
+797,25,Male,medical_professional,4.49,X,I keep pretending I'm okay but I'm really not.,17.3,15.88,1,1
+798,33,Male,young_adult_non_medical,3.59,X,I keep pretending I'm okay but I'm really not.,18.18,11.85,1,1
+799,30,Male,young_adult_non_medical,3.66,WhatsApp,Feeling okay and getting things done.,5.48,7.81,0,0
+800,54,Male,medical_professional,2.12,TikTok,"Today was a pretty normal, calm day.",7.1,8.43,0,0
+801,27,Male,young_adult_non_medical,2.69,TikTok,"Nothing feels enjoyable lately, everything makes me anxious.",10.19,14.48,1,1
+802,24,Male,student,0.06,Instagram,Even small tasks make me nervous lately.,9.13,11.58,0,1
+803,28,Female,young_adult_non_medical,3.93,TikTok,Feeling okay and getting things done.,7.01,9.31,0,0
+804,26,Other,young_adult_non_medical,2.25,YouTube,Just enjoying some time offline and relaxing.,6.15,3.35,0,0
+805,42,Female,healthcare_worker,0.02,YouTube,Sleeping badly and overthinking every night.,12.02,11.1,1,1
+806,28,Female,young_adult_non_medical,1.57,TikTok,I keep pretending I'm okay but I'm really not.,12.37,10.71,1,1
+807,58,Male,medical_professional,1.77,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",13.74,13.38,1,1
+808,44,Other,medical_professional,1.92,TikTok,I don't feel like doing anything these days.,10.5,8.5,1,0
+809,32,Male,healthcare_worker,3.7,YouTube,Sleeping badly and overthinking every night.,15.27,11.16,1,1
+810,21,Female,student,4.02,Instagram,I keep pretending I'm okay but I'm really not.,15.19,17.74,1,1
+811,30,Other,medical_professional,4.03,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",15.19,14.85,1,1
+812,39,Female,medical_professional,2.54,Instagram,I feel overwhelmed and tired all the time.,12.8,11.34,1,1
+813,25,Other,student,3.9,Facebook,Feeling okay and getting things done.,8.63,9.18,0,0
+814,56,Female,medical_professional,2.09,YouTube,Sleeping badly and overthinking every night.,22.01,11.15,1,1
+815,27,Male,medical_professional,3.85,YouTube,Even small tasks make me nervous lately.,8.45,11.22,0,1
+816,27,Male,healthcare_worker,4.86,Instagram,Feeling okay and getting things done.,7.91,8.88,0,0
+817,26,Female,young_adult_non_medical,2.54,YouTube,Even small tasks make me nervous lately.,8.99,10.57,0,1
+818,40,Male,healthcare_worker,0.0,Facebook,Feeling low and exhausted most of the time.,13.26,4.85,1,0
+819,22,Female,student,2.6,Instagram,My mind doesn't stop worrying about everything.,1.03,13.45,0,1
+820,24,Other,student,2.87,X,I feel overwhelmed and tired all the time.,13.48,13.53,1,1
+821,52,Male,medical_professional,0.0,Mixed,Sleeping badly and overthinking every night.,11.76,13.97,1,1
+822,21,Female,student,2.29,X,Lost interest in things I used to love.,14.63,8.26,1,0
+823,21,Female,student,6.33,TikTok,I keep pretending I'm okay but I'm really not.,13.75,14.97,1,1
+824,58,Female,healthcare_worker,1.46,Instagram,Sleeping badly and overthinking every night.,12.7,14.56,1,1
+825,30,Other,healthcare_worker,4.12,YouTube,I keep pretending I'm okay but I'm really not.,11.89,16.61,1,1
+826,50,Female,medical_professional,1.43,TikTok,"Nothing feels enjoyable lately, everything makes me anxious.",11.97,12.5,1,1
+827,21,Other,student,4.12,Facebook,Overthinking every message I send.,9.74,11.48,0,1
+828,23,Female,student,6.93,X,Sleeping badly and overthinking every night.,12.65,17.61,1,1
+829,33,Male,young_adult_non_medical,1.28,X,I don't feel like doing anything these days.,10.83,6.51,1,0
+830,30,Male,healthcare_worker,0.0,YouTube,Had a good day catching up with friends.,9.5,9.59,0,0
+831,22,Female,student,6.17,Instagram,I don't feel like doing anything these days.,17.62,8.75,1,0
+832,45,Male,healthcare_worker,1.85,Facebook,I feel overwhelmed and tired all the time.,14.76,16.22,1,1
+833,22,Female,student,2.64,X,I feel overwhelmed and tired all the time.,13.0,16.04,1,1
+834,23,Female,student,1.5,WhatsApp,Feeling low and exhausted most of the time.,15.71,9.3,1,0
+835,25,Male,healthcare_worker,3.14,TikTok,"Nothing feels enjoyable lately, everything makes me anxious.",10.65,14.49,1,1
+836,50,Female,healthcare_worker,1.35,YouTube,Overthinking every message I send.,6.74,11.33,0,1
+837,44,Female,medical_professional,2.2,YouTube,I feel overwhelmed and tired all the time.,17.17,18.52,1,1
+838,38,Female,healthcare_worker,1.87,TikTok,I keep pretending I'm okay but I'm really not.,15.81,15.92,1,1
+839,24,Male,young_adult_non_medical,2.06,Facebook,Even small tasks make me nervous lately.,9.98,11.1,0,1
+840,29,Male,young_adult_non_medical,6.66,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",18.33,12.84,1,1
+841,24,Male,student,2.62,Instagram,Hard to get out of bed and stay motivated.,11.65,3.79,1,0
+842,29,Female,young_adult_non_medical,4.79,Instagram,I keep pretending I'm okay but I'm really not.,16.4,15.01,1,1
+843,25,Male,student,3.9,X,I don't feel like doing anything these days.,13.67,8.74,1,0
+844,28,Female,medical_professional,1.18,YouTube,I keep pretending I'm okay but I'm really not.,16.14,14.32,1,1
+845,18,Male,student,2.34,TikTok,Overthinking every message I send.,7.59,17.26,0,1
+846,36,Male,healthcare_worker,3.14,Mixed,Sleeping badly and overthinking every night.,18.07,18.19,1,1
+847,22,Female,student,3.6,TikTok,I don't feel like doing anything these days.,13.47,6.21,1,0
+848,49,Female,medical_professional,1.44,YouTube,My mind doesn't stop worrying about everything.,9.33,11.51,0,1
+849,44,Male,healthcare_worker,2.91,Facebook,Had a good day catching up with friends.,9.08,9.09,0,0
+850,24,Male,young_adult_non_medical,3.65,YouTube,Just enjoying some time offline and relaxing.,8.36,3.37,0,0
+851,19,Male,student,2.53,Instagram,Feeling okay and getting things done.,9.42,8.46,0,0
+852,24,Female,young_adult_non_medical,5.1,Instagram,Had a good day catching up with friends.,5.05,3.79,0,0
+853,22,Female,student,5.76,YouTube,Sleeping badly and overthinking every night.,21.86,12.76,1,1
+854,55,Male,medical_professional,0.1,Mixed,I feel overwhelmed and tired all the time.,16.83,19.26,1,1
+855,21,Male,student,1.85,Instagram,I keep pretending I'm okay but I'm really not.,12.58,11.92,1,1
+856,18,Male,student,0.92,Instagram,Feeling okay and getting things done.,8.07,2.02,0,0
+857,20,Female,student,3.2,Mixed,"Nothing feels enjoyable lately, everything makes me anxious.",14.6,12.79,1,1
+858,34,Other,healthcare_worker,0.0,Instagram,I don't feel like doing anything these days.,14.39,9.45,1,0
+859,34,Male,young_adult_non_medical,2.86,Facebook,Feeling low and exhausted most of the time.,12.93,8.27,1,0
+860,22,Female,student,2.01,YouTube,Feeling okay and getting things done.,9.9,5.85,0,0
+861,23,Male,young_adult_non_medical,3.3,Instagram,Lost interest in things I used to love.,15.82,8.28,1,0
+862,49,Male,healthcare_worker,2.47,Mixed,Sleeping badly and overthinking every night.,16.76,17.87,1,1
+863,27,Female,healthcare_worker,0.0,Instagram,I don't feel like doing anything these days.,11.43,8.58,1,0
+864,57,Female,healthcare_worker,2.31,WhatsApp,Sleeping badly and overthinking every night.,15.37,21.0,1,1
+865,41,Female,healthcare_worker,0.0,YouTube,I keep pretending I'm okay but I'm really not.,13.89,15.74,1,1
+866,27,Female,young_adult_non_medical,3.0,Instagram,Just enjoying some time offline and relaxing.,6.99,7.25,0,0
+867,20,Male,student,1.94,Instagram,Lost interest in things I used to love.,12.8,9.54,1,0
+868,18,Female,student,4.33,Instagram,I keep pretending I'm okay but I'm really not.,16.31,20.33,1,1
+869,52,Male,medical_professional,0.0,Instagram,I keep pretending I'm okay but I'm really not.,14.4,14.24,1,1
+870,52,Female,medical_professional,1.46,Facebook,Sleeping badly and overthinking every night.,10.61,15.92,1,1
+871,44,Male,healthcare_worker,2.19,WhatsApp,"Today was a pretty normal, calm day.",10.0,8.59,0,0
+872,19,Female,student,2.84,YouTube,I feel overwhelmed and tired all the time.,11.54,13.73,1,1
+873,32,Male,young_adult_non_medical,5.46,YouTube,Sleeping badly and overthinking every night.,13.61,10.23,1,1
+874,40,Male,healthcare_worker,1.74,Mixed,I keep pretending I'm okay but I'm really not.,11.39,11.19,1,1
+875,25,Female,student,3.14,Mixed,Feeling low and exhausted most of the time.,14.0,9.05,1,0
+876,18,Male,student,0.71,Facebook,Hard to get out of bed and stay motivated.,10.95,5.38,1,0
+877,28,Female,young_adult_non_medical,5.25,TikTok,I keep pretending I'm okay but I'm really not.,13.0,10.08,1,1
+878,20,Male,young_adult_non_medical,3.46,YouTube,I keep pretending I'm okay but I'm really not.,13.44,15.64,1,1
+879,19,Male,student,5.2,YouTube,I feel overwhelmed and tired all the time.,16.22,17.18,1,1
+880,21,Male,student,4.43,X,"Nothing feels enjoyable lately, everything makes me anxious.",18.3,21.0,1,1
+881,25,Male,student,2.05,X,I don't feel like doing anything these days.,17.88,7.89,1,0
+882,32,Female,young_adult_non_medical,3.06,WhatsApp,Just enjoying some time offline and relaxing.,4.89,8.88,0,0
+883,18,Male,student,2.29,YouTube,Feeling low and exhausted most of the time.,10.83,3.31,1,0
+884,19,Female,student,4.81,Mixed,Sleeping badly and overthinking every night.,13.84,14.19,1,1
+885,21,Female,young_adult_non_medical,1.27,TikTok,Hard to get out of bed and stay motivated.,12.93,5.59,1,0
+886,19,Male,student,3.91,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",11.56,13.81,1,1
+887,31,Female,young_adult_non_medical,4.12,Facebook,My mind doesn't stop worrying about everything.,9.98,13.62,0,1
+888,25,Female,student,3.36,YouTube,I don't feel like doing anything these days.,14.61,9.74,1,0
+889,22,Female,student,5.89,Instagram,I keep pretending I'm okay but I'm really not.,18.39,10.14,1,1
+890,21,Male,student,3.31,YouTube,Overthinking every message I send.,9.93,17.4,0,1
+891,30,Male,young_adult_non_medical,2.85,YouTube,Even small tasks make me nervous lately.,9.24,11.92,0,1
+892,57,Female,medical_professional,0.63,Instagram,I feel overwhelmed and tired all the time.,12.63,11.21,1,1
+893,31,Female,medical_professional,0.02,TikTok,Even small tasks make me nervous lately.,9.11,13.54,0,1
+894,45,Female,healthcare_worker,4.89,YouTube,I feel overwhelmed and tired all the time.,12.56,15.95,1,1
+895,27,Male,young_adult_non_medical,3.12,WhatsApp,Lost interest in things I used to love.,12.11,9.23,1,0
+896,18,Female,student,3.99,Instagram,Had a good day catching up with friends.,6.77,8.61,0,0
+897,24,Male,student,3.54,Instagram,Lost interest in things I used to love.,12.48,5.51,1,0
+898,40,Female,medical_professional,2.52,TikTok,Sleeping badly and overthinking every night.,20.33,18.99,1,1
+899,21,Male,student,1.31,X,Feeling okay and getting things done.,7.16,3.28,0,0
+900,24,Female,student,3.17,Mixed,Feeling low and exhausted most of the time.,11.74,8.52,1,0
+901,25,Male,student,5.03,Mixed,I feel overwhelmed and tired all the time.,18.49,11.77,1,1
+902,22,Male,student,2.63,YouTube,Even small tasks make me nervous lately.,6.06,13.1,0,1
+903,20,Female,student,3.74,YouTube,I keep pretending I'm okay but I'm really not.,15.33,16.11,1,1
+904,24,Male,young_adult_non_medical,3.94,TikTok,I keep pretending I'm okay but I'm really not.,14.06,12.68,1,1
+905,55,Male,healthcare_worker,1.97,Mixed,I don't feel like doing anything these days.,12.14,7.79,1,0
+906,24,Male,medical_professional,3.11,X,I don't feel like doing anything these days.,18.1,9.74,1,0
+907,46,Female,medical_professional,1.38,Facebook,I keep pretending I'm okay but I'm really not.,11.87,15.18,1,1
+908,22,Female,student,2.54,Facebook,Even small tasks make me nervous lately.,8.47,13.19,0,1
+909,25,Male,student,7.1,YouTube,Sleeping badly and overthinking every night.,20.64,14.75,1,1
+910,36,Female,healthcare_worker,3.21,WhatsApp,I feel overwhelmed and tired all the time.,20.33,19.42,1,1
+911,27,Female,young_adult_non_medical,1.6,TikTok,I don't feel like doing anything these days.,10.28,4.27,1,0
+912,18,Male,student,4.49,X,I feel overwhelmed and tired all the time.,18.4,21.0,1,1
+913,26,Female,young_adult_non_medical,3.55,Instagram,Just enjoying some time offline and relaxing.,8.46,7.71,0,0
+914,24,Female,healthcare_worker,3.39,YouTube,Sleeping badly and overthinking every night.,12.2,17.83,1,1
+915,32,Female,young_adult_non_medical,2.96,Instagram,Lost interest in things I used to love.,11.0,9.63,1,0
+916,47,Male,healthcare_worker,4.31,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",18.4,20.3,1,1
+917,20,Female,student,4.41,Mixed,I keep pretending I'm okay but I'm really not.,17.59,17.1,1,1
+918,47,Female,medical_professional,2.24,Instagram,I feel overwhelmed and tired all the time.,11.08,10.84,1,1
+919,20,Male,young_adult_non_medical,2.25,Instagram,Just enjoying some time offline and relaxing.,1.4,0.44,0,0
+920,22,Male,student,3.43,YouTube,I keep pretending I'm okay but I'm really not.,16.88,15.23,1,1
+921,43,Male,medical_professional,2.47,X,"Nothing feels enjoyable lately, everything makes me anxious.",12.94,18.82,1,1
+922,44,Male,healthcare_worker,1.17,WhatsApp,Sleeping badly and overthinking every night.,14.49,19.7,1,1
+923,54,Female,medical_professional,3.35,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",11.83,18.2,1,1
+924,33,Male,young_adult_non_medical,5.47,Instagram,I keep pretending I'm okay but I'm really not.,14.63,10.85,1,1
+925,59,Male,healthcare_worker,2.43,Instagram,Hard to get out of bed and stay motivated.,11.47,8.9,1,0
+926,20,Female,student,2.07,WhatsApp,My mind doesn't stop worrying about everything.,8.93,12.69,0,1
+927,21,Male,student,1.64,YouTube,I feel overwhelmed and tired all the time.,16.68,14.31,1,1
+928,38,Other,healthcare_worker,4.37,Mixed,I keep pretending I'm okay but I'm really not.,16.72,17.06,1,1
+929,22,Male,young_adult_non_medical,3.48,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",15.46,12.8,1,1
+930,24,Male,student,2.9,Instagram,"Today was a pretty normal, calm day.",8.34,6.99,0,0
+931,20,Male,student,4.04,Facebook,Heart races whenever I have to talk to people.,9.55,13.77,0,1
+932,51,Male,medical_professional,3.6,YouTube,Heart races whenever I have to talk to people.,8.83,10.56,0,1
+933,28,Male,medical_professional,1.35,X,I keep pretending I'm okay but I'm really not.,17.36,18.0,1,1
+934,28,Female,healthcare_worker,0.0,YouTube,Sleeping badly and overthinking every night.,12.12,11.55,1,1
+935,23,Other,student,2.31,WhatsApp,Feeling low and exhausted most of the time.,13.19,9.17,1,0
+936,23,Male,student,4.99,Facebook,I don't feel like doing anything these days.,15.0,9.45,1,0
+937,25,Female,student,7.23,Mixed,I feel overwhelmed and tired all the time.,20.32,10.18,1,1
+938,31,Female,medical_professional,0.0,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",11.01,14.11,1,1
+939,25,Female,student,6.06,YouTube,I feel overwhelmed and tired all the time.,18.05,19.87,1,1
+940,29,Male,young_adult_non_medical,2.38,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",11.21,10.69,1,1
+941,23,Male,student,4.15,Mixed,My mind doesn't stop worrying about everything.,9.47,16.16,0,1
+942,34,Male,young_adult_non_medical,4.61,Mixed,Just enjoying some time offline and relaxing.,9.94,7.22,0,0
+943,31,Female,young_adult_non_medical,1.32,Instagram,Had a good day catching up with friends.,5.73,7.52,0,0
+944,40,Female,medical_professional,3.67,Instagram,Overthinking every message I send.,9.61,15.38,0,1
+945,24,Male,student,3.92,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",13.06,13.95,1,1
+946,25,Male,student,3.31,Instagram,Feeling low and exhausted most of the time.,17.26,9.05,1,0
+947,25,Female,student,3.46,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",11.91,16.26,1,1
+948,48,Female,medical_professional,2.18,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",20.63,21.0,1,1
+949,32,Other,medical_professional,1.13,X,"Nothing feels enjoyable lately, everything makes me anxious.",15.32,10.36,1,1
+950,21,Female,young_adult_non_medical,3.67,Mixed,Lost interest in things I used to love.,11.99,9.9,1,0
+951,34,Male,young_adult_non_medical,0.52,Mixed,Lost interest in things I used to love.,10.1,7.59,1,0
+952,21,Female,young_adult_non_medical,3.56,YouTube,Feeling okay and getting things done.,9.01,5.65,0,0
+953,20,Female,student,3.77,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",13.37,15.08,1,1
+954,59,Male,medical_professional,0.66,TikTok,Just enjoying some time offline and relaxing.,5.74,7.45,0,0
+955,27,Female,healthcare_worker,2.27,Instagram,Lost interest in things I used to love.,17.6,9.76,1,0
+956,37,Female,healthcare_worker,2.83,X,"Nothing feels enjoyable lately, everything makes me anxious.",13.32,17.61,1,1
+957,48,Male,healthcare_worker,0.1,YouTube,Just enjoying some time offline and relaxing.,8.57,3.07,0,0
+958,19,Female,student,5.25,Instagram,My mind doesn't stop worrying about everything.,8.39,12.87,0,1
+959,24,Female,student,2.81,YouTube,I feel overwhelmed and tired all the time.,14.06,10.32,1,1
+960,33,Female,young_adult_non_medical,4.92,Instagram,Sleeping badly and overthinking every night.,11.24,17.03,1,1
+961,24,Male,student,1.15,X,Even small tasks make me nervous lately.,9.84,10.76,0,1
+962,21,Male,young_adult_non_medical,2.55,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",14.4,14.84,1,1
+963,19,Female,student,3.68,YouTube,I feel overwhelmed and tired all the time.,11.61,15.39,1,1
+964,44,Male,healthcare_worker,0.25,Instagram,Even small tasks make me nervous lately.,7.33,10.56,0,1
+965,21,Female,student,2.32,TikTok,Sleeping badly and overthinking every night.,12.46,10.86,1,1
+966,35,Female,healthcare_worker,5.87,WhatsApp,Overthinking every message I send.,8.77,17.57,0,1
+967,30,Male,young_adult_non_medical,3.37,WhatsApp,Had a good day catching up with friends.,7.03,6.03,0,0
+968,25,Female,student,3.8,WhatsApp,Hard to get out of bed and stay motivated.,13.23,9.64,1,0
+969,21,Female,young_adult_non_medical,1.03,YouTube,Feeling okay and getting things done.,7.37,8.19,0,0
+970,36,Male,healthcare_worker,0.0,Instagram,My mind doesn't stop worrying about everything.,6.61,12.47,0,1
+971,24,Female,young_adult_non_medical,4.52,Facebook,Feeling okay and getting things done.,8.35,6.56,0,0
+972,55,Female,medical_professional,0.48,Instagram,Sleeping badly and overthinking every night.,10.9,14.72,1,1
+973,34,Female,young_adult_non_medical,7.04,Instagram,Sleeping badly and overthinking every night.,18.05,15.14,1,1
+974,25,Female,student,4.8,Facebook,Sleeping badly and overthinking every night.,17.95,21.0,1,1
+975,25,Male,student,4.5,Instagram,Just enjoying some time offline and relaxing.,8.2,6.32,0,0
+976,25,Female,student,4.13,YouTube,Feeling low and exhausted most of the time.,13.02,8.72,1,0
+977,31,Female,young_adult_non_medical,5.38,WhatsApp,Sleeping badly and overthinking every night.,25.43,19.23,1,1
+978,19,Female,student,3.3,YouTube,Sleeping badly and overthinking every night.,15.05,12.32,1,1
+979,34,Female,healthcare_worker,0.0,Facebook,Sleeping badly and overthinking every night.,13.32,18.86,1,1
+980,29,Male,young_adult_non_medical,3.08,X,I keep pretending I'm okay but I'm really not.,16.89,11.22,1,1
+981,24,Female,student,2.1,X,Heart races whenever I have to talk to people.,9.77,10.77,0,1
+982,20,Male,young_adult_non_medical,2.33,Facebook,My mind doesn't stop worrying about everything.,8.93,10.31,0,1
+983,25,Male,student,2.34,YouTube,Sleeping badly and overthinking every night.,14.74,11.72,1,1
+984,19,Male,student,2.82,YouTube,Sleeping badly and overthinking every night.,13.47,10.35,1,1
+985,26,Other,young_adult_non_medical,3.94,YouTube,Lost interest in things I used to love.,12.33,8.47,1,0
+986,32,Female,healthcare_worker,2.09,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",13.47,15.01,1,1
+987,28,Female,young_adult_non_medical,2.5,Mixed,Had a good day catching up with friends.,8.29,7.63,0,0
+988,37,Female,healthcare_worker,2.9,TikTok,Sleeping badly and overthinking every night.,14.94,10.52,1,1
+989,21,Female,student,1.24,Instagram,"Today was a pretty normal, calm day.",9.0,2.79,0,0
+990,48,Female,medical_professional,2.44,Instagram,I feel overwhelmed and tired all the time.,16.33,17.17,1,1
+991,21,Female,young_adult_non_medical,1.0,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",12.76,10.32,1,1
+992,25,Male,young_adult_non_medical,1.5,Instagram,Lost interest in things I used to love.,12.63,6.94,1,0
+993,21,Male,student,3.83,Instagram,Feeling low and exhausted most of the time.,11.22,7.73,1,0
+994,33,Female,young_adult_non_medical,1.94,WhatsApp,"Today was a pretty normal, calm day.",5.99,4.04,0,0
+995,43,Female,healthcare_worker,0.0,TikTok,I don't feel like doing anything these days.,14.5,6.93,1,0
+996,22,Male,student,5.5,Facebook,"Nothing feels enjoyable lately, everything makes me anxious.",15.5,20.81,1,1
+997,55,Male,medical_professional,1.78,Instagram,I feel overwhelmed and tired all the time.,12.43,14.93,1,1
+998,20,Female,student,2.33,YouTube,Even small tasks make me nervous lately.,4.62,10.63,0,1
+999,44,Male,medical_professional,0.53,WhatsApp,Even small tasks make me nervous lately.,9.24,12.39,0,1
+1000,58,Female,healthcare_worker,0.39,TikTok,Hard to get out of bed and stay motivated.,11.69,6.45,1,0
+1001,19,Other,student,4.55,TikTok,I keep pretending I'm okay but I'm really not.,13.47,20.64,1,1
+1002,55,Male,healthcare_worker,4.61,Mixed,Sleeping badly and overthinking every night.,18.24,11.69,1,1
+1003,53,Male,medical_professional,0.26,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",10.69,13.68,1,1
+1004,26,Female,young_adult_non_medical,1.38,X,Sleeping badly and overthinking every night.,11.77,12.12,1,1
+1005,35,Female,medical_professional,0.0,Instagram,I keep pretending I'm okay but I'm really not.,10.09,13.3,1,1
+1006,28,Female,young_adult_non_medical,3.43,WhatsApp,My mind doesn't stop worrying about everything.,9.4,17.33,0,1
+1007,34,Other,young_adult_non_medical,4.95,Instagram,I keep pretending I'm okay but I'm really not.,10.59,14.87,1,1
+1008,41,Male,medical_professional,1.4,YouTube,Hard to get out of bed and stay motivated.,11.86,9.31,1,0
+1009,22,Female,student,5.09,X,I keep pretending I'm okay but I'm really not.,19.18,17.18,1,1
+1010,36,Female,healthcare_worker,0.43,YouTube,My mind doesn't stop worrying about everything.,9.39,12.28,0,1
+1011,23,Female,student,5.06,Instagram,Hard to get out of bed and stay motivated.,10.21,6.51,1,0
+1012,44,Male,medical_professional,3.14,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",13.7,15.71,1,1
+1013,31,Female,medical_professional,1.67,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",11.69,13.44,1,1
+1014,23,Female,student,7.25,Instagram,I keep pretending I'm okay but I'm really not.,15.27,14.33,1,1
+1015,27,Male,young_adult_non_medical,5.02,Instagram,Feeling low and exhausted most of the time.,13.91,2.74,1,0
+1016,30,Male,medical_professional,2.5,Instagram,Sleeping badly and overthinking every night.,12.34,14.3,1,1
+1017,24,Female,student,1.58,Instagram,"Today was a pretty normal, calm day.",9.98,9.28,0,0
+1018,31,Male,young_adult_non_medical,1.45,Mixed,"Today was a pretty normal, calm day.",8.17,9.35,0,0
+1019,55,Male,medical_professional,2.49,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",14.99,14.04,1,1
+1020,20,Male,student,5.03,Instagram,Lost interest in things I used to love.,16.12,6.5,1,0
+1021,25,Female,young_adult_non_medical,2.93,WhatsApp,I keep pretending I'm okay but I'm really not.,16.11,14.94,1,1
+1022,23,Female,student,1.93,TikTok,Feeling okay and getting things done.,5.0,5.9,0,0
+1023,48,Female,medical_professional,0.0,X,"Nothing feels enjoyable lately, everything makes me anxious.",11.67,16.14,1,1
+1024,45,Male,medical_professional,1.85,YouTube,Sleeping badly and overthinking every night.,18.12,16.88,1,1
+1025,51,Female,medical_professional,2.1,WhatsApp,I feel overwhelmed and tired all the time.,11.61,18.14,1,1
+1026,52,Female,healthcare_worker,1.08,Facebook,I feel overwhelmed and tired all the time.,10.82,16.0,1,1
+1027,36,Female,medical_professional,1.0,Facebook,I keep pretending I'm okay but I'm really not.,14.82,11.44,1,1
+1028,41,Female,medical_professional,0.99,X,Overthinking every message I send.,9.4,11.12,0,1
+1029,19,Male,student,4.44,TikTok,"Nothing feels enjoyable lately, everything makes me anxious.",20.36,19.59,1,1
+1030,52,Female,medical_professional,2.37,TikTok,Sleeping badly and overthinking every night.,20.14,17.83,1,1
+1031,22,Male,student,5.17,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",11.87,14.76,1,1
+1032,34,Female,young_adult_non_medical,2.17,YouTube,Had a good day catching up with friends.,3.41,7.03,0,0
+1033,21,Male,student,1.9,X,Heart races whenever I have to talk to people.,7.55,12.41,0,1
+1034,20,Male,student,3.0,TikTok,"Nothing feels enjoyable lately, everything makes me anxious.",12.97,12.81,1,1
+1035,19,Male,student,4.14,Instagram,I keep pretending I'm okay but I'm really not.,14.76,10.39,1,1
+1036,34,Female,young_adult_non_medical,2.33,Mixed,Feeling low and exhausted most of the time.,10.92,9.02,1,0
+1037,24,Male,student,2.27,Instagram,Feeling low and exhausted most of the time.,12.66,6.77,1,0
+1038,22,Female,young_adult_non_medical,1.81,WhatsApp,Lost interest in things I used to love.,13.99,7.5,1,0
+1039,24,Male,student,7.64,TikTok,Sleeping badly and overthinking every night.,20.21,17.74,1,1
+1040,25,Male,student,0.13,Instagram,Just enjoying some time offline and relaxing.,6.55,4.49,0,0
+1041,36,Female,healthcare_worker,2.66,WhatsApp,Just enjoying some time offline and relaxing.,2.68,6.87,0,0
+1042,25,Male,young_adult_non_medical,3.91,Instagram,I feel overwhelmed and tired all the time.,11.75,11.96,1,1
+1043,20,Male,student,3.52,YouTube,I feel overwhelmed and tired all the time.,18.11,12.74,1,1
+1044,24,Female,young_adult_non_medical,2.47,Instagram,"Today was a pretty normal, calm day.",0.0,6.07,0,0
+1045,56,Male,medical_professional,0.0,YouTube,I feel overwhelmed and tired all the time.,14.22,16.4,1,1
+1046,27,Male,young_adult_non_medical,4.36,YouTube,Had a good day catching up with friends.,9.22,7.84,0,0
+1047,20,Male,student,5.1,Mixed,My mind doesn't stop worrying about everything.,9.2,16.55,0,1
+1048,24,Female,student,5.75,Mixed,I feel overwhelmed and tired all the time.,20.52,15.97,1,1
+1049,42,Female,medical_professional,3.29,Instagram,I feel overwhelmed and tired all the time.,20.61,21.0,1,1
+1050,24,Female,student,4.21,Facebook,I don't feel like doing anything these days.,13.38,6.61,1,0
+1051,52,Female,medical_professional,3.68,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",12.69,17.21,1,1
+1052,53,Male,healthcare_worker,5.77,Instagram,I don't feel like doing anything these days.,10.07,9.49,1,0
+1053,48,Male,medical_professional,0.87,Instagram,Sleeping badly and overthinking every night.,14.13,17.72,1,1
+1054,24,Female,young_adult_non_medical,3.42,Mixed,I keep pretending I'm okay but I'm really not.,16.24,12.31,1,1
+1055,31,Male,medical_professional,4.3,Mixed,Sleeping badly and overthinking every night.,17.19,19.0,1,1
+1056,39,Male,healthcare_worker,0.46,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",16.12,16.5,1,1
+1057,27,Male,young_adult_non_medical,0.93,Instagram,Lost interest in things I used to love.,11.62,5.49,1,0
+1058,24,Male,healthcare_worker,3.67,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",17.08,12.43,1,1
+1059,28,Other,healthcare_worker,2.08,WhatsApp,I keep pretending I'm okay but I'm really not.,13.42,14.09,1,1
+1060,22,Male,young_adult_non_medical,3.11,WhatsApp,"Today was a pretty normal, calm day.",6.05,6.63,0,0
+1061,24,Female,medical_professional,4.38,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",14.07,11.88,1,1
+1062,27,Male,medical_professional,4.02,Facebook,I feel overwhelmed and tired all the time.,20.65,21.0,1,1
+1063,27,Other,young_adult_non_medical,2.43,YouTube,Had a good day catching up with friends.,7.16,7.82,0,0
+1064,58,Male,healthcare_worker,1.51,Mixed,I keep pretending I'm okay but I'm really not.,16.57,12.2,1,1
+1065,55,Male,healthcare_worker,1.39,X,Sleeping badly and overthinking every night.,19.1,14.62,1,1
+1066,29,Female,young_adult_non_medical,3.06,YouTube,Feeling okay and getting things done.,8.77,6.0,0,0
+1067,19,Female,student,4.82,Facebook,I keep pretending I'm okay but I'm really not.,24.53,18.1,1,1
+1068,20,Male,student,4.92,TikTok,I feel overwhelmed and tired all the time.,16.05,18.59,1,1
+1069,48,Male,healthcare_worker,1.1,YouTube,"Nothing feels enjoyable lately, everything makes me anxious.",23.04,17.96,1,1
+1070,19,Male,student,3.44,YouTube,Feeling okay and getting things done.,7.06,6.44,0,0
+1071,22,Male,student,4.3,Mixed,I keep pretending I'm okay but I'm really not.,19.98,21.0,1,1
+1072,25,Male,student,3.14,Instagram,I don't feel like doing anything these days.,15.64,6.48,1,0
+1073,23,Female,student,4.97,Instagram,Sleeping badly and overthinking every night.,17.55,11.83,1,1
+1074,24,Male,student,5.97,WhatsApp,I keep pretending I'm okay but I'm really not.,14.09,12.59,1,1
+1075,50,Male,medical_professional,1.98,TikTok,"Nothing feels enjoyable lately, everything makes me anxious.",11.38,10.81,1,1
+1076,50,Female,healthcare_worker,2.71,Facebook,Hard to get out of bed and stay motivated.,11.63,9.02,1,0
+1077,25,Other,healthcare_worker,1.84,Mixed,I don't feel like doing anything these days.,10.38,9.63,1,0
+1078,28,Female,young_adult_non_medical,2.46,WhatsApp,Feeling okay and getting things done.,6.4,0.0,0,0
+1079,25,Male,student,4.47,Instagram,Even small tasks make me nervous lately.,9.43,14.34,0,1
+1080,36,Male,medical_professional,1.21,WhatsApp,I feel overwhelmed and tired all the time.,10.96,17.54,1,1
+1081,28,Female,young_adult_non_medical,2.26,Facebook,I keep pretending I'm okay but I'm really not.,12.4,14.17,1,1
+1082,21,Male,student,3.85,Instagram,Sleeping badly and overthinking every night.,17.89,12.0,1,1
+1083,59,Male,healthcare_worker,2.24,Instagram,Feeling low and exhausted most of the time.,12.34,8.23,1,0
+1084,45,Female,medical_professional,0.0,Instagram,"Today was a pretty normal, calm day.",7.78,7.98,0,0
+1085,49,Female,medical_professional,2.72,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",22.67,20.49,1,1
+1086,35,Female,healthcare_worker,1.12,TikTok,My mind doesn't stop worrying about everything.,8.28,10.07,0,1
+1087,20,Male,young_adult_non_medical,1.73,X,Heart races whenever I have to talk to people.,3.08,11.09,0,1
+1088,23,Male,student,6.58,Mixed,Heart races whenever I have to talk to people.,8.07,10.37,0,1
+1089,37,Other,medical_professional,0.44,Instagram,Sleeping badly and overthinking every night.,11.04,14.63,1,1
+1090,18,Male,student,4.27,Mixed,"Nothing feels enjoyable lately, everything makes me anxious.",19.73,17.62,1,1
+1091,57,Female,medical_professional,0.0,TikTok,Sleeping badly and overthinking every night.,13.31,20.59,1,1
+1092,24,Female,young_adult_non_medical,1.16,YouTube,Feeling okay and getting things done.,5.9,2.63,0,0
+1093,28,Female,young_adult_non_medical,3.29,Mixed,I feel overwhelmed and tired all the time.,15.43,14.57,1,1
+1094,43,Male,healthcare_worker,0.72,YouTube,Feeling okay and getting things done.,4.33,3.74,0,0
+1095,20,Male,student,4.25,TikTok,I keep pretending I'm okay but I'm really not.,16.61,15.41,1,1
+1096,25,Female,student,3.39,TikTok,I feel overwhelmed and tired all the time.,15.19,12.38,1,1
+1097,20,Female,student,4.5,Facebook,Sleeping badly and overthinking every night.,12.08,16.11,1,1
+1098,24,Female,student,2.69,WhatsApp,I don't feel like doing anything these days.,16.11,7.84,1,0
+1099,26,Male,young_adult_non_medical,5.9,Instagram,My mind doesn't stop worrying about everything.,9.73,14.19,0,1
+1100,29,Male,healthcare_worker,3.32,WhatsApp,I keep pretending I'm okay but I'm really not.,10.28,11.33,1,1
+1101,25,Female,student,2.28,YouTube,I don't feel like doing anything these days.,13.91,2.97,1,0
+1102,42,Female,medical_professional,2.13,Facebook,I feel overwhelmed and tired all the time.,12.4,10.31,1,1
+1103,27,Female,medical_professional,5.57,Facebook,"Nothing feels enjoyable lately, everything makes me anxious.",15.08,11.07,1,1
+1104,27,Male,medical_professional,2.9,Mixed,Sleeping badly and overthinking every night.,15.0,19.9,1,1
+1105,43,Female,medical_professional,0.56,Instagram,Even small tasks make me nervous lately.,7.8,12.94,0,1
+1106,19,Female,student,4.87,TikTok,Sleeping badly and overthinking every night.,17.92,14.06,1,1
+1107,47,Female,healthcare_worker,0.0,Mixed,I feel overwhelmed and tired all the time.,11.48,12.5,1,1
+1108,25,Male,young_adult_non_medical,1.03,Facebook,Heart races whenever I have to talk to people.,9.39,12.98,0,1
+1109,22,Male,young_adult_non_medical,2.92,Instagram,I feel overwhelmed and tired all the time.,12.38,16.51,1,1
+1110,19,Female,student,5.3,Instagram,Feeling low and exhausted most of the time.,11.71,3.89,1,0
+1111,44,Male,medical_professional,1.75,Instagram,I feel overwhelmed and tired all the time.,13.51,13.4,1,1
+1112,23,Male,student,5.27,X,Sleeping badly and overthinking every night.,21.14,19.83,1,1
+1113,25,Female,student,4.91,X,Sleeping badly and overthinking every night.,14.42,11.48,1,1
+1114,44,Male,healthcare_worker,0.87,Mixed,Sleeping badly and overthinking every night.,14.11,15.22,1,1
+1115,29,Female,young_adult_non_medical,2.2,YouTube,I feel overwhelmed and tired all the time.,10.59,16.69,1,1
+1116,25,Male,young_adult_non_medical,2.64,YouTube,Heart races whenever I have to talk to people.,9.52,12.23,0,1
+1117,23,Female,student,4.64,X,I feel overwhelmed and tired all the time.,14.13,15.37,1,1
+1118,27,Other,medical_professional,2.19,TikTok,"Nothing feels enjoyable lately, everything makes me anxious.",14.84,19.94,1,1
+1119,21,Male,student,4.9,Mixed,Sleeping badly and overthinking every night.,16.64,11.82,1,1
+1120,18,Male,student,3.34,TikTok,Just enjoying some time offline and relaxing.,9.49,3.78,0,0
+1121,43,Male,medical_professional,0.13,YouTube,Hard to get out of bed and stay motivated.,11.2,9.85,1,0
+1122,40,Male,medical_professional,4.13,X,I don't feel like doing anything these days.,10.64,8.88,1,0
+1123,30,Female,medical_professional,1.58,TikTok,I keep pretending I'm okay but I'm really not.,13.57,12.17,1,1
+1124,27,Female,medical_professional,3.02,WhatsApp,"Today was a pretty normal, calm day.",6.63,9.92,0,0
+1125,32,Male,young_adult_non_medical,0.58,Instagram,I feel overwhelmed and tired all the time.,12.9,12.01,1,1
+1126,33,Male,young_adult_non_medical,4.25,Instagram,Just enjoying some time offline and relaxing.,9.04,7.08,0,0
+1127,20,Male,student,2.69,Instagram,Hard to get out of bed and stay motivated.,10.2,5.41,1,0
+1128,47,Female,healthcare_worker,6.61,Facebook,"Nothing feels enjoyable lately, everything makes me anxious.",18.63,13.6,1,1
+1129,39,Male,healthcare_worker,4.66,Instagram,I feel overwhelmed and tired all the time.,13.42,15.21,1,1
+1130,19,Female,student,0.7,Instagram,Just enjoying some time offline and relaxing.,2.57,0.14,0,0
+1131,26,Female,young_adult_non_medical,3.36,YouTube,Had a good day catching up with friends.,9.41,8.04,0,0
+1132,27,Female,healthcare_worker,0.0,WhatsApp,Lost interest in things I used to love.,11.26,7.21,1,0
+1133,25,Male,student,3.99,YouTube,My mind doesn't stop worrying about everything.,9.7,10.65,0,1
+1134,23,Female,student,3.55,X,Sleeping badly and overthinking every night.,20.87,11.43,1,1
+1135,27,Male,young_adult_non_medical,3.09,Instagram,Just enjoying some time offline and relaxing.,0.0,7.8,0,0
+1136,19,Male,student,2.71,Instagram,Hard to get out of bed and stay motivated.,13.95,9.22,1,0
+1137,53,Female,medical_professional,0.0,WhatsApp,I keep pretending I'm okay but I'm really not.,18.51,14.95,1,1
+1138,41,Female,healthcare_worker,2.05,YouTube,Hard to get out of bed and stay motivated.,11.06,9.99,1,0
+1139,42,Male,healthcare_worker,1.95,YouTube,Just enjoying some time offline and relaxing.,2.44,9.94,0,0
+1140,34,Male,young_adult_non_medical,0.88,Instagram,Hard to get out of bed and stay motivated.,13.78,9.91,1,0
+1141,42,Male,medical_professional,2.49,TikTok,Had a good day catching up with friends.,9.72,9.97,0,0
+1142,18,Male,student,4.97,X,I feel overwhelmed and tired all the time.,12.43,11.0,1,1
+1143,34,Male,young_adult_non_medical,1.16,Instagram,Even small tasks make me nervous lately.,9.55,11.5,0,1
+1144,33,Male,young_adult_non_medical,0.0,Instagram,Just enjoying some time offline and relaxing.,8.27,3.05,0,0
+1145,20,Male,student,4.56,Mixed,I feel overwhelmed and tired all the time.,17.04,10.88,1,1
+1146,45,Female,medical_professional,0.03,X,I keep pretending I'm okay but I'm really not.,15.79,14.46,1,1
+1147,27,Female,young_adult_non_medical,2.99,YouTube,I don't feel like doing anything these days.,12.22,8.31,1,0
+1148,32,Female,young_adult_non_medical,2.38,Facebook,"Nothing feels enjoyable lately, everything makes me anxious.",14.9,13.75,1,1
+1149,35,Male,medical_professional,4.81,Facebook,I feel overwhelmed and tired all the time.,15.47,14.9,1,1
+1150,53,Female,medical_professional,1.07,Facebook,"Nothing feels enjoyable lately, everything makes me anxious.",10.63,16.03,1,1
+1151,29,Female,young_adult_non_medical,1.29,WhatsApp,Just enjoying some time offline and relaxing.,5.8,8.58,0,0
+1152,54,Female,medical_professional,1.88,YouTube,I feel overwhelmed and tired all the time.,16.44,13.51,1,1
+1153,23,Female,young_adult_non_medical,1.02,Instagram,Feeling low and exhausted most of the time.,11.55,2.16,1,0
+1154,22,Female,young_adult_non_medical,3.13,Mixed,Feeling low and exhausted most of the time.,14.91,6.21,1,0
+1155,32,Female,young_adult_non_medical,5.42,X,Even small tasks make me nervous lately.,4.76,10.3,0,1
+1156,23,Male,young_adult_non_medical,4.63,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",15.77,12.62,1,1
+1157,23,Female,student,5.03,Mixed,Even small tasks make me nervous lately.,9.48,15.29,0,1
+1158,56,Female,medical_professional,3.48,Mixed,"Nothing feels enjoyable lately, everything makes me anxious.",19.15,15.13,1,1
+1159,41,Female,medical_professional,3.97,Mixed,I keep pretending I'm okay but I'm really not.,16.64,17.04,1,1
+1160,24,Female,student,2.41,TikTok,Sleeping badly and overthinking every night.,16.55,10.65,1,1
+1161,51,Male,medical_professional,1.18,Mixed,Even small tasks make me nervous lately.,4.43,15.11,0,1
+1162,20,Male,student,3.47,Instagram,I don't feel like doing anything these days.,15.09,9.28,1,0
+1163,24,Female,student,5.43,TikTok,I feel overwhelmed and tired all the time.,13.82,12.6,1,1
+1164,30,Female,young_adult_non_medical,1.1,TikTok,Just enjoying some time offline and relaxing.,8.82,4.47,0,0
+1165,18,Female,student,3.55,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",11.61,15.24,1,1
+1166,56,Male,medical_professional,0.22,Instagram,I feel overwhelmed and tired all the time.,12.32,14.62,1,1
+1167,40,Male,medical_professional,3.29,Mixed,"Nothing feels enjoyable lately, everything makes me anxious.",13.69,16.5,1,1
+1168,29,Female,healthcare_worker,3.61,YouTube,I feel overwhelmed and tired all the time.,15.0,19.42,1,1
+1169,21,Female,student,2.39,TikTok,I keep pretending I'm okay but I'm really not.,12.63,13.25,1,1
+1170,21,Female,student,1.61,Instagram,I feel overwhelmed and tired all the time.,13.2,13.27,1,1
+1171,34,Male,young_adult_non_medical,1.81,Instagram,Had a good day catching up with friends.,8.03,9.06,0,0
+1172,50,Female,medical_professional,0.94,WhatsApp,Had a good day catching up with friends.,8.66,8.4,0,0
+1173,34,Male,young_adult_non_medical,2.08,Instagram,Overthinking every message I send.,7.74,15.57,0,1
+1174,23,Female,student,6.29,X,Sleeping badly and overthinking every night.,13.77,13.9,1,1
+1175,34,Male,young_adult_non_medical,4.02,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",13.32,11.25,1,1
+1176,37,Male,healthcare_worker,2.49,Instagram,Heart races whenever I have to talk to people.,6.47,10.79,0,1
+1177,31,Female,young_adult_non_medical,0.91,Instagram,Had a good day catching up with friends.,5.18,9.04,0,0
+1178,20,Female,student,6.78,YouTube,Hard to get out of bed and stay motivated.,13.48,6.23,1,0
+1179,26,Male,young_adult_non_medical,3.46,Instagram,I feel overwhelmed and tired all the time.,11.28,10.96,1,1
+1180,32,Female,healthcare_worker,2.23,Facebook,Sleeping badly and overthinking every night.,23.6,16.04,1,1
+1181,49,Male,medical_professional,0.25,YouTube,I feel overwhelmed and tired all the time.,15.95,13.5,1,1
+1182,25,Male,student,3.21,Instagram,I keep pretending I'm okay but I'm really not.,20.07,20.4,1,1
+1183,24,Male,young_adult_non_medical,1.23,WhatsApp,I keep pretending I'm okay but I'm really not.,10.38,10.89,1,1
+1184,33,Male,medical_professional,1.48,Instagram,I keep pretending I'm okay but I'm really not.,17.19,19.53,1,1
+1185,19,Female,student,2.84,Instagram,Lost interest in things I used to love.,10.69,6.84,1,0
+1186,26,Male,medical_professional,4.29,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",14.67,15.96,1,1
+1187,32,Female,young_adult_non_medical,0.0,TikTok,Lost interest in things I used to love.,10.75,4.82,1,0
+1188,20,Female,student,7.38,Mixed,"Nothing feels enjoyable lately, everything makes me anxious.",17.21,18.22,1,1
+1189,18,Male,student,5.14,TikTok,Feeling low and exhausted most of the time.,11.85,9.3,1,0
+1190,33,Female,young_adult_non_medical,3.59,YouTube,Just enjoying some time offline and relaxing.,4.76,9.96,0,0
+1191,23,Male,student,2.89,YouTube,Heart races whenever I have to talk to people.,4.94,11.9,0,1
+1192,25,Female,young_adult_non_medical,4.58,WhatsApp,"Nothing feels enjoyable lately, everything makes me anxious.",18.48,19.46,1,1
+1193,22,Male,student,3.98,Facebook,My mind doesn't stop worrying about everything.,7.69,17.02,0,1
+1194,25,Male,young_adult_non_medical,3.51,Mixed,Sleeping badly and overthinking every night.,12.82,14.39,1,1
+1195,18,Male,student,4.09,Instagram,I don't feel like doing anything these days.,12.75,9.51,1,0
+1196,42,Male,medical_professional,5.58,Instagram,"Nothing feels enjoyable lately, everything makes me anxious.",23.11,15.86,1,1
+1197,58,Male,medical_professional,0.96,X,Feeling okay and getting things done.,7.87,8.53,0,0
+1198,49,Female,medical_professional,2.86,TikTok,Sleeping badly and overthinking every night.,12.77,16.8,1,1
+1199,22,Female,young_adult_non_medical,1.5,TikTok,Feeling okay and getting things done.,6.38,5.21,0,0
+1200,22,Female,student,3.37,X,I feel overwhelmed and tired all the time.,13.33,13.66,1,1

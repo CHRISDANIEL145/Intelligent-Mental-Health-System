@@ -1,0 +1,123 @@
+{
+    "nodes": [
+        {
+            "id": "stress",
+            "type": "concept",
+            "description": "A state of mental or emotional strain or tension resulting from adverse or very demanding circumstances."
+        },
+        {
+            "id": "anxiety",
+            "type": "symptom",
+            "description": "A feeling of worry, nervousness, or unease, typically about an imminent event or something with an uncertain outcome."
+        },
+        {
+            "id": "insomnia",
+            "type": "symptom",
+            "description": "Habitual sleeplessness; inability to sleep."
+        },
+        {
+            "id": "burnout",
+            "type": "condition",
+            "description": "A state of emotional, physical, and mental exhaustion caused by excessive and prolonged stress."
+        },
+        {
+            "id": "depression",
+            "type": "condition",
+            "description": "A mood disorder that causes a persistent feeling of sadness and loss of interest."
+        },
+        {
+            "id": "mbsr",
+            "type": "treatment",
+            "description": "Mindfulness-Based Stress Reduction (MBSR) is an eight-week evidence-based program that offers secular, intensive mindfulness training to assist people with stress, anxiety, depression and pain."
+        },
+        {
+            "id": "sleep_hygiene",
+            "type": "treatment",
+            "description": "Habits and practices that are conducive to sleeping well on a regular basis."
+        },
+        {
+            "id": "screen_time",
+            "type": "factor",
+            "description": "The amount of time spent using a device with a screen such as a smartphone, computer, television, or video game console."
+        }
+    ],
+    "edges": [
+        {
+            "source": "stress",
+            "target": "anxiety",
+            "relation": "causes"
+        },
+        {
+            "source": "stress",
+            "target": "insomnia",
+            "relation": "causes"
+        },
+        {
+            "source": "stress",
+            "target": "burnout",
+            "relation": "leads_to_prolonged"
+        },
+        {
+            "source": "insomnia",
+            "target": "anxiety",
+            "relation": "exacerbates"
+        },
+        {
+            "source": "anxiety",
+            "target": "depression",
+            "relation": "comorbidity"
+        },
+        {
+            "source": "screen_time",
+            "target": "insomnia",
+            "relation": "causes_at_night"
+        },
+        {
+            "source": "mbsr",
+            "target": "stress",
+            "relation": "reduces"
+        },
+        {
+            "source": "mbsr",
+            "target": "anxiety",
+            "relation": "treats"
+        },
+        {
+            "source": "mbsr",
+            "target": "burnout",
+            "relation": "prevents"
+        },
+        {
+            "source": "sleep_hygiene",
+            "target": "insomnia",
+            "relation": "treats"
+        }
+    ],
+    "documents": [
+        {
+            "id": "doc1",
+            "title": "Understanding Burnout",
+            "content": "Burnout is a reaction to prolonged or chronic job stress and is characterized by three main dimensions: exhaustion, cynicism (less identification with the job), and feelings of reduced professional ability. Healthcare workers are particularly susceptible post-COVID."
+        },
+        {
+            "id": "doc2",
+            "title": "Impact of Screen Time on Sleep",
+            "content": "Blue light emitted by screens restricts the production of melatonin, the hormone that controls your sleep-wake cycle (circadian rhythm). Reducing screen time at least an hour before bedtime can significantly improve sleep quality."
+        },
+        {
+            "id": "doc3",
+            "title": "MBSR for Healthcare Workers",
+            "content": "Mindfulness-Based Stress Reduction (MBSR) has been shown to significantly reduce perceived stress and burnout symptoms in healthcare professionals. The program involves meditation, body scanning, and yoga."
+        },
+        {
+            "id": "doc4",
+            "title": "Social Media and Depression",
+            "content": "Studies indicate a strong correlation between heavy social media usage and depression rates in young adults. The 'compare and despair' factor plays a significant role in lowering self-esteem and increasing depressive symptoms."
+        },
+        {
+            "id": "doc5",
+            "title": "Coping with Anxiety",
+            "content": "Anxiety can be managed through various techniques including cognitive behavioral therapy (CBT), mindfulness, regular exercise, and maintaining a healthy sleep schedule. Avoiding caffeine and alcohol can also help reduce symptoms."
+        }
+    ]
+}
