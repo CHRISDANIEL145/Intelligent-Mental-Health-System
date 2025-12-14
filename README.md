@@ -1,6 +1,8 @@
 # 🧠 DC Well Being AI
 ### *The Next-Generation Intelligent Mental Health Support System*
 
+##Application link:" https://huggingface.co/spaces/Danielchris145/DC-Well-Being-AI "
+
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)
 ![Flask](https://img.shields.io/badge/Backend-Flask-green?style=for-the-badge&logo=flask)
 ![AI](https://img.shields.io/badge/AI-Llama%203.2-purple?style=for-the-badge&logo=openai)
